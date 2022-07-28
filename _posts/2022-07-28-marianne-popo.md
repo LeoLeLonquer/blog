@@ -4,3 +4,9 @@ layout: post
 ---
 
 Bravo à Marianne !!!!!
+
+```python
+
+print("Hello world")
+
+```
