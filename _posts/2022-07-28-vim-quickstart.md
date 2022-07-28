@@ -5,10 +5,12 @@ tags: vim ide
 category: Code
 ---
 
-## Vim quickstart
 Voici une petite liste des éléements que j'ai pu collecter sur Vim au cours du temps.
 Ceci vaut pour un clavier azerty.
 
+
+
+## Vim quickstart
 
 ### Ne pas utiliser de plugins !
 
