@@ -1,9 +1,14 @@
 ---
-title: "Conseils pour Vim"
+title: "Vim Quickstart"
 layout: post
+tags: vim ide
+category: Code
 ---
 
-## Conseils pour Vim
+## Vim quickstart
+Voici une petite liste des éléements que j'ai pu collecter sur Vim au cours du temps.
+Ceci vaut pour un clavier azerty.
+
 
 ### Ne pas utiliser de plugins !
 
