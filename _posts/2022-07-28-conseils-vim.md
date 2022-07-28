@@ -1,4 +1,9 @@
-## Conseils pour Vim :
+---
+title: "Conseils pour Vim"
+layout: post
+---
+
+## Conseils pour Vim
 
 ### Ne pas utiliser de plugins !
 
