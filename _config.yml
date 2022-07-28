@@ -1,6 +1,6 @@
 title: "Blog de Léo"
 author: "Léo Le Lonquer"
-description: "Made with <3 style=\"color: #f45;\">&lt;3</b>"
+description: "Made with <3 <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "fr"
 excerpt_separator: "\n\n\n"
