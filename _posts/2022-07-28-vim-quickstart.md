@@ -105,7 +105,7 @@ Permet de comparer deux fichiers côte à côte et de les éditer en même temps
 
 ### Conférence Vim Workflow (avec un puriste un peu con mais bon)
 
- https://youtu.be/77RFt4U4A7Q
+ {% include embed.html url="https://youtu.be/77RFt4U4A7Q" %}
 
 ### How to Do 90% of What Plugins Do (With Just Vim) :
 
