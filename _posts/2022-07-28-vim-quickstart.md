@@ -1,5 +1,5 @@
 ---
-title: "Vim Quickstart"
+title: Vim Quickstart
 layout: post
 tags: vim ide
 category: Code
@@ -40,72 +40,72 @@ Ceci vaut pour un clavier azerty.
 
 ### Copier coller couper
 
-`yiw` copier le mot sous le curseur
-`diw` couper le mot sous le curseur
-`yy` copier la ligne
-`dd` couper la ligne
-`yt"` (ou `yf"`) copier jusqu'à `"` non inclu (t=untill=non inclu, f=find=inclu)
-`p` coller après le curseur
-`P` coller après le curseur
+`yiw` copier le mot sous le curseur  
+`diw` couper le mot sous le curseur  
+`yy` copier la ligne  
+`dd` couper la ligne  
+`yt"` (ou `yf"`) copier jusqu'à `"` non inclu (t=untill=non inclu, f=find=inclu)  
+`p` coller après le curseur  
+`P` coller après le curseur  
 
 ### Les mouvements utiles
 
-`G` aller tout en bas
-`gg` aller tout en haut
-`/` rechercher une chaîne
-`?` rechercher une chaîne de bas en haut
-`n p` next et precedent dans une recherche
+`G` aller tout en bas  
+`gg` aller tout en haut  
+`/` rechercher une chaîne  
+`?` rechercher une chaîne de bas en haut  
+`n p` next et precedent dans une recherche  
 
 ### Utiliser les touches magiques :
 
-`.` re-éxécute l'action précédente
-`*` cherche le mot sous le curseur
-`<Ctrl-n>` complète le mot courant
-`<Ctlrl-x-f>` complète le path d'un fichier
-`' '` position précédente
-`q` et `@` pour macros
-`gd` pour aller à la définition de la variable sous le curseur
-`gf` pour ouvrir le fichier sous le curseur
-`:g/pattern/d` supprimer toutes les lignes contenant un certain pattern (`p` pour afficher)
-
+`.` re-éxécute l'action précédente  
+`*` cherche le mot sous le curseur  
+`<Ctrl-n>` complète le mot courant  
+`<Ctlrl-x-f>` complète le path d'un fichier  
+`' '` position précédente  
+`q` et `@` pour macros  
+`gd` pour aller à la définition de la variable sous le curseur  
+`gf` pour ouvrir le fichier sous le curseur  
+`:g/pattern/d` supprimer toutes les lignes contenant un certain pattern (`p` pour afficher)  
+  
 La liste des commandes commençant par `g` est intéressante autant que celle des `Ctrl`
 
 ### Les modes visuel et ligne visuel et bloc
 
-Permet de copier/sélectionner plusieurs caractères à la fois, soit par ligne, soit par bloc.
-visuel : `V`
-ligne visuel : `<Shift-V>`
-bloc : `<Ctrl-V>`
+Permet de copier/sélectionner plusieurs caractères à la fois, soit par ligne, soit par bloc.  
+visuel : `V`  
+ligne visuel : `<Shift-V>`  
+bloc : `<Ctrl-V>`  
 
 ### Ouvrir plusieurs fichiers à la fois  
 
-- utiliser les buffers (`:ls :b`) : parcourir les fichiers déjà ouverts
-- utiliser les splits (ou windows) (`:vsp :sp`) : diviser l'écran
-- utiliser les tabs : créer différentes vues
-- `<Ctrl-w + flèche>` pour changer de split
+- utiliser les buffers (`:ls :b`) : parcourir les fichiers déjà ouverts  
+- utiliser les splits (ou windows) (`:vsp :sp`) : diviser l'écran  
+- utiliser les tabs : créer différentes vues  
+- `<Ctrl-w + flèche>` pour changer de split  
 
 ### Configurer sobrement son `.vimrc`  
 
-- plein de réglages très simples qui facilite la vie
-- possibilité de giter le fichier
-- exemple : https://github.com/LeoLeLonquer/Working-Setup/blob/master/.vimrc
-
+- plein de réglages très simples qui facilite la vie  
+- possibilité de giter le fichier  
+- exemple : https://github.com/LeoLeLonquer/Working-Setup/blob/master/.vimrc  
+  
 ### Copier/coller depuis l'extérieur de Vim est compliqué. (Vim meilleur éditeur du monde)
 
- `:set paste` pour éviter les indentations automatiques au collage puis coller comme dans un terminal (`<Ctrl-shift-V>`)
+ `:set paste` pour éviter les indentations automatiques au collage puis coller comme dans un terminal (`<Ctrl-shift-V>`)  
 
 ### Penser à utiliser `vimdiff`
 
-Permet de comparer deux fichiers côte à côte et de les éditer en même temps.
+Permet de comparer deux fichiers côte à côte et de les éditer en même temps.  
 
 ### Utiliser un multiplexeur de terminal éventuellement (exemple : `tmux`)
 
-- laisse ta session sur le serveur ouverte même en fermant la connexion ssh.  
-- permet d'avoir autant de terminaux que tu le souhaites.
+- laisse ta session sur le serveur ouverte même en fermant la connexion ssh.    
+- permet d'avoir autant de terminaux que tu le souhaites.  
 
 ### Conférence Vim Workflow (avec un puriste un peu con mais bon)
 
- https://youtu.be/77RFt4U4A7Q
+ {% include embed.html url="https://youtu.be/77RFt4U4A7Q" %}
 
 ### How to Do 90% of What Plugins Do (With Just Vim) :
 
