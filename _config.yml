@@ -1,6 +1,6 @@
 title: "L{3,4}"
 author: "Léo Le Lonquer"
-description: "Blog de Léo Le Lonquer"
+description: "Mon souk à moi"
 permalink: /:title
 lang: "fr"
 excerpt_separator: <!--more-->
