@@ -1,14 +1,13 @@
 ---
 title: Vim Quickstart
 layout: post
-tags: vim ide
-category: Code
+tags: vim ide dev
+category: dev
 ---
 
-Voici une petite liste des éléements que j'ai pu collecter sur Vim au cours du temps.
+Voici une petite liste des éléments que j'ai pu collecter sur Vim au cours du temps.  
 Ceci vaut pour un clavier azerty.
-
-
+<!--more-->
 
 ## Vim quickstart
 
@@ -61,7 +60,7 @@ Ceci vaut pour un clavier azerty.
 `.` re-éxécute l'action précédente  
 `*` cherche le mot sous le curseur  
 `<Ctrl-n>` complète le mot courant  
-`<Ctlrl-x-f>` complète le path d'un fichier  
+`<Ctrl-x> + f` complète le path d'un fichier  
 `' '` position précédente  
 `q` et `@` pour macros  
 `gd` pour aller à la définition de la variable sous le curseur  
@@ -70,7 +69,7 @@ Ceci vaut pour un clavier azerty.
   
 La liste des commandes commençant par `g` est intéressante autant que celle des `Ctrl`
 
-### Les modes visuel et ligne visuel et bloc
+### Les modes visuel, ligne visuel et bloc
 
 Permet de copier/sélectionner plusieurs caractères à la fois, soit par ligne, soit par bloc.  
 visuel : `V`  
@@ -82,7 +81,7 @@ bloc : `<Ctrl-V>`
 - utiliser les buffers (`:ls :b`) : parcourir les fichiers déjà ouverts  
 - utiliser les splits (ou windows) (`:vsp :sp`) : diviser l'écran  
 - utiliser les tabs : créer différentes vues  
-- `<Ctrl-w + flèche>` pour changer de split  
+- `<Ctrl-w> + flèche` pour changer de split  
 
 ### Configurer sobrement son `.vimrc`  
 
@@ -103,13 +102,13 @@ Permet de comparer deux fichiers côte à côte et de les éditer en même temps
 - laisse ta session sur le serveur ouverte même en fermant la connexion ssh.    
 - permet d'avoir autant de terminaux que tu le souhaites.  
 
-### Conférence Vim Workflow (avec un puriste un peu con mais bon)
+### Conférence Vim Workflow
 
- {% include embed.html url="https://youtu.be/77RFt4U4A7Q" %}
+ {% include embed.html url="https://www.youtube.com/embed/77RFt4U4A7Q" %}
 
 ### How to Do 90% of What Plugins Do (With Just Vim) :
 
-https://youtu.be/XA2WjJbmmoM
+ {% include embed.html url="https://youtube.be/embed/XA2WjJbmmoM" %}
 
 ### Autres
 

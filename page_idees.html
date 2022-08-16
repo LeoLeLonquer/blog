@@ -1,0 +1,10 @@
+---
+layout: default
+title: "Qu’en-dira-t-on"
+---
+
+{% if site.show_excerpts %}
+  {% include idees.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
