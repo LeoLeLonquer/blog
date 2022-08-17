@@ -1,8 +1,7 @@
 ---
 title: "Vidéos à voir"
 layout: post
-tags: idees
-category: idees
+category: divers
 ---
 
 - Crash in 2022 <https://m.youtube.com/watch?v=Cpq7T-v52n8>
@@ -41,4 +40,5 @@ category: idees
 - plantes à avoir chez soi :  <https://www.youtube.com/watch?v=qRTzN5Xi7OA>
 - Économie soviétique <https://m.youtube.com/watch?v=KOZlobXa9iM>
 - Vidéo révolution <https://twitter.com/RemVerte/status/1366318671082127360?t=a6WRaDWTZZarFSbnHggABg&s=19>
+- The Right path to becoming a Data Engineer
 
