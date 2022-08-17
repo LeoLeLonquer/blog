@@ -16,8 +16,12 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "page_development.html"}
   - {file: "page_idees.html"}
+  - {file: "page_tweets.html"}
+  - {file: "page_divers.html"}
   - {file: "README.md"}
 
+#- {icon: "fa-home", sidebaricon: "fa-home", title: "Accueil", url: "/"}
+  
 #  - {file: "index.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
