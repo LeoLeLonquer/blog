@@ -1,5 +1,6 @@
 --- 
 title: "Article à lire"
+layout: post
 category: divers
 created: 2022-08-18T23:36:00+02:00
 modified: 2022-08-18T23:38:10+02:00
