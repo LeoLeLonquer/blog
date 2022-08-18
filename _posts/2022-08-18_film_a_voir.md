@@ -1,8 +1,9 @@
 ---
 title: Films à voir
+layout: post
 category: divers
 created: 2022-08-18T23:39:22+02:00
-modified: 2022-08-18T23:48:45+02:00
+modified: 2022-08-18T23:53:35+02:00
 ---
 
 # 2022-08-18_film_a_voir
