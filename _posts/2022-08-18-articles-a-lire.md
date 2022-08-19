@@ -11,6 +11,7 @@ modified: 2022-08-18T23:38:10+02:00
 - https://www.monde-diplomatique.fr/2012/10/TALON/48275
 - https://slides.pimoid.fr/jancovici/mines_2019/
 - https://www.lesmutins.org/la-sociale
+<!--more-->
 - bolivie élites Santa Cruz https://www.monde-diplomatique.fr/2020/07/MARIETTE/61942
 - médias reeduquent lycéens https://www.monde-diplomatique.fr/2020/02/EUSTACHE/61326
 - les jacques ont voté Donald https://actuelmoyenage.wordpress.com/2016/11/10/les-jacques-ont-vote-trump/amp/?__twitter_impression=true
