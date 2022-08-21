@@ -6,7 +6,7 @@ created: 2022-08-18T23:36:00+02:00
 modified: 2022-08-18T23:38:10+02:00
 ---
 
-# 2022-08-18_article_a_lire
+# Articles à lire
 
 - https://www.monde-diplomatique.fr/2012/10/TALON/48275
 - https://slides.pimoid.fr/jancovici/mines_2019/
