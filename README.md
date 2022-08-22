@@ -9,7 +9,7 @@ layout: page
 
 ## Accès
 
-- En ligne : leolelonquer.github.io/blog
+- En ligne : <http://leolelonquer.github.io/blog>
 - local : <http://127.0.0.1:4000/>
 
 ## Jekyll local test
