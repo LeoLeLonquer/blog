@@ -3,8 +3,75 @@ layout: default
 title: "Home"
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+<body>
+    <header>
+        <div id="top-header">
+            <h1><a href="#">L{3,4}</a></h1>
+            <h1><a href="#">Titre de la page</a></h1>
+            <h1><a href="#">?</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ordinateur</a></li>
+                <li><a href="#">Lampe</a></li>
+                <li><a href="#">Tiroir</a></li>
+                <li><a href="#">Coucou</a></li>
+                <li><a href="#">Post-it</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div id="block-page">
+      <aside>
+          <nav>
+              <ul>
+                  <li>Marx</li>
+                  <li>Citations</li>
+                  <li>Idées générales</li>
+              </ul>
+          </nav>
+      </aside>
+      <article>
+
+
+          <h1>Marx</h1>
+
+          <h2>Citations</h2>
+
+          <p>Le mort s'empare du vif.</p>
+
+          <p>La seule partie de la soi-disant richesse nationale qui soit effectivement détenue par les peuples
+              modernes est... leur dette publique. *p.729*</p>
+
+          <p>La petite entreprise est une condition nécessaire du développement de la production sociale et du
+              développement de la libre individualité du travailleur lui-même. p.734
+              (voir la suite où il est méchant avec la petite entreprise)</p>
+
+          <p>Le capital n'est pas une chose impersonnelle, mais un rapport social entre des personnes intermédié par
+              des choses. p.738
+              (rapport de domination d'exploitation, choses=marchandises) </p>
+
+          <h2>Idées générales</h2>
+          <ol>
+              <li>Pas une citation mais réflexion issue d'une vidéo : le capital n'est pas qu'un mode de production
+                  c'est une totalité sociale. Le capital fonde le rapport que les hommes vont avoir entre eux, c'est à
+                  dire l'échange et l'exploitation de leur travail. Le capital est les travailleurs en somme. C'est un
+                  arbre dans lequel chaque feuille est un travailleur, chaque nœud est un intermediaire, chaque
+                  branche est une relation, et dans lesquelles on échange les noeuds et les feuilles afférentes </li>
+              <li>Apports de Marx :
+                  <ul>
+                      <li>Le travailleur est à l'origine de toute valeur. Adam Smith et Ricardo</li>
+                      <li>Le capital est le mécanisme de valorisation de valeur grâce à l'exploitation du travailleur.
+                          (en fait le travailleur est le moteur, la nature le combustible, l'équipement la boîte de
+                          vitesse, l'expropriation et la précarité le couple, et la survaleur l'accélération) </li>
+                      <li>Les salariés sont la part variable du capital, l'équipement la part constante. </li>
+                  </ul>
+              </li>
+          </ol>
+      </article>
+  </div>
+
+  <footer>
+      <p>Blog de Léo Le Lonquer</p>
+      <p>Produit avec Github-Pages, Jekyll, et une copie du thème leap-day</p>
+  </footer>
+</body>

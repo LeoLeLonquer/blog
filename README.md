@@ -1,7 +1,7 @@
 ---
 title: "?"
 permalink: "/about/"
-layout: page
+layout: default
 ---
 
 ![Photo de moi](/assets/images/moialabeach.jpeg)
