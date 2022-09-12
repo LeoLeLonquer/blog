@@ -1,25 +1,22 @@
 title: "L{3,4}"
 author: "Léo Le Lonquer"
-description: "Mon souk à moi"
 permalink: /:title
 lang: "fr"
 excerpt_separator: <!--more-->
 date_format: "%B %d, %Y"
-
-# Layout
-show_excerpts: true        # show article excerpts on the home page
+url: https://leolelonquer.github.io/blog/
 
 # Menu
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "page_development.html"}
-  - {file: "page_idees.html"}
-  - {file: "page_tweets.html"}
-  - {file: "page_divers.html"}
-  - {file: "README.md"}
+# navigation:
+#   - {tag: "dev", title: "Ordinateur"}
+#   - {tag: "idees", title: "Lampe"}
+#   - {tag: "divers", title: "Tiroir"}
+#   - {tag: "tweets", title: "Post-it"}
 
 #- {icon: "fa-home", sidebaricon: "fa-home", title: "Accueil", url: "/"}
   
 #  - {file: "index.html"}
+
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:leolelonquer@protonmail.com"}
@@ -33,4 +30,11 @@ comments:
 plugins:
  - jekyll-feed
 
-
+defaults: # to configure a default layout for posts and to use page.is_post
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: "posts"   # limit to posts
+    values:
+      layout: "post"
+      is_post: true # automatically set is_post=true for all posts
