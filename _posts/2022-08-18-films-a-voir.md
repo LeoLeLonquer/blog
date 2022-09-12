@@ -1,12 +1,10 @@
 ---
-title: Films à voir
+title: "Films à voir"
 layout: post
 category: ressources
 created: 2022-08-18T23:39:22+02:00
 modified: 2022-08-18T23:53:35+02:00
 ---
-
-# Films à voir
 
 - les gardiens de la galaxie
 - Fight Club
