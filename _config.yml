@@ -4,7 +4,7 @@ permalink: /:title
 lang: "fr"
 excerpt_separator: <!--more-->
 date_format: "%B %d, %Y"
-url: https://leolelonquer.github.io/blog/
+#url: https://leolelonquer.github.io/
 
 # Menu
 # navigation:
