@@ -1,13 +1,15 @@
 ---
 ---
 
+@import'rouge-base16-dark.scss';
+
 @font-face {
     font-family: 'Quattrocento Sans';
     src: url('/assets/fonts/quattrocentosans-bold-webfont.eot');
     src: url('/assets/fonts/quattrocentosans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/quattrocentosans-bold-webfont.woff') format('woff'),
-         url('/assets/fonts/quattrocentosans-bold-webfont.ttf') format('truetype'),
-         url('/assets/fonts/quattrocentosans-bold-webfont.svg#QuattrocentoSansBold') format('svg');
+        url('/assets/fonts/quattrocentosans-bold-webfont.woff') format('woff'),
+        url('/assets/fonts/quattrocentosans-bold-webfont.ttf') format('truetype'),
+        url('/assets/fonts/quattrocentosans-bold-webfont.svg#QuattrocentoSansBold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
@@ -16,9 +18,9 @@
     font-family: 'Quattrocento Sans';
     src: url('/assets/fonts/quattrocentosans-bolditalic-webfont.eot');
     src: url('/assets/fonts/quattrocentosans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/quattrocentosans-bolditalic-webfont.woff') format('woff'),
-         url('/assets/fonts/quattrocentosans-bolditalic-webfont.ttf') format('truetype'),
-         url('/assets/fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic') format('svg');
+        url('/assets/fonts/quattrocentosans-bolditalic-webfont.woff') format('woff'),
+        url('/assets/fonts/quattrocentosans-bolditalic-webfont.ttf') format('truetype'),
+        url('/assets/fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic') format('svg');
     font-weight: bold;
     font-style: italic;
 }
@@ -27,9 +29,9 @@
     font-family: 'Quattrocento Sans';
     src: url('/assets/fonts/quattrocentosans-italic-webfont.eot');
     src: url('/assets/fonts/quattrocentosans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/quattrocentosans-italic-webfont.woff') format('woff'),
-         url('/assets/fonts/quattrocentosans-italic-webfont.ttf') format('truetype'),
-         url('/assets/fonts/quattrocentosans-italic-webfont.svg#QuattrocentoSansItalic') format('svg');
+        url('/assets/fonts/quattrocentosans-italic-webfont.woff') format('woff'),
+        url('/assets/fonts/quattrocentosans-italic-webfont.ttf') format('truetype'),
+        url('/assets/fonts/quattrocentosans-italic-webfont.svg#QuattrocentoSansItalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
@@ -38,9 +40,9 @@
     font-family: 'Quattrocento Sans';
     src: url('/assets/fonts/quattrocentosans-regular-webfont.eot');
     src: url('/assets/fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/quattrocentosans-regular-webfont.woff') format('woff'),
-         url('/assets/fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
-         url('/assets/fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg');
+        url('/assets/fonts/quattrocentosans-regular-webfont.woff') format('woff'),
+        url('/assets/fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
+        url('/assets/fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -49,61 +51,65 @@
     font-family: 'Copse';
     src: url('/assets/fonts/copse-regular-webfont.eot');
     src: url('/assets/fonts/copse-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/copse-regular-webfont.woff') format('woff'),
-         url('/assets/fonts/copse-regular-webfont.ttf') format('truetype'),
-         url('/assets/fonts/copse-regular-webfont.svg#CopseRegular') format('svg');
+        url('/assets/fonts/copse-regular-webfont.woff') format('woff'),
+        url('/assets/fonts/copse-regular-webfont.ttf') format('truetype'),
+        url('/assets/fonts/copse-regular-webfont.svg#CopseRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-body{
+body {
     font-family: 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: rgba(234,230,210,1);
+    background-color: rgba(234, 230, 210, 1);
     opacity: 1;
     background-size: 4px 4px;
-    background-image: repeating-linear-gradient(45deg, rgba(225,221,202,1) 0, rgba(225,221,202,1) 0.4px, rgba(234,230,210,1) 0, rgba(234,230,210,1) 50%);
+    background-image: repeating-linear-gradient(45deg, rgba(225, 221, 202, 1) 0, rgba(225, 221, 202, 1) 0.4px, rgba(234, 230, 210, 1) 0, rgba(234, 230, 210, 1) 50%);
     margin: 0;
 }
 
-#page-container { /* pour pousser le footer en bas de la page dans tous les cas */
+#page-container {
+    /* pour pousser le footer en bas de la page dans tous les cas */
     position: relative;
     min-height: 100vh;
 }
 
-#content-wrap { /* pour pousser le footer en bas de la page dans tous les cas */
-    padding-bottom: 2.5rem;    
+#content-wrap {
+    /* pour pousser le footer en bas de la page dans tous les cas */
+    padding-bottom: 2.5rem;
 }
 
 header {
-    background: url("/assets/images/background.png") repeat;
+    // background: url("/assets/images/background.png") repeat;
+    background-color: rgb(49, 109, 171);
     color: whitesmoke;
     text-decoration: none;
     padding-top: 1px;
 }
 
-#top-header{
+#top-header {
     display: flex;
     justify-content: space-around;
     margin-right: 2%;
     text-shadow: 5px 5px 5px black;
 }
 
-#top-header h1, #top-header a{
-    font-family : Copse,  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#top-header h1,
+#top-header a {
+    font-family: Copse, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
     text-decoration: none;
 }
 
-nav{
+nav {
     background: #ffcc00;
     color: black;
     text-decoration: none;
     height: 3.5em;
     border: 1px solid #f0b500;
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -111,59 +117,56 @@ nav ul{
     padding-left: 0;
 }
 
-nav li{
+nav li {
     background-color: #f7d46a;
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     padding: 3px 10px;
 }
 
-nav li:hover, .more:hover{
-    box-shadow: 0px 1px 3px 5px rgba(0,0,0,0.25);
+nav li:hover,
+.more:hover {
+    box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25);
     position: relative;
     bottom: 1px
 }
 
-nav a, .more a, article h1 a{
+nav a,
+.more a,
+article h1 a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-.more{
+.more {
     background-color: #ffcc00;
     width: fit-content;
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     padding: 3px 10px;
 }
 
-aside{
+aside {
     display: none;
 }
 
-article{
+article {
     background: whitesmoke;
     width: 90%;
-    
+
     margin: 1em auto;
     padding: 0 0.5em;
+    padding: 0 0.5em 1em 0.5em;
     background-color: #fbfbfb;
-    box-shadow: 0px 1px 2px 
-            rgba(0,0,0,0.09),inset 0px 0px 2px 2px 
-            rgba(255,255,255,0.5),inset 0 0 5px 5px 
-            rgba(255,255,255,0.4);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
     border: 1px solid #cbcbcb;
     border-radius: 3px;
 }
 
-article ul, article ol {
-    padding-left: 2em;
-}
-
 .article-title h1 {
     margin-bottom: 0;
-    padding-bottom: 0; 
+    padding-bottom: 0;
 }
 
 .article-title time {
@@ -174,8 +177,130 @@ article ul, article ol {
     color: grey;
 }
 
+article ul,
+article ol {
+    padding-left: 2em;
+}
+
+article ul {
+    list-style-image: url('../images/bullet.png');
+}
+
+article img {
+    max-width: 100%;
+}
+
+blockquote {
+    border-left: 1px solid #ffcc00;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-style: italic;
+}
+
+
+code {
+    font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-size: 13px;
+    color: #efefef;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0 4px;
+    padding: 2px 6px;
+    background: #333;
+    border-radius: 2px;
+}
+
+pre {
+    padding: 8px 15px;
+    background: #333333;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+    overflow: auto;
+    overflow-y: hidden;
+
+    code {
+        margin: 0;
+        padding: 0;
+    
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        
+            pre{
+                border: none;
+                border-radius: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .lineno{
+                opacity: 0.5;
+                margin-right: 0.5em;
+            }
+        }
+    }
+}
+
+// Workaround for gist code tag printed in white instead of black
+.gist-file code{
+    color:black;
+    text-shadow: none;
+}
+
+
+// kbd {
+//     background-color: #fafbfc;
+//     border: 1px solid #c6cbd1;
+//     border-bottom-color: #959da5;
+//     border-radius: 3px;
+//     box-shadow: inset 0 -1px 0 #959da5;
+//     color: #444d56;
+//     display: inline-block;
+//     font-size: 11px;
+//     line-height: 10px;
+//     padding: 3px 5px;
+//     vertical-align: middle;
+// }
+
+article > table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #e5e5e5;
+        color: #444;
+    }
+
+    td {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #e5e5e5;
+        border-right: 1px solid #ffcc00;
+
+        &:first-child {
+            border-left: 1px solid #ffcc00;
+        }
+    }
+}
+
+hr {
+    border: 0;
+    outline: none;
+    height: 11px;
+    background: transparent url('../images/hr.gif') center center repeat-x;
+    margin: 0 0 20px;
+}
+
+dt {
+    color: #444;
+    font-weight: 700;
+}
+
+
 footer {
-    background: url("/assets/images/background.png") repeat;
+    // background: url("/assets/images/background.png") repeat;
+    background-color: rgb(49, 109, 171);
     color: whitesmoke;
     display: flex;
     justify-content: space-around;
@@ -184,7 +309,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;  
+    height: 2.5rem;
 }
 
 footer p {
@@ -192,8 +317,8 @@ footer p {
     text-align: center;
 }
 
-@media all and (min-width: 600px){
-    #block-page{
+@media all and (min-width: 600px) {
+    #block-page {
         width: 66%;
         min-width: 590px;
         max-width: 1000px;
@@ -202,24 +327,25 @@ footer p {
 }
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au minimum 1280px */
-@media all and (min-width: 800px){
-    nav{
+@media all and (min-width: 800px) {
+    nav {
         position: relative;
         top: 1.7em;
         width: 90%;
     }
 
-    nav ul{
+    nav ul {
         position: absolute;
-        right:0;
+        right: 0;
         width: 66%;
         margin-right: 12%;
     }
 
-    #block-page{
-        margin: 2em auto;
+    #block-page {
+        margin: 3em auto;
+    }
+
+    article {
+        padding: 0 1em 1em 1em;
     }
 }
-
-
-
