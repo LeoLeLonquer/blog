@@ -1,62 +1,7 @@
 ---
 ---
 
-@import'rouge-base16-dark.scss';
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-bold-webfont.eot');
-    src: url('../fonts/quattrocentosans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/quattrocentosans-bold-webfont.woff') format('woff'),
-        url('../fonts/quattrocentosans-bold-webfont.ttf') format('truetype'),
-        url('../fonts/quattrocentosans-bold-webfont.svg#QuattrocentoSansBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-bolditalic-webfont.eot');
-    src: url('../fonts/quattrocentosans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/quattrocentosans-bolditalic-webfont.woff') format('woff'),
-        url('../fonts/quattrocentosans-bolditalic-webfont.ttf') format('truetype'),
-        url('../fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-italic-webfont.eot');
-    src: url('../fonts/quattrocentosans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/quattrocentosans-italic-webfont.woff') format('woff'),
-        url('../fonts/quattrocentosans-italic-webfont.ttf') format('truetype'),
-        url('../fonts/quattrocentosans-italic-webfont.svg#QuattrocentoSansItalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Quattrocento Sans';
-    src: url('../fonts/quattrocentosans-regular-webfont.eot');
-    src: url('../fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/quattrocentosans-regular-webfont.woff') format('woff'),
-        url('../fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
-        url('../fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Copse';
-    src: url('../fonts/copse-regular-webfont.eot');
-    src: url('../fonts/copse-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/copse-regular-webfont.woff') format('woff'),
-        url('../fonts/copse-regular-webfont.ttf') format('truetype'),
-        url('../fonts/copse-regular-webfont.svg#CopseRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@import 'fonts.scss', 'rouge-base16-dark.scss';
 
 body {
     font-family: 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -105,7 +50,7 @@ nav {
     background: #ffcc00;
     color: black;
     text-decoration: none;
-    height: 3.5em;
+    height: 3.2em;
     border: 1px solid #f0b500;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
@@ -123,6 +68,7 @@ nav li {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     padding: 3px 10px;
+    font-size: small;
 }
 
 nav li:hover,
@@ -152,7 +98,7 @@ aside {
     display: none;
 }
 
-article {
+article, section {
     background: whitesmoke;
     width: 90%;
 
@@ -165,17 +111,22 @@ article {
     border-radius: 3px;
 }
 
-.article-title h1 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
+.article-title {
+    h1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 
-.article-title time {
-    display: block;
-    margin-top: 0;
-    padding-top: 0;
-    text-decoration: none;
-    color: grey;
+    time{
+        display: block;
+        text-decoration: none;
+        color: grey;
+        margin-top: 1em; //if title disabled (with tweets for example)
+    }
+
+    h1 + time{
+        margin-top: 0;
+    }
 }
 
 a {
@@ -341,6 +292,14 @@ footer p {
     #top-header{
         font-size: medium;
     }
+
+    nav{
+        height: 3.5em;
+    }
+
+    nav li{
+        font-size: medium;
+    }
 }
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au minimum 1280px */
@@ -349,6 +308,7 @@ footer p {
         position: relative;
         top: 1.7em;
         width: 90%;
+        height: 3.7em;
     }
 
     nav ul {
@@ -356,6 +316,10 @@ footer p {
         right: 0;
         width: 66%;
         margin-right: 12%;
+    }
+
+    nav li{
+        font-size: large;
     }
 
     #block-page {

@@ -1,9 +1,11 @@
-{%- assign posts = paginator.posts | default: include.tag -%}
+{%- assign posts = paginator.posts | default: include.posts -%}
 {% for post in posts %}
   <article class="excerpt">
     {% include article_title.html post=post %}
     {{ post.excerpt }}
+    {% unless post.categories contains 'tweets' %}
     <div class="more"><a href="{{ post.url | relative_url }}">Lire la suite</a></div>
+    {% endunless %}
   </article>
 {% endfor %}
 
