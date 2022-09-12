@@ -1,6 +1,6 @@
 title: "L{3,4}"
 author: "Léo Le Lonquer"
-permalink: /:title
+permalink: /:categories/:title
 lang: "fr"
 excerpt_separator: <!--more-->
 date_format: "%B %d, %Y"
@@ -29,12 +29,3 @@ comments:
 
 plugins:
  - jekyll-feed
-
-defaults: # to configure a default layout for posts and to use page.is_post
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: "posts"   # limit to posts
-    values:
-      layout: "post"
-      is_post: true # automatically set is_post=true for all posts

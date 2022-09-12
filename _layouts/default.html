@@ -22,7 +22,7 @@
             <div id="content-wrap">
                 <header>
                     <div id="top-header">
-                        <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+                        <h1><a href="{{ site.url | absolute_url }}">{{ site.title }}</a></h1>
                         <h1><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h1>
                         <h1><a href="{{ '/about/' | absolute_url }}">?</a></h1>
                     </div>
