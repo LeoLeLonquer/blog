@@ -5,55 +5,55 @@
 
 @font-face {
     font-family: 'Quattrocento Sans';
-    src: url('/assets/fonts/quattrocentosans-bold-webfont.eot');
-    src: url('/assets/fonts/quattrocentosans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/quattrocentosans-bold-webfont.woff') format('woff'),
-        url('/assets/fonts/quattrocentosans-bold-webfont.ttf') format('truetype'),
-        url('/assets/fonts/quattrocentosans-bold-webfont.svg#QuattrocentoSansBold') format('svg');
+    src: url('../fonts/quattrocentosans-bold-webfont.eot');
+    src: url('../fonts/quattrocentosans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/quattrocentosans-bold-webfont.woff') format('woff'),
+        url('../fonts/quattrocentosans-bold-webfont.ttf') format('truetype'),
+        url('../fonts/quattrocentosans-bold-webfont.svg#QuattrocentoSansBold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Quattrocento Sans';
-    src: url('/assets/fonts/quattrocentosans-bolditalic-webfont.eot');
-    src: url('/assets/fonts/quattrocentosans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/quattrocentosans-bolditalic-webfont.woff') format('woff'),
-        url('/assets/fonts/quattrocentosans-bolditalic-webfont.ttf') format('truetype'),
-        url('/assets/fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic') format('svg');
+    src: url('../fonts/quattrocentosans-bolditalic-webfont.eot');
+    src: url('../fonts/quattrocentosans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/quattrocentosans-bolditalic-webfont.woff') format('woff'),
+        url('../fonts/quattrocentosans-bolditalic-webfont.ttf') format('truetype'),
+        url('../fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic') format('svg');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Quattrocento Sans';
-    src: url('/assets/fonts/quattrocentosans-italic-webfont.eot');
-    src: url('/assets/fonts/quattrocentosans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/quattrocentosans-italic-webfont.woff') format('woff'),
-        url('/assets/fonts/quattrocentosans-italic-webfont.ttf') format('truetype'),
-        url('/assets/fonts/quattrocentosans-italic-webfont.svg#QuattrocentoSansItalic') format('svg');
+    src: url('../fonts/quattrocentosans-italic-webfont.eot');
+    src: url('../fonts/quattrocentosans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/quattrocentosans-italic-webfont.woff') format('woff'),
+        url('../fonts/quattrocentosans-italic-webfont.ttf') format('truetype'),
+        url('../fonts/quattrocentosans-italic-webfont.svg#QuattrocentoSansItalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Quattrocento Sans';
-    src: url('/assets/fonts/quattrocentosans-regular-webfont.eot');
-    src: url('/assets/fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/quattrocentosans-regular-webfont.woff') format('woff'),
-        url('/assets/fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
-        url('/assets/fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg');
+    src: url('../fonts/quattrocentosans-regular-webfont.eot');
+    src: url('../fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/quattrocentosans-regular-webfont.woff') format('woff'),
+        url('../fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
+        url('../fonts/quattrocentosans-regular-webfont.svg#QuattrocentoSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Copse';
-    src: url('/assets/fonts/copse-regular-webfont.eot');
-    src: url('/assets/fonts/copse-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/copse-regular-webfont.woff') format('woff'),
-        url('/assets/fonts/copse-regular-webfont.ttf') format('truetype'),
-        url('/assets/fonts/copse-regular-webfont.svg#CopseRegular') format('svg');
+    src: url('../fonts/copse-regular-webfont.eot');
+    src: url('../fonts/copse-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/copse-regular-webfont.woff') format('woff'),
+        url('../fonts/copse-regular-webfont.ttf') format('truetype'),
+        url('../fonts/copse-regular-webfont.svg#CopseRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 header {
-    // background: url("/assets/images/background.png") repeat;
+    // background: url("../images/background.png") repeat;
     background-color: rgb(49, 109, 171);
     color: whitesmoke;
     text-decoration: none;
@@ -299,7 +299,7 @@ dt {
 
 
 footer {
-    // background: url("/assets/images/background.png") repeat;
+    // background: url("../images/background.png") repeat;
     background-color: rgb(49, 109, 171);
     color: whitesmoke;
     display: flex;
