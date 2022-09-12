@@ -75,7 +75,7 @@ body {
 
 #content-wrap {
     /* pour pousser le footer en bas de la page dans tous les cas */
-    padding-bottom: 2.5rem;
+    padding-bottom: 5rem;
 }
 
 header {
@@ -309,7 +309,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
 }
 
 footer p {
@@ -347,5 +346,10 @@ footer p {
 
     article {
         padding: 0 1em 1em 1em;
+    }
+
+    #content-wrap {
+        /* pour pousser le footer en bas de la page dans tous les cas */
+        padding-bottom: 2.5rem;
     }
 }
