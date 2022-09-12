@@ -28,9 +28,10 @@
                     </div>
                     <nav>
                         <ul>
-                            {%- assign nav_categories = site.pages | where: "sitemap", true -%}
-                            {%- for item in nav_categories -%}
-                            <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
+                            {% assign nav_pages = site.navigation %}
+                            {%- for item in nav_pages -%}
+                            {%- assign item_page = site.pages | where: "path", item.file | first -%}
+                            <li><a href="{{ item_page.url | absolute_url }}">{{ item_page.title }}</a></li>
                             {%- endfor -%}
                         </ul>
                     </nav>
@@ -41,7 +42,7 @@
             </div>
             <footer>
                 <p>Blog de Léo Le Lonquer</p>
-                <p>Produit avec Github-Pages, Jekyll, et une copie du thème leap-day</p>
+                <p>Produit avec Github-Pages, Jekyll, et une adaptation du thème leap-day</p>
             </footer>
         </div>
     </body>

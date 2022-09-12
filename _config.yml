@@ -7,11 +7,13 @@ date_format: "%B %d, %Y"
 #url: https://leolelonquer.github.io/
 
 # Menu
-# navigation:
-#   - {tag: "dev", title: "Ordinateur"}
-#   - {tag: "idees", title: "Lampe"}
-#   - {tag: "divers", title: "Tiroir"}
-#   - {tag: "tweets", title: "Post-it"}
+navigation:
+  - {file: "pages/dev.html"}
+  - {file: "pages/notes.html"}
+  - {file: "pages/voyages.html"}
+  - {file: "pages/tweets.html"}
+  - {file: "pages/amis.html"}
+  - {file: "pages/cv.html"}
 
 #- {icon: "fa-home", sidebaricon: "fa-home", title: "Accueil", url: "/"}
   
