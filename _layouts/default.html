@@ -2,7 +2,7 @@
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
 <meta charset="{{ site.encoding }}">
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -11,7 +11,33 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 
-
-{{ content }}
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <div id="top-header">
+                    <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+                    <h1><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h1>
+                    <h1><a href="{{ '/about/' | absolute_url }}">?</a></h1>
+                </div>
+                <nav>
+                    <ul>
+                        {%- assign nav_categories = site.pages | where: "sitemap", true -%}
+                        {%- for item in nav_categories -%}
+                        <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
+                        {%- endfor -%}
+                    </ul>
+                </nav>
+            </header>
+            <div id="block-page">
+            {{ content }}
+            </div>
+        </div>
+        <footer>
+            <p>Blog de Léo Le Lonquer</p>
+            <p>Produit avec Github-Pages, Jekyll, et une copie du thème leap-day</p>
+        </footer>
+    </div>
+</body>
 
 </html>
