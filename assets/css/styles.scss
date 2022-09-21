@@ -143,6 +143,7 @@ article, section {
     h1 {
         margin-bottom: 0;
         padding-bottom: 0;
+        font-size: 1.6em;
     }
 
     time{
@@ -163,17 +164,40 @@ a {
     text-decoration:none;
 }
 
-article ul,
-article ol {
-    padding-left: 2em;
-}
+article {
+    ul, ol {
+        padding-left: 2em;
+    }
+    
+    ul {
+        list-style-image: url('../images/bullet.png');
 
-article ul {
-    list-style-image: url('../images/bullet.png');
-}
+    }
 
-article img {
-    max-width: 100%;
+    img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    h5 {
+        font-size: 1.1em;
+        margin: 0;
+    }
+    h6 {
+        font-size: 1em;
+        margin: 0;
+    }
 }
 
 blockquote {
