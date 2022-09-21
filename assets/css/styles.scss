@@ -4,11 +4,19 @@
 @import 'fonts.scss', 'rouge-base16-dark.scss';
 
 // initial colors
-$header_color : rgb(49, 109, 171);
-$nav_color : #ffcc00;
-$nav_border_color : #f0b500;
+// $header_color : rgb(49, 109, 171);
+// $nav_color : #ffcc00;
+// $nav_border_color : #f0b500;
+// $nav_button_color : #f7d46a;
+// $readmore_button_color : #ffcc00;
+
+// blue man et jaune
+$header_color : #4b6a8f;
+$nav_color : #f9d10f;
+$nav_border_color : #ffcc00;
 $nav_button_color : #f7d46a;
 $readmore_button_color : #ffcc00;
+$nav_more_font_color : black;
 
 // $header_color : darkcyan;
 // $nav_color : #ffc400;
@@ -76,7 +84,7 @@ header {
 
 nav {
     background: $nav_color;
-    color: black;
+    color: white;
     text-decoration: none;
     height: 3.2em;
     border: 1px solid $nav_border_color;
@@ -110,7 +118,7 @@ nav a,
 .more a,
 article h1 a {
     text-decoration: none;
-    color: black;
+    color: $nav_more_font_color;
     font-weight: bold;
 }
 
