@@ -1,9 +1,9 @@
 ---
-title: "Ressources Data Engineer" 
 layout: post
-tags: dev spark bigdata 
-category: dev
+title: "Bibliothèque"
 ---
+
+<!-- {% include posts_by_tag.html posts=site.tags.ressources %} -->
 
 ### Outils
 - [regex101](https://regex101.com/)
