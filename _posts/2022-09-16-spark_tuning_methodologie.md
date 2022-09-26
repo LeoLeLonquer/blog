@@ -96,17 +96,22 @@ Si la charge utile (en entrée) est de 14,3Go et que l'on souhaite avoir des par
 | 150mo          | 95                       |
 | 200mo          | 71                         |
 
+
 Trouver une première valeur de spark.shuffle.partitions intéressante
 - Choisir une première valeur faible, faire un test noter le Total Uptime, durées des jobs, Task Time
 - Augmenter la valeur précédente (x1,5 ou +25 ou +50...) jusqu'à ce que les performances ne soient plus améliorées
 - Choisir la première valeur qui atteint le palier
 - Exemple de table de résultat :
 
+<div class="overflow-x-auto" markdown="1">
+
 | spark.shuffle.partitions | Total Uptime | Duration orc | Duration count | Task Time |
 | ------------------------ | ------------ | ------------ | -------------- | --------- |
 | 5                        | 1.3min       | 23s          | 5s             | 6.9min    |
 | 10                       | 1.6min       | 32s          | 7s             | 7.2min    |
 | 20                       | 1.2min       | 36s          | 6s             | 7.0min    |
+
+</div>
 
 #### Ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
 Pour ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
@@ -116,12 +121,16 @@ Pour ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
 - Choisir la première valeur atteignant le palier
 - Exemple de table de résultat :
 
+<div class="overflow-x-auto" markdown="1">
+
 | Total cores | num-executor | executor-cores | Total Uptime | Duration orc | Duration count | Task Time | Locality Level <br/>(Any; Node local; Rack Local) |
 | ----------- | ------------ | -------------- | ------------ | ------------ | -------------- | --------- | -------------------------------------------- |
 | 5           | 1            | 6              | 1.4min       | 6s           | 46s            | 3.0min    | 86;2;9                                       |
 | 6           | 2            | 3              | 1.4min       | 5s           | 44s            | 2.8min    | 85;1;11                                      |
 | 9           | 3            | 3              | 1.2min       | 5s           | 35s            | 3.6min    | 74;0;23                                      |
 | 24          | 8            | 3              | 1.4min       | 5s           | 24s            | 4min      | 28;2;67                                      |
+
+</div>
 
 #### Ajuster la mémoire allouée
  Pour ajuster la mémoire allouée

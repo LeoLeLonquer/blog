@@ -142,8 +142,12 @@ article h1 a {
     padding: 3px 10px;
 }
 
-.center-button{
+.margin-auto{
     margin: auto;
+}
+
+.text-center{
+    text-align: center;
 }
 
 aside {
@@ -255,6 +259,7 @@ figure.highlight {
     margin: 0;
 }
 
+// Configuration of code block 
 pre {
     padding: 8px 15px;
     background: #333333;
@@ -309,18 +314,13 @@ kbd {
 */
 
 // for real tables (and not table in pre>code tags) 
-article > table {
+article > table, article > .overflow-x-auto > table {
     width: 100%;
     border-collapse: collapse;
+    // table-layout:fixed;
+    // width: 100%;
 
-    th {
-        text-align: left;
-        padding: 5px 10px;
-        border-bottom: 1px solid #e5e5e5;
-        color: #444;
-    }
-
-    td {
+    td, th {
         text-align: left;
         padding: 5px 10px;
         border-bottom: 1px solid #e5e5e5;
@@ -330,6 +330,15 @@ article > table {
             border-left: 1px solid #ffcc00;
         }
     }
+
+    th {
+        color: #444;
+        border-top: 1px solid #e5e5e5;
+    }
+}
+
+.overflow-x-auto{
+    overflow-x: auto;
 }
 
 hr {
