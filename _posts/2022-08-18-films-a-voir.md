@@ -6,11 +6,10 @@ created: 2022-08-18T23:39:22+02:00
 modified: 2022-08-18T23:53:35+02:00
 ---
 
-- les gardiens de la galaxie
-- Fight Club
-- Cloverfield
-- 10 Cloverfield Lane
-- La liste de Schindler
+- Rushmore (Wes Anderson)
+- Before Sunrise (Richard Linklater)
+- Paris Is Burning (Jennie Livingston)
+- Hoop Dreams (Steve James)
 <!--more-->
 - La ligne verte
 - 12 years as a slave
@@ -134,10 +133,6 @@ modified: 2022-08-18T23:53:35+02:00
 - Breaking the Waves (Lars von Trier)
 - Une longue journée qui s’achève (Terence Davies)
 - Tout sur ma mère (Pedro Almodovar)
-- Rushmore (Wes Anderson)
-- Before Sunrise (Richard Linklater)
-- Paris Is Burning (Jennie Livingston)
-- Hoop Dreams (Steve James)
 - After Life (Hirokazu Kore-eda)
 - The Truman Show (Peter Weir)
 - Lost Highway (David Lynch)
