@@ -12,7 +12,7 @@ navigation:
   - {file: "pages/notes.html"}
   - {file: "pages/voyages.html"}
   - {file: "pages/tweets.html"}
-  - {file: "pages/amis.html"}
+  - {file: "pages/amis.md"}
   - {file: "pages/cv.html"}
 
 #- {icon: "fa-home", sidebaricon: "fa-home", title: "Accueil", url: "/"}
