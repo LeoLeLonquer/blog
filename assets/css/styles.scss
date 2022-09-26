@@ -142,6 +142,10 @@ article h1 a {
     padding: 3px 10px;
 }
 
+.center-button{
+    margin: auto;
+}
+
 aside {
     display: none;
 }
@@ -231,6 +235,9 @@ blockquote {
     font-style: italic;
 }
 
+.figure_image {
+    text-align: center;
+}
 
 code {
     font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
