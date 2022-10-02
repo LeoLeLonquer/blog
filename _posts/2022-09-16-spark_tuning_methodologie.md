@@ -1,5 +1,5 @@
 ---
-title: "Spark 2.x: Méthodologie d'optimisation des jobs" 
+title: "Spark 2.x : Méthodologie d'optimisation des jobs" 
 layout: post
 tags: dev spark tuning 
 category: dev
