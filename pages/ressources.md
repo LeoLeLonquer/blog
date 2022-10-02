@@ -43,7 +43,7 @@ title: "Bibliothèque"
 - [GitHub Copilot](https://copilot.github.com/)
 - [Carrd - Simple one-page sites](https://carrd.co/)
 - [WhatRuns — Discover What Runs a Website](https://www.whatruns.com/)
-- [Flourish | Data Visualization & Storytelling](https://flourish.studio/)
+- [Flourish - Data Visualization & Storytelling](https://flourish.studio/)
 - [Untools - Tools for better thinking](https://untools.co/)
 - [Obsidian](https://obsidian.md/)
 - [Typora](https://typora.io/)

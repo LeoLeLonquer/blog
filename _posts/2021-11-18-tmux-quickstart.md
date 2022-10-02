@@ -55,4 +55,4 @@ Panneaux :
 - `ctrl-a + flèche directionnelle` : se déplacer entre les panneaux
 - `ctrl-a + ;` : dernier panneau
 
-Cheatsheet : https://tmuxcheatsheet.com/
+Cheatsheet : <https://tmuxcheatsheet.com/>

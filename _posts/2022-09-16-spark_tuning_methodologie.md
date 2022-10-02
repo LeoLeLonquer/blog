@@ -1,5 +1,5 @@
 ---
-title: "Spark (2.x): Méthodologie d'optimisation des jobs" 
+title: "Spark 2.x: Méthodologie d'optimisation des jobs" 
 layout: post
 tags: dev spark tuning 
 category: dev
@@ -10,7 +10,7 @@ Un cluster à 100 machines possédant chacune 4 coeurs peut être associée à u
 Sur 1 journée, les 400 coeurs peuvent donc produire  24 \* 400 = 9600 heures de traitement.
 Ces 9600 heures de traitement sont notre ressources à partager entre nos utilisateurs et nos traitements.
 
-Les fournisseurs de PaaS comme GCP et AWS prennent comme mesure de facturation le temps de traitement CPU. 
+Les fournisseurs de PaaS comme GCP et AWS peuvent prendre comme mesure de facturation le temps de traitement CPU. 
 
 <!--more-->
 ## Méthode pour un traitement d'enrichissement
