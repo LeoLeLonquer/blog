@@ -44,7 +44,7 @@ Ceci vaut pour un clavier azerty.
 `yy` copier la ligne  
 `dd` couper la ligne  
 `yt"` (ou `yf"`) copier jusqu'à `"` non inclu (t=untill=non inclu, f=find=inclu)  
-`p` coller après le curseur  
+`p` coller avant le curseur  
 `P` coller après le curseur  
 
 ### Les mouvements utiles
@@ -99,8 +99,8 @@ Permet de comparer deux fichiers côte à côte et de les éditer en même temps
 
 ### Utiliser un multiplexeur de terminal éventuellement (exemple : `tmux`)
 
-- laisse ta session sur le serveur ouverte même en fermant la connexion ssh.    
-- permet d'avoir autant de terminaux que tu le souhaites.  
+- laisse la session sur le serveur ouverte même en fermant la connexion ssh.    
+- permet d'avoir autant de terminaux que souhaités.  
 
 ### Conférence Vim Workflow
 
