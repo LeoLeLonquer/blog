@@ -45,7 +45,35 @@
             </div>
             <footer>
                 <p>Blog de Léo Le Lonquer</p>
-                <p>Produit avec Github-Pages, Jekyll, et une adaptation du thème leap-day</p>
+                <nav>
+                    <a href="mailto:leolelonquer@protonmail.com">
+                        <svg class="icon" aria-label="Mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            {% assign svg = site.data.font-awesome.icons["envelope"].svg | first %}
+                            <symbol id="envelope" viewBox="0 0 {{ svg[1].width }} {{ svg[1].height }}">
+                                <path d="{{ svg[1].path }}" />
+                            </symbol>
+                            <use href="#envelope"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/LeoLeLonquer">
+                        <svg class="icon" aria-label="Github" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            {% assign svg = site.data.font-awesome.icons["github"].svg | first %}
+                            <symbol id="github" viewBox="0 0 {{ svg[1].width }} {{ svg[1].height }}">
+                                <path d="{{ svg[1].path }}" />
+                            </symbol>
+                            <use href="#github"/>
+                        </svg>
+                    </a>
+                    <a href="/feed.xml">
+                        <svg class="icon" aria-label="Suscribe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            {% assign svg = site.data.font-awesome.icons["rss"].svg | first %}
+                            <symbol id="rss" viewBox="0 0 {{ svg[1].width }} {{ svg[1].height }}">
+                                <path d="{{ svg[1].path }}" />
+                            </symbol>
+                            <use href="#rss"/>
+                        </svg>
+                    </a>
+                </nav>
             </footer>
         </div>
     </body>
