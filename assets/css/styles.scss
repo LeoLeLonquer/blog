@@ -422,16 +422,35 @@ footer {
     color: whitesmoke;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 
     position: absolute;
     bottom: 0;
     width: 100%;
-}
+    
+    p {
+        margin: 0.5em 5%;
+        text-align: center;
+    }
 
-footer p {
-    margin: 0.5em 5%;
-    text-align: center;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width : 6em; 
+    }
+
+    .icon {
+        display: block;
+        margin: auto;
+        height: 1em;
+        width: 1em;
+        fill : white;
+        // transition: .2s color;
+    }
+
+
 }
 
 @media all and (min-width: 600px) {
