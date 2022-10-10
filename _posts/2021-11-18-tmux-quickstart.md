@@ -10,7 +10,7 @@ tmux est un multiplexeur de terminal. Il permet de garder une session de plusieu
 <!--more-->
 A rajouter dans `~/.tmux.conf`
 ```conf
-# Prefix
+# Prefix (bind prefix to ctrl-a instead of ctrl-a)
 unbind C-b
 set-option -g prefix C-a
 
@@ -31,9 +31,12 @@ tmux ls
 tmux a -t [nom-session]
 ```
 
-**Touches les plus importantes :**
+Notations ici :
+- `ctrl-a` : appuyer simultanément sur les touche Contrôle et `a` 
+- `ctrl-a + s` : appuyer sur contrôle-a , relâcher, puis appuyer sur `s`
 
-- `ctrl-a` : la touche pour inter-agir avec tmux
+**Touches les plus importantes :**
+- `ctrl-a` : la touche pour inter-agir avec tmux (par défaut `ctrl-b`, ici reconfiguré)
 
 Session :
 
@@ -52,7 +55,16 @@ Panneaux :
 
 - `ctrl-a + V` : nouveau panneau vertical
 - `ctrl-a + "` : nouveau panneau horizontal
-- `ctrl-a + flèche directionnelle` : se déplacer entre les panneaux
+- `ctrl-a + ↑/↓/←/→` : se déplacer entre les panneaux
 - `ctrl-a + ;` : dernier panneau
+
+Se balader dans la console :
+
+- `ctrl-a + PageUp` : activer le mode déroulement de la console (`PageUp` = `⇞` = `fn + ↑`)
+- `↑/↓` : se déplacer dans la console
+- `⇞/⇟` : se déplacer d'une page
+- `/` : rechercher vers le bas
+- `?` : rechercher vers le haut
+- `⏎` : revenir en mode entrée
 
 Cheatsheet : <https://tmuxcheatsheet.com/>
