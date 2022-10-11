@@ -63,8 +63,8 @@ Se balader dans la console :
 - `ctrl-a + PageUp` : activer le mode déroulement de la console (`PageUp` = `⇞` = `fn + ↑`)
 - `↑/↓` : se déplacer dans la console
 - `⇞/⇟` : se déplacer d'une page
-- `/` : rechercher vers le bas
-- `?` : rechercher vers le haut
+- `/` : rechercher vers le bas, `n` pour suivant (next), `p` pour précédent
+- `?` : rechercher vers le haut, `n` pour suivant (next), `p` pour précédent
 - `⏎` : revenir en mode entrée
 
 Cheatsheet : <https://tmuxcheatsheet.com/>
