@@ -39,6 +39,11 @@
                         </ul>
                     </nav>
                 </header>
+                {% if page.layout == 'post' %}
+                <nav class="article">
+                    <ul></ul>
+                </nav>
+                {% endif %}
                 <div id="block-page">
                 {{ content }}
                 </div>
