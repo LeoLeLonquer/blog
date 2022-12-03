@@ -438,7 +438,10 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width : 6em; 
+        width : 6em;
+        // Je trouvais que le truc partait trop à droite
+        position: relative;
+        left: -5%;
     }
 
     .icon {
