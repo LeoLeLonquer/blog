@@ -453,6 +453,11 @@ footer {
 
 }
 
+/* au-dessus de 600px 
+- la taille du header augmente
+- la taille de la font du header augmente
+- la taille du bloc de page va être au minimum de 590px, 66% de la largeur et au max de 1000px
+*/
 @media all and (min-width: 600px) {
     #block-page {
         width: 66%;
@@ -474,7 +479,9 @@ footer {
     }
 }
 
-/* Sur les écrans, quand la largeur de la fenêtre fait au minimum 1280px */
+/* Fenêtre au-dessus de 800px : 
+- le bandeau va se décrocher à droite
+*/
 @media all and (min-width: 800px) {
     header nav {
         position: relative;
@@ -509,7 +516,10 @@ footer {
 
 }
 
-@media all and (min-width: 1000px) {
+/* Fenêtre au-dessus de 100px
+- activation du bloc de navigation dans l'article javascript
+*/
+@media all and (min-width: 1500px) {
 
     // permet de fixer block-page comme ancre pour nav.article
     #block-page {
@@ -518,9 +528,10 @@ footer {
 
     nav.article {
         display: block;
-        width: 230px;
-        position: absolute;
-        left: -220px;
+        position: fixed;
         text-align: right;
+        top: 200px;
+        left: calc((100vw - 1000px)/2 - 230px);
+        width: 230px;
     }
 }
