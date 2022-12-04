@@ -102,7 +102,6 @@ header nav {
     border: 1px solid $nav_border_color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 
-
     ul {
         list-style-type: none;
         display: flex;
@@ -514,21 +513,15 @@ footer {
 
     #content-wrap {
         /* pour pousser le footer en bas de la page dans tous les cas */
-        padding-bottom: 2.5rem;
+        padding-bottom: 1rem;
     }
 
 }
 
-/* Fenêtre au-dessus de 100px
+/* Fenêtre au-dessus de 1230px
 - activation du bloc de navigation dans l'article javascript
 */
-@media all and (min-width: 1500px) {
-
-    // permet de fixer block-page comme ancre pour nav.article
-    #block-page {
-        position: relative;
-        min-width: 1000px;
-    }
+@media all and (min-width: 1230px) {
 
     .article-container{
         // pour obtenir la sidebar à gauche avec l'article
@@ -540,7 +533,8 @@ footer {
     }
 
     article.full{
-        min-width: 1000px;
+        max-width: 1000px;
+        min-width: 100%;
     }
 
     nav.article {
@@ -548,15 +542,11 @@ footer {
         position: sticky;
         position: -webkit-sticky;
         top: 0;
-        // top: 0
-        // left: -10px;
-        text-align: right;
-        //top: 200px;
+        align-self: flex-start;
         //left: calc((100vw - 1000px)/2 - 230px);
         min-width: 230px;
-
         margin-right: 10px;
-        align-self: flex-start;
+        text-align: right;
     }
 
 }
