@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: post
 ---
 
-![Photo de moi](/assets/images/moialabeach.jpeg)
+![Photo de moi](assets/ressources/img/photos_de_oim/moialabeach.jpeg)
 *Photo de moi à la plage avec un chien (mais c'est pas mon chien).*
 
 Je conçois depuis 3 ans des solutions pour l’exploitation de données. 
