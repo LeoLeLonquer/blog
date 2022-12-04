@@ -19,7 +19,7 @@ Voici quelques bons exemples mis en évidence pour rafraîchir la mémoire :
 - les phénomènes océaniques du réchauffement sont quasiment inconnus du grand public. Par exemple l'acidification des océans entrave la calcification du plancton et fatalement impacte toute la chaîne alimentaire. 
 - Les gazs à effet de serre qui participent au réchauffement climatique sont une partie minime des émissions totales (7% je crois). La majorité est absorbée par les océans, les forêts. Une partie reste dans l'atmosphère et conduit à l'effet de serre.
 
-![Fresque du climat](assets/ressources/img/fresque/fresque01_blur.png)
+![Fresque du climat](../assets/ressources/img/fresque/fresque01_blur.png)
 
 ## Les actions
 
@@ -29,7 +29,7 @@ Nous découvrons les effets d'échelle, ce qui incombe à l'individu et au colle
 La démonstration des faits est très honnête, on comprend vite qu'il ne s'agit pas seulement de trier nos déchets et que l'action individuelle ne nous sauvera pas. Ce sont nos modes de production qui sont à revoir de fond en comble.
 
 J'aime beaucoup ce graphique :  
-![Champignon repartition CO2 mondial](assets/ressources/img/fresque/champignon.jpg)
+![Champignon repartition CO2 mondial](../assets/ressources/img/fresque/champignon.jpg)
 
 On y observe la distribution des émissions de CO2 au niveau mondial, mais on pourrait également le lire comme la répartition de la consommation de ressources au niveau mondial. De ce point de vue, il illustre le rapport de production-consommation entre les pays du Nord et du Sud.
 
