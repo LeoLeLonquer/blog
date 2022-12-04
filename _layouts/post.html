@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
-
-<article>
-  {% include article_title.html post=page %}
-  {{ content }}
-</article>
+<div class="article-container">
+  <nav class="article">
+      <ul></ul>
+  </nav>
+  
+  <article class="full">
+    {% include article_title.html post=page %}
+    {{ content }}
+  </article>
+</div>
