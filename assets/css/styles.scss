@@ -527,14 +527,36 @@ footer {
     // permet de fixer block-page comme ancre pour nav.article
     #block-page {
         position: relative;
+        min-width: 1000px;
+    }
+
+    .article-container{
+        // pour obtenir la sidebar à gauche avec l'article
+        display:flex;
+
+        // pour compenser l'effet du flex à cause de la sidebar
+        position: relative;
+        left: -230px;
+    }
+
+    article.full{
+        min-width: 1000px;
     }
 
     nav.article {
         display: block;
-        position: fixed;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        // top: 0
+        // left: -10px;
         text-align: right;
-        top: 200px;
-        left: calc((100vw - 1000px)/2 - 230px);
-        width: 230px;
+        //top: 200px;
+        //left: calc((100vw - 1000px)/2 - 230px);
+        min-width: 230px;
+
+        margin-right: 10px;
+        align-self: flex-start;
     }
+
 }
