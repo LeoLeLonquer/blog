@@ -19,7 +19,7 @@ Voici quelques bons exemples mis en évidence pour rafraîchir la mémoire :
 - les phénomènes océaniques du réchauffement sont quasiment inconnus du grand public. Par exemple l'acidification des océans entrave la calcification du plancton et fatalement impacte toute la chaîne alimentaire. 
 - Les gazs à effet de serre qui participent au réchauffement climatique sont une partie minime des émissions totales (7% je crois). La majorité est absorbée par les océans, les forêts. Une partie reste dans l'atmosphère et conduit à l'effet de serre.
 
-![Fresque du climat](../assets/ressources/img/fresque/fresque01_blur.png)
+![Fresque du climat](../assets/ressources/img/fresque/fresque01.jpg)
 
 ## Les actions
 
@@ -39,6 +39,8 @@ Globalement le chantier est phénoménal !
 
 Pas de doute là-dessus, la démonstration de la fresque est la suivante : les activités industrielles telles qu'elles sont pratiquées aujourd'hui impactent fortement les cycles naturels existants et entraînent un effet boule de neige qui conduit à un réchauffement général de la température sur Terre. 
 Pour l'instant, nous ne sommes clairement pas à la hauteur de l'enjeu, la vie de millions de personnes sur Terre est compromise. Il faut changer de modèle économique !
+
+Merci à Thomas Le Boulicot et CapGemini pour cette après-midi enrichissante.
 
 #### A noter
 
