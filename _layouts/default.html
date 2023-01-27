@@ -2,19 +2,26 @@
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "fr" }}" prefix="og: https://ogp.me/ns#">
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}" prefix="og: https://ogp.me/ns#">
     <head>
         <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
         <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="{{ page.url | absolute_url }}" />
-        <meta name="description" property="og:description" 
-        content="{% if post.excerpt %}{{ post.excerpt }}{% else %}L{3,4}: Le blog de Léo{% endif %}">
-
+        {% capture description %}
+            {% if page.description %}
+                {{ page.description }}
+            {% elsif page.id %}
+                {{ page.excerpt | strip_html }}
+            {% else %}
+                {{ site.default_description }}
+            {% endif %}
+        {% endcapture %}
+        <meta name="description" property="og:description" content="{{ description | strip_newlines | strip }}">
         {% if page.image %}
-            <meta name="image" property="og:image" content="{{ '/assets/images/thumbnail-default.jpg' | absolute_url }}">
+            <meta name="image" property="og:image" content="{{ page.image | absolute_url }}">
         {% else %}
-            <meta name="image" property="og:image" content="{{ '/assets/images/thumbnail-default.jpg' | absolute_url }}">
+            <meta name="image" property="og:image" content="{{ site.default_thumbnail | absolute_url }}">
         {% endif %}
         <meta charset="{{ site.encoding }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">

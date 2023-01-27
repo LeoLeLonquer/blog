@@ -4,6 +4,9 @@ permalink: /:categories/:title
 lang: "fr"
 excerpt_separator: <!--more-->
 date_format: "%B %d, %Y"
+default_description: "L{3,4}: Le blog de Léo"
+default_thumbnail: "/assets/images/thumbnail-default.jpg"
+
 #url: https://leolelonquer.github.io/
 
 # Menu
@@ -20,7 +23,13 @@ navigation:
 #   - {file: "pages/amis.md"}
 #   - {file: "pages/cv.html"}
 
-
+# defaults:
+#   -
+#     scope:
+#       path: ""      # empty string for all files
+#       type: posts   # limit to posts
+#     values:
+#       is_post: true # automatically set is_post=true for all posts
 
 #- {icon: "fa-home", sidebaricon: "fa-home", title: "Accueil", url: "/"}
   
@@ -38,3 +47,4 @@ comments:
 
 plugins:
  - jekyll-feed
+
