@@ -3,6 +3,7 @@ title: "Fresque du Climat : ça fait froid dans le dos"
 layout: post
 tags: notes
 category: notes
+image: "../assets/ressources/img/fresque/fresque01.jpg"
 ---
 
 Je suis en transition entre deux missions, j'ai donc pu participé à une [fresque du climat](https://fresqueduclimat.org/) organisée par ma boîte CapGemini et Thomas Le Boulicaut ce vendredi 25 novembre. L'occasion de faire le point sur ma connaissance du réchauffement climatique.
