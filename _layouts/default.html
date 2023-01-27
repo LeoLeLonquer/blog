@@ -3,31 +3,32 @@
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "fr" }}" prefix="og: https://ogp.me/ns#">
-    <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
-    <!--<meta name="image" property="og:image" content="{{ '/assets/images/thumbnail-default.jpg' | absolute_url }}">-->
-    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:image" content="https://www.brest.fr/fileadmin/imported_for_brest/fileadmin/Images/Un_territoire/decouvrir/le_territoire/brest-metropole/Brest/F-Le-Mouillour_06.jpg" />
-    <meta name="description" property="og:description" content="test">
-    
-    <meta charset="{{ site.encoding }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="{{ page.author | default: site.author | escape }}">
-    <meta name="generator" content="Jekyll v{{ jekyll.version }}">
-    <!--<meta name="image" property="og:image" content="{{ '/assets/images/thumbnail-default.jpg' | absolute_url }}">-->
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}?">
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
-    {% if site.plugins contains "jekyll-feed" %}<link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">{% endif %}
-    {% if page.mathjax or site.mathjax %}
-    <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
-    <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
-    <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>
-    {% endif %}
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <head>
+        <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+        <!--<meta name="image" property="og:image" content="{{ '/assets/images/thumbnail-default.jpg' | absolute_url }}">-->
+        <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ page.url | absolute_url }}" />
+        <meta property="og:image" content="https://www.brest.fr/fileadmin/imported_for_brest/fileadmin/Images/Un_territoire/decouvrir/le_territoire/brest-metropole/Brest/F-Le-Mouillour_06.jpg" />
+        <meta name="description" property="og:description" content="test">
 
+        <meta charset="{{ site.encoding }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="{{ page.author | default: site.author | escape }}">
+        <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+        <!--<meta name="image" property="og:image" content="{{ '/assets/images/thumbnail-default.jpg' | absolute_url }}">-->
+        <link rel="canonical" href="{{ page.url | absolute_url }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}?">
+        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+        {% if site.plugins contains "jekyll-feed" %}<link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">{% endif %}
+        {% if page.mathjax or site.mathjax %}
+        <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
+        <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+        <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>
+        {% endif %}
+        <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+        <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    </head>
     <body>
         <div id="page-container">
             <div id="content-wrap">
