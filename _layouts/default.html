@@ -19,9 +19,9 @@
         {% endcapture %}
         <meta name="description" property="og:description" content="{{ description | strip_newlines | strip }}">
         {% if page.image %}
-            <meta name="image" property="og:image" content="{{ page.image | absolute_url }}">
+        <meta name="image" property="og:image" content="{{ page.image | absolute_url }}">
         {% else %}
-            <meta name="image" property="og:image" content="{{ site.default_thumbnail | absolute_url }}">
+        <meta name="image" property="og:image" content="{{ site.default_thumbnail | absolute_url }}">
         {% endif %}
         <meta charset="{{ site.encoding }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,6 +39,7 @@
         {% endif %}
         <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
         <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+        {% seo %}
     </head>
     <body>
         <div id="page-container">
