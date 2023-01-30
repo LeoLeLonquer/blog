@@ -87,7 +87,7 @@ bloc : `<Ctrl-V>`
 
 - plein de réglages très simples qui facilite la vie  
 - possibilité de giter le fichier  
-- exemple : https://github.com/LeoLeLonquer/Working-Setup/blob/master/.vimrc  
+- exemple : [mon vimrc](https://github.com/LeoLeLonquer/Working-Setup/blob/master/.vimrc)
   
 ### Copier/coller depuis l'extérieur de Vim est compliqué. (Vim meilleur éditeur du monde)
 

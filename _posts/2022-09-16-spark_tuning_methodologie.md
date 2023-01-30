@@ -6,10 +6,10 @@ category: dev
 ---
 ## Métrique temps CPU
 
-Dans le contexte d'un cluster, la métrique générale qui permet d'identifier les charge des jobs est le temps CPU cumulé. 
-Un cluster à 100 machines possédant chacune 4 coeurs peut être associée à une machine de 400 coeurs. 
-Sur 1 journée, les 400 coeurs peuvent donc produire  24 \* 400 = 9600 heures de traitement.
-Ces 9600 heures de traitement sont notre ressources à partager entre nos utilisateurs et nos traitements.
+Dans le contexte d'un cluster, la métrique générale qui permet d'identifier les charge des jobs est le temps CPU cumulé.  
+Un cluster à 100 machines possédant chacune 4 coeurs peut être associée à une machine de 400 coeurs.  
+Sur 1 journée, les 400 coeurs peuvent donc produire  24 \* 400 = 9600 heures de traitement.  
+Ces 9600 heures de traitement sont notre ressources à partager entre nos utilisateurs et nos traitements.  
 
 Les fournisseurs de PaaS comme GCP et AWS peuvent prendre comme mesure de facturation le temps de traitement CPU ou la quantité de données stockées sur disque.
 
@@ -20,7 +20,7 @@ On suppose que l'on n'utilise que les DataFrames ici.
 
 ### Récupérer du contexte
 
-- Faire un schéma du traitement global (utiliser par exemple : arthursonzogni.com/Diagon/#GraphDAG)
+- Faire un schéma du traitement global (utiliser par exemple : [Diagon](https://arthursonzogni.com/Diagon/))
 - Récupérer la taille des données d'entrée:
   - données lues
   - données utiles (données après filtrage)
@@ -33,14 +33,14 @@ On suppose que l'on n'utilise que les DataFrames ici.
 
 ##### Schéma des traitements
 
-```sh
+```
 ┌─────────────┐┌──────────────┐┌─────────┐┌───────┐┌───────────────┐┌───────┐┌────────┐┌──────┐
 │tableA1      ││tableA2       ││ref1     ││ref2   ││ref2           ││ref3   ││ref4    ││ref5  │
 └┬────────────┘└┬─────────────┘└┬────────┘└┬──────┘└┬──────────────┘└┬──────┘└┬───────┘└┬─────┘
-┌▽──────────────▽┐              │          │        │                │        │         │      
+┌▽─────────────▽┐              │          │        │                │        │         │      
 │tableAUnion     │union         │          │        │                │        │         │      
 └┬───────────────┘              │          │        │                │        │         │      
-┌▽──────────────────────────────▽──────────▽────────▽────────────────▽────────▽─────────▽┐     
+┌▽─────────────────────────────▽──────────▽────────▽────────────────▽────────▽─────────▽┐     
 │tableAJoinDF                                                                            │join     
 └┬───────────────────────────────────────────────────────────────────────────────────────┘     
 ┌▽────────┐                                                                                    
@@ -179,7 +179,7 @@ Pour le step 2100
     - Ex de requête d'identification : 
 
 ```sql
-`SELECT `lac`, COUNT(`lac`) as occurence FROM noria GROUP BY `lac` ORDER BY occurence DESC LIMIT 10;`
+SELECT `lac`, COUNT(`lac`) as occurence FROM noria GROUP BY `lac` ORDER BY occurence DESC LIMIT 10;
 ```
 
 ##### Résolution
@@ -197,7 +197,7 @@ Se référer au tableau des données d'entrée.
 
 #### Saturer en exécuteurs
 
-Dans un premier temps, nous allons saturer en exécuteurs le job en lui attribuant autant d'exécuteurs que nécessaire ou plus.
+Dans un premier temps, nous allons saturer en exécuteurs le job en lui attribuant autant d'exécuteurs que nécessaire ou plus.  
 Deux solutions :
 
 1. A partir de la taille des données lues, évaluer le nombre de partitions au total (c'est à dire le parallélisme maximum) et attribuer autant de cores.
@@ -219,8 +219,8 @@ spark.dynamicAllocation.maxExecutors # assigner une valeur très importante au d
 
 #### Saturer en _spark.shuffle.partitions_
 
-A partir de la charge utile, on peut estimer le nombre de partitions nécessaires.
-**Exemple :**
+A partir de la charge utile, on peut estimer le nombre de partitions nécessaires.  
+**Exemple :**  
 Si la charge utile (en entrée) est de 14,3Go et que l'on souhaite avoir des partitions de taille spécifiques :
 
 | partition_size | spark.shuffle.partitions |
@@ -229,7 +229,7 @@ Si la charge utile (en entrée) est de 14,3Go et que l'on souhaite avoir des par
 | 150mo          | 95                       |
 | 200mo          | 71                         |
 
-Trouver une première valeur de spark.shuffle.partitions intéressante
+Trouver une première valeur de _spark.shuffle.partitions_ intéressante
 
 - Choisir une première valeur faible, faire un test noter le Total Uptime, durées des jobs, Task Time
 - Augmenter la valeur précédente (x1,5 ou +25 ou +50...) jusqu'à ce que les performances ne soient plus améliorées
@@ -248,7 +248,7 @@ Trouver une première valeur de spark.shuffle.partitions intéressante
 
 #### Ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
 
-Tout d'abord activer l'allocation dynamique si cela n'a pas été fait auparavant.
+Tout d'abord activer l'allocation dynamique si cela n'a pas été fait auparavant.  
 Pour ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
 
 - Utiliser la nouvelle valeur de _spark.shuffle.partitions_
@@ -274,13 +274,13 @@ Pour ajuster la mémoire allouée
 
 - Faire un premier test avec toutes les nouvelles configurations ajoutées
 - Dans le Spark HS, **en regardant chacun des stages**, noter la valeur max de "Shuffle Spill (Disk)" (Si la valeur n'apparaît pas dans la page d'un stage, c'est que la valeur est nulle)
-- Augmenter spark.shuffle.partitions (en priorité) et executor-memory petit à petit jusqu'à ce que Shuffle Spill (Disk) disparaisse
-- De préférence spark.shuffle.partitions = spark.dynamicAllocation.maxExecutors x executor-cores x n , où n est un entier, pour maximiser le parallélisme  
+- Augmenter _spark.shuffle.partitions_ (en priorité) et executor-memory petit à petit jusqu'à ce que Shuffle Spill (Disk) disparaisse
+- De préférence `spark.shuffle.partitions = spark.dynamicAllocation.maxExecutors x executor-cores x n` , où n est un entier, pour maximiser le parallélisme  
 
  **Important :** Vérifier que le GC fonctionne correctement depuis la page Executors (avoir un minimum de cases GC rouges sur les exécuteurs)
 
 #### Ajuster pour des volumétries variables
 
-Le pipeline peut avoir des tailles de données variable.
-Le mieux est de produire un modèle qui nous permet de calculer pour cahque volumétrie, le nombre de ressource à allouer.
-En gros, on sélectionne des volumétrie, on optimise le pipeline indépendemment pour chacun d'entre eux, on note les valeurs trouvées dans un tableau, et on tente de trouver une règle pour chacune des valeurs trouvées. Ne pas oublier de mettre un min max à chaque fois
+Le pipeline peut avoir des tailles de données variable.  
+Le mieux est de produire un modèle qui nous permet de calculer pour chaque volumétrie, le nombre de ressource à allouer.  
+En gros, on sélectionne des volumétries, on optimise le pipeline indépendemment pour chacun d'entre eux, on note les valeurs trouvées dans un tableau, et on tente de trouver une règle pour chacune des valeurs trouvées. Ne pas oublier de mettre un min max à chaque fois.

@@ -1,4 +1,5 @@
 .obsidian/
+tmp/
 .DS_Store
 .bundle
 .jekyll-cache

@@ -26,10 +26,16 @@ git clone https://github.com/LeoLeLonquer/blog
 ````
 
 Pour lancer un serveur local, se placer dans le dossier et lancer :  
+
 ```bash
 jekyll serve --livereload
 ```
-Si bug au démarrage exécuter : `bundle add webrick`.
+
+Si bug au démarrage exécuter :  
+
+```bash
+bundle add webrick
+```
 
 ## License
 
