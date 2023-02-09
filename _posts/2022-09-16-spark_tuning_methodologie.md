@@ -7,16 +7,17 @@ category: dev
 ## Métrique temps CPU
 
 Dans le contexte d'un cluster, la métrique générale qui permet d'identifier les charge des jobs est le temps CPU cumulé.  
-Un cluster à 100 machines possédant chacune 4 coeurs peut être associée à une machine de 400 coeurs.  
+Un cluster à 100 machines possédant chacune 4 coeurs peut être associé à une machine de 400 coeurs.  
 Sur 1 journée, les 400 coeurs peuvent donc produire  24 \* 400 = 9600 heures de traitement.  
-Ces 9600 heures de traitement sont notre ressources à partager entre nos utilisateurs et nos traitements.  
+Ces 9600 heures de traitement sont nos ressources à partager entre nos utilisateurs et nos traitements.  
 
 Les fournisseurs de PaaS comme GCP et AWS peuvent prendre comme mesure de facturation le temps de traitement CPU ou la quantité de données stockées sur disque.
 
 <!--more-->
-## Méthode pour un traitement d'enrichissement
+## Méthode pour un traitement d'enrichissement batch
 
-On suppose que l'on n'utilise que les DataFrames ici.
+Dans le cas d'un traitement d'enrichissement en mode batch de la donnée, nous utilisons des DataFrames.
+Nous avons avez accès au Spark History Server.
 
 ### Récupérer du contexte
 
@@ -25,7 +26,7 @@ On suppose que l'on n'utilise que les DataFrames ici.
   - données lues
   - données utiles (données après filtrage)
   - données de jointure
-- Faire une liste des temps de traitement actuel (sur le pas le plus important de préférence)
+- Faire une liste des temps de traitement actuels (sur le pas le plus important de préférence)
   - Récupérer les métriques Uptime (page Jobs) et TaskTime (page Executors)
   - Si une application a plusieurs Jobs, récupérer les temps de traitement de chacun des jobs
 
@@ -40,7 +41,7 @@ On suppose que l'on n'utilise que les DataFrames ici.
 ┌▽─────────────▽┐              │          │        │                │        │         │      
 │tableAUnion     │union         │          │        │                │        │         │      
 └┬───────────────┘              │          │        │                │        │         │      
-┌▽─────────────────────────────▽──────────▽────────▽────────────────▽────────▽─────────▽┐     
+┌▽─────────────────────────────▽──────────▽────────▽────────────────▽────────▽──────▽┐     
 │tableAJoinDF                                                                            │join     
 └┬───────────────────────────────────────────────────────────────────────────────────────┘     
 ┌▽────────┐                                                                                    
@@ -143,17 +144,17 @@ Pour le step 2100
 
 #### Liste ordonnée des optimisations
 
-1. Supprimer les transformations de type wide (qui produisent du shuffle) autant que possible (.repartition, jointures inutiles)
+1. Supprimer les transformations de type wide (qui produisent du shuffle) autant que possible (`.repartition()`, jointures inutiles)
     - [Shuffle operations](https://spark.apache.org/docs/latest/rdd-programming-guide.html#shuffle-operations)
-2. Supprimer les actions qui produisent des jobs autant de possible (ex: .count() pouvant être réunies)
+2. Supprimer les actions qui produisent des jobs autant de possible (ex: `.count()` pouvant être réunies)
     - [List of actions](https://spark.apache.org/docs/latest/rdd-programming-guide.html#actions)
-3. Identifier les tables lues deux fois (par exemple les tables de traitement sur lesquels on fait un .count()) et ajouter un .cache()
+3. Identifier les tables lues deux fois (par exemple les tables de traitement sur lesquels on fait un `.count()`) et ajouter un `.cache()`
 4. Résoudre les jointures de données asymétriques : voir la section ci-dessous
 5. Remplacer au maximum les UDFs par des méthodes internes Spark.
 6. Identifier les tables qui peuvent être broadcastées pour la jointure (tables <250Mo)
     - note : les tables < 10Mo sont broadcastées par défaut grâce à l'option `spark.sql.autoBroadcastJoinThreshold`
 7. Ajouter la sérialisation Kryo si elle n'est pas activée
-8. Ajouter les valeurs recommandées suivantes dans le workflow.xml ou spark2Job.sh :  
+8. Ajouter les valeurs recommandées suivantes au lancement du job Spark :  
 
 ```xml
 --conf spark.shuffle.file.buffer=1M 
@@ -167,11 +168,12 @@ Pour le step 2100
 --conf spark.driver.extraJavaOptions="-XX:+UseCompressedOops"
 ```
 
-#### Résoudre les jointures de données asymétriques :
+#### Résoudre les jointures de données asymétriques
+
 ##### Identification
 
 1. A partir du Spark HS, sélectionner une application du contexte qui a tourné en production. 
-2. Pour le job principal, **pour chacun de ses stages**, vériifier dans le tableau "Summary Metrics" que "Duration median" et "Duration 75th Percentile" sont proches de "Duration Max".
+2. Pour le job principal, **pour chacun de ses stages**, vérifier dans le tableau "Summary Metrics" que "Duration median" et "Duration 75th Percentile" sont proches de "Duration Max".
     - Si la différence est importante (>x1,5), c'est que certainement une jointure avec des données asymétriques (skewed data) a eu lieu. 
     - On peut retrouver la tâche qui a eu le plus de travail dans le tableau des tâches
 3. Retrouver à partir de la page SQL à quelles tables correspondent les jointures de données asymétriques
@@ -198,10 +200,11 @@ Se référer au tableau des données d'entrée.
 #### Saturer en exécuteurs
 
 Dans un premier temps, nous allons saturer en exécuteurs le job en lui attribuant autant d'exécuteurs que nécessaire ou plus.  
-Deux solutions :
+
+**Deux solutions :**
 
 1. A partir de la taille des données lues, évaluer le nombre de partitions au total (c'est à dire le parallélisme maximum) et attribuer autant de cores.
-    - ex : 12Go de données à lire, taille de partition HDFS = 120Mo donc nombre de partitions au total = 100. Donc par exemple executor-cores=4 et num-executor=25.
+    - ex : 12Go de données à lire, taille de partition HDFS = 120Mo donc nombre de partitions au total = 100. Donc par exemple `executor-cores=4` et `num-executor=25`.
     - désavantage : si la donnée en entrée n'est pas réunie dans des gros fichiers HDFS mais dans des petits, on pourra avoir plus de partitions au total dans la réalité
 2. Activer l'allocation dynamique, lancer un job et noter le nombre d'exécuteurs alloués. Fixer le nombre d'exécuteurs du job avec cette valeur par la suite.
     - Utiliser les valeurs suivantes :
@@ -220,8 +223,9 @@ spark.dynamicAllocation.maxExecutors # assigner une valeur très importante au d
 #### Saturer en _spark.shuffle.partitions_
 
 A partir de la charge utile, on peut estimer le nombre de partitions nécessaires.  
+
 **Exemple :**  
-Si la charge utile (en entrée) est de 14,3Go et que l'on souhaite avoir des partitions de taille spécifiques :
+Si la charge utile (en entrée) est de 14,3Go et que l'on souhaite avoir des partitions de taille spécifique :
 
 | partition_size | spark.shuffle.partitions |
 | -------------- | ------------------------ |
@@ -229,7 +233,7 @@ Si la charge utile (en entrée) est de 14,3Go et que l'on souhaite avoir des par
 | 150mo          | 95                       |
 | 200mo          | 71                         |
 
-Trouver une première valeur de _spark.shuffle.partitions_ intéressante
+Trouver une première valeur de `spark.shuffle.partitions` intéressante
 
 - Choisir une première valeur faible, faire un test noter le Total Uptime, durées des jobs, Task Time
 - Augmenter la valeur précédente (x1,5 ou +25 ou +50...) jusqu'à ce que les performances ne soient plus améliorées
@@ -249,9 +253,9 @@ Trouver une première valeur de _spark.shuffle.partitions_ intéressante
 #### Ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
 
 Tout d'abord activer l'allocation dynamique si cela n'a pas été fait auparavant.  
-Pour ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
+Pour ajuster `spark.dynamicAllocation.maxExecutors` et `executor-cores`
 
-- Utiliser la nouvelle valeur de _spark.shuffle.partitions_
+- Utiliser la nouvelle valeur de `spark.shuffle.partitions`
 - Assigner à spark.dynamicAllocation.maxExecutors une valeur faible, faire un test en collectant Total Uptime, durées des jobs, Task Time
 - Augmenter la valeur petit à petit jusqu'à attendre un palier de temps de traitement
 - Choisir la première valeur atteignant le palier
@@ -273,14 +277,99 @@ Pour ajuster _spark.dynamicAllocation.maxExecutors_ et _executor-cores_
 Pour ajuster la mémoire allouée
 
 - Faire un premier test avec toutes les nouvelles configurations ajoutées
-- Dans le Spark HS, **en regardant chacun des stages**, noter la valeur max de "Shuffle Spill (Disk)" (Si la valeur n'apparaît pas dans la page d'un stage, c'est que la valeur est nulle)
-- Augmenter _spark.shuffle.partitions_ (en priorité) et executor-memory petit à petit jusqu'à ce que Shuffle Spill (Disk) disparaisse
+- Dans le Spark HS, **en regardant chacun des stages**, noter la valeur max de "Shuffle Spill (Disk)" (si la valeur n'apparaît pas dans la page d'un stage, c'est qu'elle est nulle)
+- Augmenter `spark.shuffle.partitions` (en priorité) et `executor-memory` petit à petit jusqu'à ce que Shuffle Spill (Disk) disparaisse
 - De préférence `spark.shuffle.partitions = spark.dynamicAllocation.maxExecutors x executor-cores x n` , où n est un entier, pour maximiser le parallélisme  
 
  **Important :** Vérifier que le GC fonctionne correctement depuis la page Executors (avoir un minimum de cases GC rouges sur les exécuteurs)
 
-#### Ajuster pour des volumétries variables
+### Ajuster automatiquement
 
-Le pipeline peut avoir des tailles de données variable.  
-Le mieux est de produire un modèle qui nous permet de calculer pour chaque volumétrie, le nombre de ressource à allouer.  
-En gros, on sélectionne des volumétries, on optimise le pipeline indépendemment pour chacun d'entre eux, on note les valeurs trouvées dans un tableau, et on tente de trouver une règle pour chacune des valeurs trouvées. Ne pas oublier de mettre un min max à chaque fois.
+Le pipeline peut avoir des tailles de données variables.  
+Le mieux est de produire un modèle qui nous permet de calculer pour chaque volumétrie, les ressources à allouer.  
+
+Pour procéder, nous sélectionnons des volumétries, nous optimisons le pipeline indépendemment pour chacun d'entre eux.
+Les paramètres optimisés sauvegardés dans un tableau vont nous permettre de chercher une règle générale que l'on peut appeler heuristique.
+
+#### Méthode pour trouver l'heuristique :
+
+1.  Sélectionner avec précaution des scénarios d'exécution (volumétries, contextes, heures de lancement). Exemple :
+    -   2Go, journée lambda entre 4 et 5h
+    -   5Go, journée lambda entre 7h et 8h
+    -   10Go, journée lambda entre 21h et 22h
+    -   3Go : 1er jour du mois entre 3h et 4h
+    -   10Go : 1er jour du mois entre 16h et 17h
+    -   24Go : 1er jour du mois entre 23h et minuit
+2.  Pour chacune de ces configurations
+    1.  Effectuer une optimisation des ressources comme décrit ci-dessus (principalement `num-executors, executor-cores, executor-memory, spark.shuffle.partitions`)
+        -   `num-executors` et `executor-cores` peuvent être notés sous la forme d'une seule configuration `(num-executors, executor-cores)`
+    2.  Noter dans un tableau les résultats des métriques Total Uptime, Task Time, max Shuffle Spill Disk.
+        -   Noter notamment la configuration optimale pour chacune des configurations.
+3.  Pour chaque paramètre Spark à ajuster, afficher les valeurs de la configuration optimale en fonction de la volumétrie.
+    -   Ex : pour num-executors (avec num-executors=5) , faire un graphe avec les configurations optimales obtenues suivantes (en abscisse : volumétrie, en ordonnée : num-executors) 
+      
+| Volumétrie (Go) | num-executors |
+| --------------- | ------------- |
+| 2               | 10            |
+| 5               | 15            |
+| 10              | 20            |
+| 20              | 40            |
+
+4.  Observer le lien de corrélation, les plafonds et les plateaux. Au mieux faire une régression.
+5.  En déduire pour chacun des paramètres :
+    -   une formule en fonction de la volumétrie ou d'autres paramètres pour le cas général
+    -   une borne inférieure (si besoin)
+    -   une borne supérieure (recommandée)
+    -   une expression finale au format : `max(borne inférieure, min(borne supérieure, formule))`
+        -   Ex : `maxExecutors = max(10, min(100, Volumétrie/(128Mo * 5))`
+
+6. Mettre en place un mécanisme qui détecte la volumétrie en entrée et calcule les paramètres Spark adaptés.
+
+Vous avez maintenant un outil super fit !
+
+## Conclusion
+
+Dans cet article, nous avons exploré la méthode pour optimiser un traitement batch écrit en Spark. Les grandes étapes à retenir sont les suivantes :
+
+1. Obtenir du contexte
+2. Optimiser le code
+3. Optimiser les ressources allouées
+4.  Ajuster automatiquement
+
+L'idée est que son application soit slim & smart.
+
+Malheureusement la Spark UI est vraiment mal conçue et ne permet pas d'obtenir rapidement un aperçu de l'état de santé de son application.
+Je conseille fortement de regarder [Spark Delight](https://www.datamechanics.co/delight) que je n'ai pas pu explorer moi-même malheureusement.
+
+
+## Ressources
+
+#### Docs officielles
+
+- [Tuning - Spark 2.3.2](https://spark.apache.org/docs/2.3.2/tuning.html) 
+- [Performance Tuning - Spark 2.4.8](https://spark.apache.org/docs/2.4.8/sql-performance-tuning.html)
+- [Configuration - dynamic allocation](https://spark.apache.org/docs/latest/configuration.html#dynamic-allocation)
+- [Dynamic Allocation](https://spark.apache.org/docs/latest/job-scheduling.html#dynamic-resource-allocation)
+
+#### Tuning général
+
+- [How-to: Tune Your Apache Spark Jobs (Part 1)](https://blog.cloudera.com/how-to-tune-your-apache-spark-jobs-part-1/) : bonne introduction à l'optimisation Spark
+- [How-to: Tune Your Apache Spark Jobs (Part 2)](https://blog.cloudera.com/how-to-tune-your-apache-spark-jobs-part-2/) : déprécié mais intéressant
+- [Spark and Yarn App Models](https://clouderatemp.wpengine.com/blog/2014/05/apache-spark-resource-management-and-yarn-app-models/) 
+- [6 recommandations pour optimiser un job Spark - OCTO Talks !](https://blog.octo.com/6-recommandations-pour-optimiser-un-job-spark/)
+- [Le re-partitionnement Spark pour gagner en performance](https://meritis.fr/re-partitionnement-spark-gagner-performance/)
+- [Apache Spark Performance Boosting](https://towardsdatascience.com/apache-spark-performance-boosting-e072a3ec1179)
+- [Spark Tips. Partition Tuning](https://luminousmen.com/post/spark-tips-partition-tuning)
+- [Facebook Tuning](https://www.slideshare.net/databricks/tuning-apache-spark-for-largescale-workloads-gaoxiang-liu-and-sital-kedia)
+- [Spark Performance Optimization Series: #2. Spill](https://medium.com/road-to-data-engineering/spark-performance-optimization-series-2-spill-685126e9d21f)
+- [Shuffle Spill (Disk)](https://selectfrom.dev/spark-performance-tuning-spill-7318363e18cb)
+
+#### Spark UI et Spark HS
+
+- [Unpacking the Spark Web UI – Ian Whitestone](https://ianwhitestone.work/spark-web-ui/)
+- [Data Mechanics Delight - better Spark UI](https://www.datamechanics.co/blog-post/building-a-better-spark-ui-data-mechanics-delight)
+- [spark/web-ui.md](https://github.com/apache/spark/blob/master/docs/web-ui.md)
+
+#### Autres
+
+- [Dr. Elephant](https://www.databricks.com/fr/session/dr-elephant-for-monitoring-and-tuning-apache-spark-jobs-on-hadoop) : un ancien outil d'optimisation automatique
