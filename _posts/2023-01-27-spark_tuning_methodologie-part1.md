@@ -156,7 +156,7 @@ Pour le step 2100
 2. Supprimer les actions qui produisent des jobs autant de possible (ex: `.count()` pouvant être réunies)
     - [List of actions](https://spark.apache.org/docs/latest/rdd-programming-guide.html#actions)
 3. Identifier les tables lues deux fois (par exemple les tables de traitement sur lesquels on fait un `.count()`) et ajouter un `.cache()`
-4. Résoudre les jointures de données asymétriques : voir la section ci-dessous
+4. Résoudre les jointures de données asymétriques : voir la [section](#résoudre-les-jointures-de-données-asymétriques) ci-dessous
 5. Remplacer au maximum les UDFs par des méthodes internes Spark.
 6. Identifier les tables qui peuvent être broadcastées pour la jointure (tables <250Mo)
     - note : les tables < 10Mo sont broadcastées par défaut grâce à l'option `spark.sql.autoBroadcastJoinThreshold`
