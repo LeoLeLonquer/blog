@@ -1,9 +1,16 @@
 ---
-title: "Spark 2.x : Méthodologie d'optimisation des jobs" 
+title: "Comment optimiser Spark 2 ? Chapitre 1 : tailler dans le gras" 
 layout: post
 tags: dev spark tuning 
 category: dev
 ---
+Spark est une grosse machine avec plein de boutons. Comment s'y retrouver ?  
+Dans ce premier article, nous allons essayer de décortiquer un traitement Spark existant et de tirer les vers du nez de la Spark UI.
+
+<!--more-->
+
+Petit conseil : il faut connaître un peu Spark.
+
 ## Métrique temps CPU
 
 Dans le contexte d'un cluster, la métrique générale qui permet d'identifier les charge des jobs est le temps CPU cumulé.  
@@ -283,66 +290,21 @@ Pour ajuster la mémoire allouée
 
  **Important :** Vérifier que le GC fonctionne correctement depuis la page Executors (avoir un minimum de cases GC rouges sur les exécuteurs)
 
-### Ajuster automatiquement
-
-Le pipeline peut avoir des tailles de données variables.  
-Le mieux est de produire un modèle qui nous permet de calculer pour chaque volumétrie, les ressources à allouer.  
-
-Pour procéder, nous sélectionnons des volumétries, nous optimisons le pipeline indépendemment pour chacun d'entre eux.
-Les paramètres optimisés sauvegardés dans un tableau vont nous permettre de chercher une règle générale que l'on peut appeler heuristique.
-
-#### Méthode pour trouver l'heuristique :
-
-1.  Sélectionner avec précaution des scénarios d'exécution (volumétries, contextes, heures de lancement). Exemple :
-    -   2Go, journée lambda entre 4 et 5h
-    -   5Go, journée lambda entre 7h et 8h
-    -   10Go, journée lambda entre 21h et 22h
-    -   3Go : 1er jour du mois entre 3h et 4h
-    -   10Go : 1er jour du mois entre 16h et 17h
-    -   24Go : 1er jour du mois entre 23h et minuit
-2.  Pour chacune de ces configurations
-    1.  Effectuer une optimisation des ressources comme décrit ci-dessus (principalement `num-executors, executor-cores, executor-memory, spark.shuffle.partitions`)
-        -   `num-executors` et `executor-cores` peuvent être notés sous la forme d'une seule configuration `(num-executors, executor-cores)`
-    2.  Noter dans un tableau les résultats des métriques Total Uptime, Task Time, max Shuffle Spill Disk.
-        -   Noter notamment la configuration optimale pour chacune des configurations.
-3.  Pour chaque paramètre Spark à ajuster, afficher les valeurs de la configuration optimale en fonction de la volumétrie.
-    -   Ex : pour num-executors (avec num-executors=5) , faire un graphe avec les configurations optimales obtenues suivantes (en abscisse : volumétrie, en ordonnée : num-executors) 
-      
-| Volumétrie (Go) | num-executors |
-| --------------- | ------------- |
-| 2               | 10            |
-| 5               | 15            |
-| 10              | 20            |
-| 20              | 40            |
-
-4.  Observer le lien de corrélation, les plafonds et les plateaux. Au mieux faire une régression.
-5.  En déduire pour chacun des paramètres :
-    -   une formule en fonction de la volumétrie ou d'autres paramètres pour le cas général
-    -   une borne inférieure (si besoin)
-    -   une borne supérieure (recommandée)
-    -   une expression finale au format : `max(borne inférieure, min(borne supérieure, formule))`
-        -   Ex : `maxExecutors = max(10, min(100, Volumétrie/(128Mo * 5))`
-
-6. Mettre en place un mécanisme qui détecte la volumétrie en entrée et calcule les paramètres Spark adaptés.
-
-Vous avez maintenant un outil super fit !
-
 ## Conclusion
 
-Dans cet article, nous avons exploré la méthode pour optimiser un traitement batch écrit en Spark. Les grandes étapes à retenir sont les suivantes :
-
-1. Obtenir du contexte
-2. Optimiser le code
-3. Optimiser les ressources allouées
-4.  Ajuster automatiquement
-
-L'idée est que son application soit slim & smart.
+L'idée à retenir dans cet article est que son application soit **slim**.
 
 Malheureusement la Spark UI est vraiment mal conçue et ne permet pas d'obtenir rapidement un aperçu de l'état de santé de son application.
 Je conseille fortement de regarder [Spark Delight](https://www.datamechanics.co/delight) que je n'ai pas pu explorer moi-même malheureusement.
 
 
 ## Ressources
+
+#### Bouquins 
+
+- _Learning Spark: Lightning-Fast Big Data Analysis_ de Holden Karau, Andy Konwinski, Patrick Wendell & Matei Zaharia
+- _Spark: The Definitive Guide: Big Data Processing Made Simple_ de Bill Chambers & Matei Zaharia
+- _High Performance Spark: Best Practices for Scaling and Optimizing Apache Spark_ de Holden Karau & Rachel Warren
 
 #### Docs officielles
 
@@ -360,7 +322,6 @@ Je conseille fortement de regarder [Spark Delight](https://www.datamechanics.co/
 - [Le re-partitionnement Spark pour gagner en performance](https://meritis.fr/re-partitionnement-spark-gagner-performance/)
 - [Apache Spark Performance Boosting](https://towardsdatascience.com/apache-spark-performance-boosting-e072a3ec1179)
 - [Spark Tips. Partition Tuning](https://luminousmen.com/post/spark-tips-partition-tuning)
-- [Facebook Tuning](https://www.slideshare.net/databricks/tuning-apache-spark-for-largescale-workloads-gaoxiang-liu-and-sital-kedia)
 - [Spark Performance Optimization Series: #2. Spill](https://medium.com/road-to-data-engineering/spark-performance-optimization-series-2-spill-685126e9d21f)
 - [Shuffle Spill (Disk)](https://selectfrom.dev/spark-performance-tuning-spill-7318363e18cb)
 
@@ -370,6 +331,4 @@ Je conseille fortement de regarder [Spark Delight](https://www.datamechanics.co/
 - [Data Mechanics Delight - better Spark UI](https://www.datamechanics.co/blog-post/building-a-better-spark-ui-data-mechanics-delight)
 - [spark/web-ui.md](https://github.com/apache/spark/blob/master/docs/web-ui.md)
 
-#### Autres
 
-- [Dr. Elephant](https://www.databricks.com/fr/session/dr-elephant-for-monitoring-and-tuning-apache-spark-jobs-on-hadoop) : un ancien outil d'optimisation automatique
