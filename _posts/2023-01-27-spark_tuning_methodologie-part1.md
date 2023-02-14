@@ -263,7 +263,7 @@ Tout d'abord activer l'allocation dynamique si cela n'a pas été fait auparavan
 Pour ajuster `spark.dynamicAllocation.maxExecutors` et `executor-cores`
 
 - Utiliser la nouvelle valeur de `spark.shuffle.partitions`
-- Assigner à spark.dynamicAllocation.maxExecutors une valeur faible, faire un test en collectant Total Uptime, durées des jobs, Task Time
+- Assigner à `spark.dynamicAllocation.maxExecutors` une valeur faible, faire un test en collectant Total Uptime, durées des jobs, Task Time
 - Augmenter la valeur petit à petit jusqu'à attendre un palier de temps de traitement
 - Choisir la première valeur atteignant le palier
 - Exemple de table de résultat :
@@ -292,11 +292,10 @@ Pour ajuster la mémoire allouée
 
 ## Conclusion
 
-L'idée à retenir dans cet article est que son application soit **slim**.
+L'idée à retenir dans cet article est de faire en sorte que son application soit **slim**.
 
-Malheureusement la Spark UI est vraiment mal conçue et ne permet pas d'obtenir rapidement un aperçu de l'état de santé de son application.
+Malheureusement la Spark UI est mal conçue et ne permet pas d'obtenir rapidement un aperçu de l'état de santé de son application.
 Je conseille fortement de regarder [Spark Delight](https://www.datamechanics.co/delight) que je n'ai pas pu explorer moi-même malheureusement.
-
 
 ## Ressources
 
