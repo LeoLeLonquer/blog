@@ -128,14 +128,15 @@ Sur une journée (ici en sortie) :
 
 ##### Volumétrie table de jointure
 
-| **Table**    | **Path Hdfs vers partition Hive**                                                                    | **Taille données sur disque(sérialisées)** | **Estimation Taille données en mémoire (déserialisées)** |
-| ------------ | ---------------------------------------------------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------- |
+| **Table** | **Path Hdfs vers partition Hive**         | **Taille données sur disque(sérialisées)** | **Estimation Taille données en mémoire (déserialisées)** |
+| --------- | ----------------------------------------- | ------------------------------------------ | -------------------------------------------------------- |
 | ref1      | /apps/hive/warehouse/ref.db/ref1/000000_0 | 20.7 K                                     | 62.0 K                                                   |
-| ref2        | /user/leo/ref/ref2.csv                                                    | 3.8 K                                      | 11.5 K                                                   |
-| ref3 | /user/leo/ref/ref3.csv                             | 65.1 K                                     | 195.2 K                                                  |
-| ref4        | user/leo/ref/ref4/date=2022-07-28                                               | 47.1 M                                     | 141.4 M                                                  |
-| ref5      | /user/leo/ref/ref5/date=2022-07-28_1200                                          | 872.4 M                                    | 2.6 G                                                    |
-| ref6    | /user/leo/ref/ref6/date=2022-07-28                                             | 1.1 G                                      | 3.3G                                                         |
+| ref2      | /user/leo/ref/ref2.csv                    | 3.8 K                                      | 11.5 K                                                   |
+| ref3      | /user/leo/ref/ref3.csv                    | 65.1 K                                     | 195.2 K                                                  |
+| ref4      | user/leo/ref/ref4/date=2022-07-28         | 47.1 M                                     | 141.4 M                                                  |
+| ref5      | /user/leo/ref/ref5/date=2022-07-28_1200   | 872.4 M                                    | 2.6 G                                                    |
+| ref6      | /user/leo/ref/ref6/date=2022-07-28        | 1.1 G                                      | 3.3G                                                     |
+
 
 ##### Temps de traitement
 
@@ -145,7 +146,7 @@ Pour le step 2100
 | ------------- | -------------------- | ------------- | ------------- | --------- |
 | 29            | 19min                | 14min         | 27s           | 8.3h      |
 | 30            | 30min                | 8.1min        | 20min         | 7.2h      |
-| 31            | 13min                | 9.2min        | 1.5min        | 8.4h          |
+| 31            | 13min                | 9.2min        | 1.5min        | 8.4h      |
 
 ### Optimisation code et configuration
 
@@ -203,6 +204,8 @@ Se référer au tableau des données d'entrée.
     2. Join classique sur les autres valeurs
 
 ### Optimisation des ressources
+
+> "Il faut brûler du gaz pour pouvoir optimiser." - un ami qui travaille chez Total
 
 #### Saturer en exécuteurs
 
@@ -323,6 +326,7 @@ Je conseille fortement de regarder [Spark Delight](https://www.datamechanics.co/
 - [Spark Tips. Partition Tuning](https://luminousmen.com/post/spark-tips-partition-tuning)
 - [Spark Performance Optimization Series: #2. Spill](https://medium.com/road-to-data-engineering/spark-performance-optimization-series-2-spill-685126e9d21f)
 - [Shuffle Spill (Disk)](https://selectfrom.dev/spark-performance-tuning-spill-7318363e18cb)
+- [Facebook Tuning](https://www.slideshare.net/databricks/tuning-apache-spark-for-largescale-workloads-gaoxiang-liu-and-sital-kedia)
 
 #### Spark UI et Spark HS
 
