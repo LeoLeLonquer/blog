@@ -20,14 +20,22 @@ Je vis à Brest où je me suis bien installé.
 
 Installer Jekyll : [Jekyll Quickstart](https://jekyllrb.com/docs/)
 
+Pour installer ruby sur le mac
+
+```bash
+PKG_CONFIG_PATH=/usr/local/opt/openssl@3/lib/pkgconfig:$PKG_CONFIG_PATH ruby-install ruby 3.1.3 -- --with-openssl-dir=/usr/local/opt/openssl@3
+```
+
 Cloner le projet
+
 ```bash
 git clone https://github.com/LeoLeLonquer/blog
-````
+```
 
 Pour lancer un serveur local, se placer dans le dossier et lancer :  
 
 ```bash
+bundle # au premier lancement
 jekyll serve --livereload
 ```
 
