@@ -3,13 +3,17 @@ title: "Comment optimiser Spark 2 ? Chapitre 1 : tailler dans le gras"
 layout: post
 tags: dev spark tuning 
 category: dev
+mathjax: true
 ---
 Spark est une grosse machine avec plein de boutons. Comment s'y retrouver ?  
 Dans ce premier article, nous allons essayer de décortiquer un traitement Spark existant et de tirer les vers du nez de la Spark UI.
 
 <!--more-->
 
-Petit conseil : il faut connaître un peu Spark.
+Ce dont vous aurez besoin : 
+
+- connaître un peu Spark
+- avoir accès au Spark History Server
 
 ## Métrique temps CPU
 
@@ -235,7 +239,7 @@ spark.dynamicAllocation.maxExecutors # assigner une valeur très importante au d
 A partir de la charge utile, on peut estimer le nombre de partitions nécessaires.  
 
 **Exemple :**  
-Si la charge utile (en entrée) est de 14,3Go et que l'on souhaite avoir des partitions de taille spécifique :
+Si la charge utile est de 14,3Go et que l'on souhaite avoir des partitions de taille spécifique :
 
 | partition_size | spark.shuffle.partitions |
 | -------------- | ------------------------ |
@@ -252,7 +256,7 @@ Trouver une première valeur de `spark.shuffle.partitions` intéressante
 
 <div class="overflow-x-auto" markdown="1">
 
-| spark.shuffle.partitions | Total Uptime | Duration orc | Duration count | Task Time |
+| spark.shuffle.partitions | Total Uptime | Duration job1 | Duration job2 | Task Time |
 | ------------------------ | ------------ | ------------ | -------------- | --------- |
 | 5                        | 1.3min       | 23s          | 5s             | 6.9min    |
 | 10                       | 1.6min       | 32s          | 7s             | 7.2min    |
@@ -273,7 +277,7 @@ Pour ajuster `spark.dynamicAllocation.maxExecutors` et `executor-cores`
 
 <div class="overflow-x-auto" markdown="1">
 
-| Total cores | num-executor | executor-cores | Total Uptime | Duration orc | Duration count | Task Time | Locality Level (Any; Node local; Rack Local) |
+| Total cores | num-executor | executor-cores | Total Uptime | Duration job1 | Duration job2 | Task Time | Locality Level (Any; Node local; Rack Local) |
 | ----------- | ------------ | -------------- | ------------ | ------------ | -------------- | --------- | -------------------------------------------- |
 | 5           | 1            | 6              | 1.4min       | 6s           | 46s            | 3.0min    | 86;2;9                                       |
 | 6           | 2            | 3              | 1.4min       | 5s           | 44s            | 2.8min    | 85;1;11                                      |
@@ -289,7 +293,7 @@ Pour ajuster la mémoire allouée
 - Faire un premier test avec toutes les nouvelles configurations ajoutées
 - Dans le Spark HS, **en regardant chacun des stages**, noter la valeur max de "Shuffle Spill (Disk)" (si la valeur n'apparaît pas dans la page d'un stage, c'est qu'elle est nulle)
 - Augmenter `spark.shuffle.partitions` (en priorité) et `executor-memory` petit à petit jusqu'à ce que Shuffle Spill (Disk) disparaisse
-- De préférence `spark.shuffle.partitions = spark.dynamicAllocation.maxExecutors x executor-cores x n` , où n est un entier, pour maximiser le parallélisme  
+- De préférence `spark.shuffle.partitions = spark.dynamicAllocation.maxExecutors * executor-cores * n` , où n est un entier, pour maximiser le parallélisme  
 
  **Important :** Vérifier que le GC fonctionne correctement depuis la page Executors (avoir un minimum de cases GC rouges sur les exécuteurs)
 
