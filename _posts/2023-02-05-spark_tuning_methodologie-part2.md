@@ -10,21 +10,25 @@ Dans ce deuxième article, nous allons construire un tuyau qui s'adapte automati
 
 ### The Problem
 
-Dans un traitement batch, le pipeline peut avoir des tailles de données variables. Nous pourrions simplement utiliser l'allocation dynamique Spark.  
+Dans un traitement batch, le pipeline peut recevoir des tailles de données variables. Nous pourrions simplement utiliser l'allocation dynamique Spark.  
 Cependant celle-ci peut être un peu overkill. Les niveaux de parallélisme possibles étant différents entre chaque jobs, notre application Spark peut rapidement
 s'allouer un grand nombre d'exécuteurs pour les utiliser pour une ou deux tâches de courte durée et être inactifs le reste du temps.
 
+Du point de vue de l'utilisation des ressources, je préfère une allocation statique bien configurée. 4 exécuteurs à 4 cores utilisés à 100%, sur lesquels l'on a broadcasté ou caché des tables, maximise l'utilisation des ressources.  
+
+Du point de vue du temps de traitement, une allocation dynamique est certainement un excellent outil ... jusqu'à un certain point ! Une application faisant du yoyo entre 1 exécuteur et 30 exécuteurs est symptomatique d'une application mal configurée, qui consomme inutilement de la ressource et qui peut mettre finalement plus de temps à s'exécuter.
+
 ### The Solution 
 
-Du point de vue de l'utilisation des ressources, je préfère une allocation statique bien configurée. 4 exécuteurs à 4 cores utilisés à 100%, sur lesquels l'on a broadcasté ou caché des tables, maximise l'utilisation des ressources.  
-Du point de vue du temps de traitement, une allocation dynamique est certainement notre meilleur outil ... jusqu'à un certain point ! Une application faisant du yoyo en 1 exécuteur et 30 exécuteurs à 4 cores est symptomatique d'une application mal configurée et consomme inutilement de la ressource.
+Ma configuration idéale est une configuration en "scale down" avec calcul des paramètres initiaux de la configuration en fonction des entrées. C'est à dire : 
+1. Pour chaque typologie de données, de traitement et de volumétrie, nous connaissons les paramètres optimaux `num-executors`, `executor-cores`, `executor-memory` et `spark.shuffle.partitions`.
+2. "Scale down" : la configuration précédente sera la configuration maximale dans l'allocation dynamique (`maxExecutors = num-executors`). Pas besoin d'aller chercher des ressources inutilement, et on peut désallouer si jamais on rencontre un problème.
+3. Avant chaque lancement de batch, la configuration du job est calculée en fonction de la volumétrie d'entrée.
 
-Il s'agit donc de trouver une configuration dynamique qui au démarrage calcule les paramètres optimaux du job Spark en fonction de la volumétrie en entrée.  
-Cette configuration dynamique peut prendre en charge la sélection des paramètres de l'allocation dynamique. 
 
 ### Ajuster automatiquement
 
-Pour procéder, nous allons :
+Pour procéder à l'ajustement d'un traitement batch, nous allons :
 
 1. sélectionner des volumétries
 2. pour chacune d'entre elle :
@@ -99,7 +103,7 @@ Exemple de tableau pour (`num-executors`,  `executor-cores`)
 En déduire des formules pour chacun des paramètres, qui peuvent être de plusieurs types :
 - le paramètre est fixé à une constante (ex : `executor-cores = 5` )
 - le paramètre suit une formule en fonction de la volumétrie (ex : `num-executors = Volumétrie*2`) 
-- le paramètre suit une formule en fonction d'autres paramètres (ex : `spark.shuffle.partitions ~ num-executors` )
+- le paramètre suit une formule en fonction d'autres paramètres (ex : `spark.shuffle.partitions = num-executors * 10` )
 
 Dans le cas d'une formule, nous pouvons fixer
 - une borne inférieure (si besoin)
