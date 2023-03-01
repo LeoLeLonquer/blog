@@ -21,8 +21,8 @@ Du point de vue du temps de traitement, une allocation dynamique est certainemen
 ### The Solution 
 
 Ma configuration idéale est une configuration en "scale down" avec calcul des paramètres initiaux de la configuration en fonction des entrées. C'est à dire : 
-1. Pour chaque typologie de données, de traitement et de volumétrie, nous connaissons les paramètres optimaux `num-executors`, `executor-cores`, `executor-memory` et `spark.shuffle.partitions`.
-2. "Scale down" : la configuration précédente sera la configuration maximale dans l'allocation dynamique (`maxExecutors = num-executors`). Pas besoin d'aller chercher des ressources inutilement, et on peut désallouer si jamais on rencontre un problème.
+1. Pour chaque typologie de données, de traitement et de volumétrie, nous connaissons les paramètres optimaux `num-executors`, `executor-cores`, `executor-memory` et `spark.shuffle.partitions` (voir article [Comment optimiser Spark 2 ? Chapitre 1](spark_tuning_methodologie-part1))
+2. La configuration optimale est la configuration maximale dans l'allocation dynamique (`maxExecutors = num-executors`). Pas besoin d'aller chercher des ressources inutilement, et on peut désallouer si jamais on rencontre un problème ("scale down").
 3. Avant chaque lancement de batch, la configuration du job est calculée en fonction de la volumétrie d'entrée.
 
 
@@ -53,7 +53,7 @@ Préparer un tableau pour contenir :
 - les valeurs de la configuration optimale
 - les métriques de traitement moyennes associées
 
-| Volumétrie entrée | (`num-executors`,  `executor-cores`) | `executor-memory` | `spark.shuffle.partitions` | Total Uptime | Task Time | max Shuffle Spill Disk |
+| Volumétrie entrée | (num-executors,  executor-cores) | executor-memory | spark.shuffle.partitions | Total Uptime | Task Time | max Shuffle Spill Disk |
 | ----------------- | ------------------------------------ | ----------------- | -------------------------- | ------------ | --------- | ---------------------- |
 |                   |                                      |                   |                            |              |           |                        |
 
@@ -86,11 +86,11 @@ Pour chacune des volumétries ci-dessus :
 
 #### Analyse des résultats
 
-En reprenant notre tableau, pour chacun des paramètres Spark recueilli, analyser l'évolution du paramètre en fonction de la volumétrie en entrée (observer le lien de corrélation, les plafonds et les plateaux ...). Au mieux faire une régression.
+En reprenant notre tableau, pour chacun des paramètres Spark recueillis, analyser l'évolution du paramètre en fonction de la volumétrie en entrée (observer le lien de corrélation, les plafonds et les plateaux ...). Au mieux faire une régression.
 
 Exemple de tableau pour (`num-executors`,  `executor-cores`)
       
-| Volumétrie (Go) | (`num-executors`,  `executor-cores`) |
+| Volumétrie (Go) | (num-executors,  executor-cores) |
 | --------------- | ------------------------------------ |
 | 2               | (10, 5)                              |
 | 5               | (15, 5)                              |
