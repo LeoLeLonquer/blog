@@ -5,7 +5,7 @@ tags: dev git
 category: dev
 ---
 
-Git worktree est une commande intégrée à git qui permet d'associer un dossier à chaque branche et fluidifie l'utilisation des branches sur un repo local.
+Git worktree est une commande intégrée à git qui permet d'associer un dossier à chaque branche. L'utilisation des branches est fluidifiée sur un repo local.
 Le principal avantage est de pouvoir travailler sur plusieurs branches à la fois sans s'emmêler les pinceaux et sans avoir à dupliquer le repo initial.
 
 <!--more-->
@@ -22,7 +22,7 @@ Jean-Eustache et moi travaillons sur le repo whattimeisit stocké sur Github com
 * main
 ```
 
-### Organisation de Jean-Eustache (sans git worktree)
+### Organisation de Jean-Eustache (sans git worktree) 👎
 
 ```txt
 ~/whattimeisit (branche feature/timeinnanoseconds)
@@ -31,7 +31,7 @@ Jean-Eustache et moi travaillons sur le repo whattimeisit stocké sur Github com
 Ici depuis son IDE, il change de branche pour travailler sur une nouvelle feature, sur un hotfix, ou pour aller voir main.  
 Il n'oublie donc pas de commit tous ses fichiers avant de faire quelconque basculement de branche.  
 Avant toute nouvelle création de branche, il n'oublie pas de switcher vers la bonne branche de départ 
-sinon il retrouverait les commits de la branche sur laquelle il travaille dans la nouvelle branche alors que le travail n'est peut-être pas encore fini.
+sinon il retrouvera les commits de la branche sur laquelle il travaille dans la nouvelle branche alors que le travail n'est peut-être pas encore fini.
 
 ```bash
 cd whattimeisit
@@ -43,7 +43,7 @@ git switch -c hotfix/garemontparnasse
 
 Jean-Eustache fout souvent le sbeul dans ses commits et ses branches, il a du mal à s'y retrouver.
 
-### Organisation de moi (avec git worktree)
+### Organisation de moi (avec git worktree) 👍
 
 ```txt
 ~/whattimeisit                  (pas un dossier git)
@@ -64,9 +64,9 @@ cd ../hotfix-garemontparnasse
 code . # ouverture de VScode depuis le dossier courant
 ```
 
-C'est beaucoup plus difficile faire des bêtises et ça me permet d'être serein sur l'utilisation de git et de me concentrer sur la tâche à accomplir.
+C'est beaucoup plus difficile faire des bêtises, ça me permet d'être serein sur l'utilisation de git et de me concentrer sur la tâche à accomplir.
 
-Voici les scénarios dans lesquels je l'utilise :
+Voici les scénarios dans lesquels j'utilise la commande :
 
 - travailler sur plusieurs features à la fois
 - faire un hotfix sans devoir à la hâte commit ou stash sa branche de travail
