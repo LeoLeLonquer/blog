@@ -11,18 +11,19 @@ mathjax: true
 #url: https://leolelonquer.github.io/
 
 # Menu
-navigation:
-  - {file: "pages/dev.html"}
-  - {file: "pages/ressources.md"}
-  - {file: "pages/cv.html"}
-
 # navigation:
 #   - {file: "pages/dev.html"}
-#   - {file: "pages/notes.html"}
-#   - {file: "pages/voyages.html"}
-#   - {file: "pages/tweets.html"}
-#   - {file: "pages/amis.md"}
+#   - {file: "pages/ressources.md"}
 #   - {file: "pages/cv.html"}
+
+navigation:
+  - {file: "pages/dev.html"}
+  - {file: "pages/notes.html"}
+  - {file: "pages/voyages.html"}
+  - {file: "pages/tweets.html"}
+  - {file: "pages/ressources.md"}
+  # - {file: "pages/amis.md"}
+  # - {file: "pages/cv.html"}
 
 # defaults:
 #   -

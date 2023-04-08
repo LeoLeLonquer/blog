@@ -3,9 +3,8 @@ layout: post
 title: "Bibliothèque"
 ---
 
-<!-- {% include posts_by_tag.html posts=site.tags.ressources %} -->
-
 ### Outils
+
 - [regex101](https://regex101.com/)
 - [Temp Mail](https://temp-mail.org/fr/)
 - [Date Calculator](https://www.timeanddate.com/date/dateadd.html)
@@ -32,6 +31,7 @@ title: "Bibliothèque"
 - [Code Beautify](https://codebeautify.org/)
 
 ### Repos/technos
+
 - [ArthurSonzogni/Diagon: Interactive ASCII art diagram generators. :star2:](https://github.com/ArthurSonzogni/Diagon)
 - [PlantUML](https://plantuml.com/fr/)
 - [WebAssembly](https://webassembly.org/)
@@ -52,6 +52,7 @@ title: "Bibliothèque"
 - [Apache Beam](https://beam.apache.org/)
 
 ### Blogs
+
 - [Arthur Sonzogni](https://arthursonzogni.com/)
 - [luminousmen](https://luminousmen.com/)
 - [Philipp Brunenberg's Blog](https://blog.philipp-brunenberg.de/)
@@ -96,3 +97,8 @@ title: "Bibliothèque"
 - [git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
 - [vscode-keyboard-shortcuts-linux.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - [Markdown Guide](https://www.markdownguide.org/)
+
+# Autres
+
+- [La Carrée Brest](https://www.lacarreebrest.fr/) : musée d'histoire populaire de Brest
+- [Infini](https://www.infini.fr/) : hébergeur brestois libre, associatif, solidaire, non marchand, militant

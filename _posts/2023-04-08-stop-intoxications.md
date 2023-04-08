@@ -1,0 +1,12 @@
+---
+title: "Arrêtés en 2023"
+layout: post
+tags: tweets
+category: tweets
+---
+
+Trucs que j'ai arrêté en 2023 :
+- prendre l'avion
+- avoir une voiture
+- boire de l'alcool
+- mettre le chauffage en hiver (sauf maladie + besoin d'être productif)
