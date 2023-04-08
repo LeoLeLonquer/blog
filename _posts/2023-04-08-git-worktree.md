@@ -89,21 +89,20 @@ Toutes les infos sur l'emplacement des branches sont stockées là.
 
 ## Liste de commandes
 
-Source : [git worktree - tldr InBrowser.App](https://tldr.inbrowser.app/pages.fr/common/git-worktree)
+Source : [git worktree tldr InBrowser.App](https://tldr.inbrowser.app/pages.fr/common/git-worktree)
 
 > Gérer plusieurs arbres de travail attachés au même dépôt.
-> Plus d'informations : <https://git-scm.com/docs/git-worktree>.
+> Plus d'informations : [git-scm](https://git-scm.com/docs/git-worktree).
 
 - Créer un nouvel arbre de travail avec une branche spécifiée :
-`git worktree add {{chemin/vers/répertoire}} {{branche}}`
+`git worktree add <chemin/vers/répertoire> <branche>`
 
 - Créer un nouvel arbre de travail avec une nouvelle branche :
-`git worktree add {{chemin/vers/répertoire}} -b {{nouvelle_branche}}`
+`git worktree add <chemin/vers/répertoire> -b <nouvelle_branche>`
 
 - Répertorier tous les arbres de travail attachés à ce dépôt :
 `git worktree list`
 
 - Supprimer les arbres de travail (après avoir supprimé les répertoires de travail) :
 `git worktree prune`
-
 
