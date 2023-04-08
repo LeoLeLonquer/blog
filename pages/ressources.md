@@ -98,7 +98,7 @@ title: "Bibliothèque"
 - [vscode-keyboard-shortcuts-linux.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - [Markdown Guide](https://www.markdownguide.org/)
 
-# Autres
+### Autres
 
 - [La Carrée Brest](https://www.lacarreebrest.fr/) : musée d'histoire populaire de Brest
 - [Infini](https://www.infini.fr/) : hébergeur brestois libre, associatif, solidaire, non marchand, militant

@@ -1,5 +1,5 @@
 ---
-title: "Git worktree: se dénouer les branches" 
+title: "Git worktree : se dénouer les branches" 
 layout: post
 tags: dev git 
 category: dev
@@ -10,7 +10,7 @@ Le principal avantage est de pouvoir travailler sur plusieurs branches à la foi
 
 <!--more-->
 
-# Exemple wahttimeisit
+## Exemple whattimeisit
 
 Jean-Eustache et moi travaillons sur le repo whattimeisit stocké sur Github composé des branches suivantes :
 
@@ -22,7 +22,7 @@ Jean-Eustache et moi travaillons sur le repo whattimeisit stocké sur Github com
 * main
 ```
 
-## Organisation de Jean-Eustache (sans git worktree)
+### Organisation de Jean-Eustache (sans git worktree)
 
 ```txt
 ~/whattimeisit (branche feature/timeinnanoseconds)
@@ -43,7 +43,7 @@ git switch -c hotfix/garemontparnasse
 
 Jean-Eustache fout souvent le sbeul dans ses commits et ses branches, il a du mal à s'y retrouver.
 
-## Organisation de moi (avec git worktree)
+### Organisation de moi (avec git worktree)
 
 ```txt
 ~/whattimeisit                  (pas un dossier git)
@@ -73,7 +73,7 @@ Voici les scénarios dans lesquels je l'utilise :
 - comparer deux branches l'une à l'autre
 - ouvrir la branche d'un·e collègue pour lire son travail
 
-# Désavantages
+## Désavantage
 
 Le seul vrai désavantage est qu'il faut reconfigurer son IDE à chaque fois que l'on ouvre une nouvelle branche.
 Mais si l'on est un peu malin, on peut trouver des astuces pour compenser :
@@ -82,13 +82,28 @@ Mais si l'on est un peu malin, on peut trouver des astuces pour compenser :
 - copier coller certains fichiers de configurations de l'IDE (des tests par exemple) de l'ancien dossier dans le nouveau
 - ...
 
-# Comment ça fonctionne
+## Comment ça fonctionne
 
 Je sais pas trop comment ça fonctionne. En tout cas, il n'existe qu'un seul dossier .git qui est celui initialisé dans le dossier créé au téléchargement du repo. 
 Toutes les infos sur l'emplacement des branches sont stockées là.
 
-# Liste des commandes
+## Liste de commandes
 
-<script src="https://github.com/tldr-pages/tldr/blob/main/pages/common/git-worktree.md"></script>
+Source : [git worktree - tldr InBrowser.App](https://tldr.inbrowser.app/pages.fr/common/git-worktree)
+
+> Gérer plusieurs arbres de travail attachés au même dépôt.
+> Plus d'informations : <https://git-scm.com/docs/git-worktree>.
+
+- Créer un nouvel arbre de travail avec une branche spécifiée :
+`git worktree add {{chemin/vers/répertoire}} {{branche}}`
+
+- Créer un nouvel arbre de travail avec une nouvelle branche :
+`git worktree add {{chemin/vers/répertoire}} -b {{nouvelle_branche}}`
+
+- Répertorier tous les arbres de travail attachés à ce dépôt :
+`git worktree list`
+
+- Supprimer les arbres de travail (après avoir supprimé les répertoires de travail) :
+`git worktree prune`
 
 
