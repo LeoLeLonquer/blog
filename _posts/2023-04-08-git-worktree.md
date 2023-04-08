@@ -28,8 +28,8 @@ Jean-Eustache et moi travaillons sur le repo whattimeisit stocké sur Github com
 ~/whattimeisit (branche feature/timeinnanoseconds)
 ```
 
-Ici depuis son IDE, il change de branche pour travailler sur une nouvelle feature, sur un hotfix, ou pour aller voir main.
-Il n'oublie donc pas de commit tous ses fichiers avant de faire quelconque basculement de branche.
+Ici depuis son IDE, il change de branche pour travailler sur une nouvelle feature, sur un hotfix, ou pour aller voir main.  
+Il n'oublie donc pas de commit tous ses fichiers avant de faire quelconque basculement de branche.  
 Avant toute nouvelle création de branche, il n'oublie pas de switcher vers la bonne branche de départ 
 sinon il retrouverait les commits de la branche sur laquelle il travaille dans la nouvelle branche alors que le travail n'est peut-être pas encore fini.
 
@@ -54,7 +54,7 @@ Jean-Eustache fout souvent le sbeul dans ses commits et ses branches, il a du ma
 └── main                        (branche main et contient le .git)
 ```
 
-Ici depuis mon IDE, j'ouvre un nouvel espace de travail sur chacun des nouveaux dossiers créés correspondant chacun à sa branche.
+Ici depuis mon IDE, j'ouvre un nouvel espace de travail sur chacun des nouveaux dossiers créés correspondant chacun à sa branche.  
 Lorsque je souhaite créer une nouvelle branche ou récupérer une branche distante, j'utilise la commande `git worktree`.
 
 ```bash
@@ -75,7 +75,7 @@ Voici les scénarios dans lesquels je l'utilise :
 
 ## Désavantage
 
-Le seul vrai désavantage est qu'il faut reconfigurer son IDE à chaque fois que l'on ouvre une nouvelle branche.
+Le seul vrai désavantage est qu'il faut reconfigurer son IDE à chaque fois que l'on ouvre une nouvelle branche.  
 Mais si l'on est un peu malin, on peut trouver des astuces pour compenser :
 
 - avoir l'environnement de l'app dans un dossier mis en commun
@@ -84,8 +84,8 @@ Mais si l'on est un peu malin, on peut trouver des astuces pour compenser :
 
 ## Comment ça fonctionne
 
-Je sais pas trop comment ça fonctionne. En tout cas, il n'existe qu'un seul dossier .git qui est celui initialisé dans le dossier créé au téléchargement du repo. 
-Toutes les infos sur l'emplacement des branches sont stockées là.
+Je sais pas trop comment ça fonctionne. En tout cas, il n'existe qu'un seul dossier .git qui est celui initialisé dans le dossier créé au téléchargement du repo.  
+Toutes les infos sur l'emplacement des branches sont stockées là. Par ce biais on évite de devoir télécharger ou copier un lourd dossier .git.
 
 ## Liste de commandes
 
@@ -93,16 +93,19 @@ Source : [git worktree tldr InBrowser.App](https://tldr.inbrowser.app/pages.fr/c
 
 > Gérer plusieurs arbres de travail attachés au même dépôt.
 > Plus d'informations : [git-scm](https://git-scm.com/docs/git-worktree).
-
-- Créer un nouvel arbre de travail avec une branche spécifiée :
-`git worktree add <chemin/vers/répertoire> <branche>`
-
-- Créer un nouvel arbre de travail avec une nouvelle branche :
-`git worktree add <chemin/vers/répertoire> -b <nouvelle_branche>`
-
-- Répertorier tous les arbres de travail attachés à ce dépôt :
-`git worktree list`
-
-- Supprimer les arbres de travail (après avoir supprimé les répertoires de travail) :
-`git worktree prune`
-
+>
+> - Créer un nouvel arbre de travail avec une branche spécifiée :
+>
+> `git worktree add <chemin/vers/répertoire> <branche>`
+>
+> - Créer un nouvel arbre de travail avec une nouvelle branche :
+>
+> `git worktree add <chemin/vers/répertoire> -b <nouvelle_branche>`
+>
+> - Répertorier tous les arbres de travail attachés à ce dépôt :
+> 
+> `git worktree list`
+>
+> - Supprimer les arbres de travail (après avoir supprimé les répertoires de travail) :
+> 
+> `git worktree prune`
