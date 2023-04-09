@@ -1,5 +1,4 @@
 ---
-title: ""
 layout: post
 tags: tweets
 category: tweets
