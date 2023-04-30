@@ -15,6 +15,10 @@ Je vis à Brest où je me suis bien installé.
 Si vraiment vous souhaitez en savoir plus, allez donc jeter un coup d'œil à mon CV (en espérant qu'il est à jour) par ici :  
 [⇒⇒⇒⇒CV⇐⇐⇐⇐](../pages/cv.html)
 
+## Charte graphique
+
+Pour tout commentaire sur les couleurs utilisés sur ce site web, merci de ne pas m'envoyer un mail.
+
 ## License
 
 [public domain](http://unlicense.org/)
