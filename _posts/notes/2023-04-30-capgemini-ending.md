@@ -3,7 +3,6 @@ title: "Capgemini The End"
 layout: post
 tags: notes
 category: notes
-image: "/assets/ressources/img/capgeminiend.jpg"
 ---
 
 Après trois années passées au sein de l'agence Altran/CapGemini de Brest, je pars pour de nouveaux horizons (dans un rayon de 500m).  
