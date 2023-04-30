@@ -3,7 +3,7 @@ title: "Capgemini The End"
 layout: post
 tags: notes
 category: notes
-image: "/assets/ressources/img/capgemini_end.jpg"
+image: "/assets/ressources/img/capgeminiend.jpg"
 ---
 
 Après trois années passées au sein de l'agence Altran/CapGemini de Brest, je pars pour de nouveaux horizons (dans un rayon de 500m).  
@@ -19,7 +19,7 @@ J'ai vécu mon premier CDI, le Covid, un déménagement, le rachat par CapGemini
 
 J'ai appris qu'un bon développeur est un développeur bavard. Aimer retrouver ses collèges et discuter avec eux, être aidé et aider à son tour sont autant de choses essentielles pour apprécier son travail. Merci aux personnes qui ont rendu cela possible ! 
 
-![Vue du Goulet](../assets/ressources/img/capgemini_end.jpg)
+![Vue du Goulet](../assets/ressources/img/capgeminiend.jpg)
 _La vue sur le goulet va également me manquer._
 
 Stay Tuned for more...
