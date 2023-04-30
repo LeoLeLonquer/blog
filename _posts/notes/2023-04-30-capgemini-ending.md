@@ -17,7 +17,7 @@ J'y ai fait mes premières armes :
 
 J'ai vécu mon premier CDI, le Covid, un déménagement, le rachat par CapGemini.
 
-J'ai appris qu'un bon développeur est un développeur bavard. Aimer retrouver ses collèges et discuter avec eux, être aidé et aider à son tour sont autant de choses sont autant de choses essentielles pour apprécier son travail. Merci aux personnes qui ont rendu cela possible ! 
+J'ai appris qu'un bon développeur est un développeur bavard. Aimer retrouver ses collèges et discuter avec eux, être aidé et aider à son tour sont autant de choses essentielles pour apprécier son travail. Merci aux personnes qui ont rendu cela possible ! 
 
 ![Vue du Goulet](../assets/ressources/CapGemini_end.jpg)
 _La vue sur le goulet va également me manquer._
