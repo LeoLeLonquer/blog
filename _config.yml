@@ -25,6 +25,13 @@ navigation:
   # - {file: "pages/amis.md"}
   # - {file: "pages/cv.html"}
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/thumbnail-default.jpg
+
+
 # defaults:
 #   -
 #     scope:
