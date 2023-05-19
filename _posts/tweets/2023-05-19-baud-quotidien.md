@@ -10,4 +10,4 @@ Apparition avec les potos dans Quotidien au festival bavarois de la Bière à Ba
 
 [![Quotidien festival de la bière Baud](../assets/ressources/img/b3a25fe337856d08863e4425e85c67e9.jpg)](../assets/ressources/img/Quotidien_Baud_court.mp4)
 
-(Macron en panique après mon intervention)
+(Macron en panique après notre intervention)
