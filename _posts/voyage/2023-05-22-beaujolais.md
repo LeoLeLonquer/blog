@@ -10,7 +10,7 @@ Après avoir traversé la France avec Alex, je retrouve la fraté dans le Beaujo
 
 Au programme : vin, viande et bon temps entre amis. Le programme de Roussel en somme. 
 
-<!-- more -->
+<!--more-->
 
 ![La team qui boit du vin](https://i.ibb.co/7Gb5Tdz/IMG-20230519-174831-sn-OSexk-A2m.jpg)
 _Dégustation de vin entre gens de bonne convenance_ 
