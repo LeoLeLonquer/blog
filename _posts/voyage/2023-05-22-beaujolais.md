@@ -6,9 +6,11 @@ title : "Le Beaujolais, c'est pour les yeux"
 image : https://i.ibb.co/ZVcz1Yj/received-184599387501184.jpg
 --- 
 
-Après avoir traversé la France avec Alex, je retrouve la fraté dans le Beaujolais dans une ancienne maison viticole réhabilitée en lieu de vie et maison de famille. Laure, Thierry, Anne-Lise, Gilles et Cécile nous accueille comme des rois (et des reines).
+Après avoir traversé la France avec Alex, je retrouve la fraté dans le Beaujolais dans une ancienne maison viticole réhabilitée en lieu de vie et maison de famille. Laure, Thierry, Anne-Lise, Gilles et Cécile nous accueillent comme des rois (et des reines).
 
 Au programme : vin, viande et bon temps entre amis. Le programme de Roussel en somme. 
+
+<!-- more -->
 
 ![La team qui boit du vin](https://i.ibb.co/7Gb5Tdz/IMG-20230519-174831-sn-OSexk-A2m.jpg)
 _Dégustation de vin entre gens de bonne convenance_ 
@@ -37,9 +39,12 @@ _Activité que les jeunes semblent appeler "chiller"_
 
 Pour finir, Cécile nous sort d'un placard aux araignées son eau de vie assaisonnée à la vipère (j'apprendrai plus tard que ça s'appelle "vipérine").
 
-Flo cherche subtilement un ou une allié pour goûter. Ne pas boire par conviction ou religion a parfois aussi ses avantages (se sauver la vie par exemple ?)
+Flo cherche subtilement un ou une alliée pour goûter. Ne pas boire par conviction ou religion a parfois aussi ses avantages (se sauver la vie par exemple ?)
 
 [Cliquer ici pour voir le fin breuvage, attention maman, ya un serpent !](https://i.ibb.co/ccxWCbG/IMG-20230521-161036-Vbsu-H97-D6v.jpg)
+
+Claire de sent malade pour le dernier jour. Elle incrimine la tisane. À se méfier pour la suite. 
+
 
 C'est déjà la fin, nous rentrons tous à Lyon avant que certains repartent au travail à Paris (😪) pendant que d'autres s'en vont en Ardèche cultiver la terre (😎).
 
@@ -51,4 +56,4 @@ _Le Beaujolais pour les yeux_
 Bonus !
 
 ![Canetons Lyon](https://i.ibb.co/3RDPmr8/IMG-20230521-194321-k-PR7uoy65-C.jpg)
-_Fin de week-end à Lyon et promenade des canetons_
+_Fin de week-end à Lyon, les canes doivent aussi promener les canetons_
