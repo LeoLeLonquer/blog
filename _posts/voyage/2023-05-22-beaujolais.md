@@ -37,7 +37,7 @@ Je discute cinéma avec Gilles qui m'avait conseillé le film taïwanais [Yi Yi]
 Lors d'une balade, Thierry et Laure me font visiter l'emplacement de l'ancien manoir des sieurs de Beaujeu et me confient leur souhait de réhabiliter cette noble maison (Cécile on compte sur toi).
 
 
-On joue pas mal à Code Names, Pictionnary, Galerapagos. Chris et Alice trichent comme à leur habitude. Je suis pris en bouc émissaire sans raison au Galérapagos alors que je vais chercher du matériel dans l'épave pour la commu. 
+On joue pas mal à Code Names, Pictionnary, Galerapagos. Chris et Alice trichent comme à leur habitude. Ça tombe bien, ils sont dans mon équipe. Je suis pris en bouc émissaire sans raison au Galérapagos alors que je vais chercher du matériel dans l'épave pour la commu. 
 Ça permet de s'engueuler entre potes, passe-temps typiquement français. Faut avouer que c'est marrant. 
 
 ![allongés dans lherbe](https://i.ibb.co/fYs4VjT/received-6169724419780571.jpg)
