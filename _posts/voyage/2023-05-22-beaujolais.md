@@ -43,7 +43,7 @@ Flo cherche subtilement un ou une alliée pour goûter. Ne pas boire par convict
 
 [Cliquer ici pour voir le fin breuvage, attention maman, ya un serpent !](https://i.ibb.co/ccxWCbG/IMG-20230521-161036-Vbsu-H97-D6v.jpg)
 
-Claire de sent malade pour le dernier jour. Elle incrimine la tisane. À se méfier pour la suite. 
+Claire se sent malade pour le dernier jour. Elle incrimine la tisane. Je note. 
 
 
 C'est déjà la fin, nous rentrons tous à Lyon avant que certains repartent au travail à Paris (😪) pendant que d'autres s'en vont en Ardèche cultiver la terre (😎).
