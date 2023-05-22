@@ -31,6 +31,12 @@ _La tablée avec famille et ami.e.s_
 
 Je réserve l'année végétarienne à plus tard. 
 
+Je discute cinéma avec Gilles qui m'avait conseillé le film taïwanais [Yi Yi](https://www.allocine.fr/film/fichefilm_gen_cfilm=25300.html) que j'ai adoré. Anne-Lise quant à elle prodigue toujours de fins conseils sur comment envisager la vie. 
+
+
+Lors d'une balade, Thierry et Laure me font visiter l'emplacement de l'ancien manoir des sieurs de Beaujeu et me confient leur souhait de réhabiliter cette noble maison (Cécile on compte sur toi).
+
+
 On joue pas mal à Code Names, Pictionnary, Galerapagos. Chris et Alice trichent comme à leur habitude. Je suis pris en bouc émissaire sans raison au Galérapagos alors que je vais chercher du matériel dans l'épave pour la commu. 
 Ça permet de s'engueuler entre potes, passe-temps typiquement français. Faut avouer que c'est marrant. 
 
