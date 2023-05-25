@@ -2,11 +2,13 @@
 layout : post 
 tags : voyages 
 category : voyages 
-title : "Léo à la ferme - Ardèche jour 0"
+title : "Brest c'est Paris non ? - Ardèche jour 0"
 image : https://i.ibb.co/zGMwnmG/IMG-20230525-152838-01-j-Ardp-MYW7h.jpg
 --- 
 
 Depuis Lyon je prends le train pour Valence, puis le bus pour Le Cheylard direction l'Ardèche. 
+
+<!--more-->
 
 Yannick de la ferme du Bouveironnet vient me chercher au bourg. Je rentre dans la voiture, on discute un peu. Yannick a tout l'air d'un breton, par son prénom, par sa vareuse Le Glazik et par son air débonnaire. Il se trahit vite quand on en vient à parler de Brest 
 
