@@ -29,3 +29,6 @@ Je prépare le repas du soir avec ces derniers, ils m'expliquent que quasiment t
 En discutant, je découvre que Thomas a commencé un parcours vers l'agrégation de maths après une prépa mais a tout abandonné pour faire du concret. Quant à Loïc, il remarque que j'ai apporté un livre d'Annie Ernaux, tandis qu'il laisse traîner les siens sur l'anarchisme et on en vient à discuter politique. Il n'a pas été convaincu par le manifeste du parti communiste qu'il trouve trop productiviste et a préféré pousser plus loin le curseur. 
 
 Installé dans mon camping-car, j'ai du mal à m'endormir car tout est nouveau pour moi et un orage assez violent s'abat sur la ferme. On compensera demain par le café. 
+
+![Photo de moi devant le panneau de la ferme du Bouveironnet](https://i.ibb.co/zGMwnmG/IMG-20230525-152838-01-j-Ardp-MYW7h.jpg)
+_Photo de moi devant le panneau de la ferme du Bouveironnet_
