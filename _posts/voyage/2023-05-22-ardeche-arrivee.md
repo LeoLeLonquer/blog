@@ -18,6 +18,9 @@ Aïe aïe aïe, que viens-tu de dire là mon ami, tu veux réveiller les morts, 
 
 Yannick vient de Haute-Savoie et de Suisse, les distances aux bords du globe tendent à se rapetisser. Je l'excuse parce que j'ai l'âme généreuse et que je vais quand même vivre 3 semaines chez eux. 
 
+![Vue depuis la ferme](https://i.ibb.co/5sn447V/IMG-20230525-190053-x-I1r-Hsf-Y2h.jpg)
+_Vue depuis la ferme avec un chat dans la photo_
+
 Nous arrivons à la ferme, un très joli endroit sur un flan de colline. Elle est située à Saint-Jean-Chambre, petite commune du parc national d'Ardèche. Yannick y vit avec sa femme Marion et ses deux enfants. Son frère Nicolas, en transition après son avoir fait éducateur spécialisé, vient trois jours par semaine donner un coup de main pour les travaux. 
 Je n'ai pas encore de très jolies photos , elles sont difficiles à prendre par la disposition des bâtiments donc je vous renvoie [ici](https://wwoof.fr/fr/host/7244) vers la page de la ferme sur wwoof.fr.
 
