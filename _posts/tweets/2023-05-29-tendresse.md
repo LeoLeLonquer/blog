@@ -1,0 +1,1 @@
+Ma pensée politique c'est la tendresse organisée. 
