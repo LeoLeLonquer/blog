@@ -10,4 +10,6 @@ _site
 *.scratch
 *.back
 *.bk
-*.backup.trash/
+*.backup
+
+.trash/
