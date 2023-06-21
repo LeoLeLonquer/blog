@@ -32,12 +32,57 @@ Tant que j'y suis, petit tacle à l'italie, toujours pas trouvé de restau satis
 
 Ok je voulais rien dire sur Venise et au final j'ai lâché les rennes, pour les photos, allez voir sur Google. 
 
+(Au passage, il possible de s'acheter un appartement à Venise, c'est à peu près equivalent aux tarifs pratiqués à Rennes Lyon. )
 
+# Ferry
 
+Je prends le ferry pour me rendre en Grèce, c'était soi ça soit passer par la Croatie, Bosnie, Monténégro et Albanie. C'est funky aussi. 
 
+Le ferry est à midi mais je dois y être 3h avant. Je me rends à l'arrêt de bus et je vois un gars avec un sac à dos comme moi. C'est sûr qu'il va aussi au ferry, j'entame la discussion. C'est comme ça que je rencontre Louis, fier suisse résident de Fribourg, avec qui je passerai une partie de mon voyage. 
 
-Il possible de s'acheter un appartement à Venise, c'est à peu près equivalent aux tarifs pratiqués à Rennes Lyon. 
+[Photo de moi devant le ferry](https://i.ibb.co/YXXx1BQ/IMG-20230614-095418-lbuhav-Yx7-I.jpg)
+_C'est parti_
 
+J'ai pris une chambre en dortoir de 4 tandis que Louis dort dans sur des "fauteuils d'avion". En vrai c'est plus confortable de ramener son matelas de sol et un sac de couchage, ça coûte beaucoup moins cher (100 balles de moins au moins).
+Je pose mes affaires et je prends le temps d'explorer. 
 
+[dortoir](https://i.ibb.co/JW1vhkp/IMG-20230615-095855-Nhu7h-KF90p.jpg)
+_Dortoir_
 
-j'ai décidé de passer par l'italie puis de prendre le ferry de Venise à Igoumenitsa. J
+[Lounge](https://i.ibb.co/Pt3837L/IMG-20230615-085628-9-X64j-FAL3-H.jpg)
+_Le Lounge avec vue sur la proue_
+
+[Café extérieur](https://i.ibb.co/mChSMWk/IMG-20230615-125031-1ke-CTzcq1-R.jpg)
+_Café vue mer_
+
+[Pont](https://i.ibb.co/BgXZG1z/IMG-20230614-191305-A1x-Mm3-AX8-C.jpg)
+_Gros Bateau_
+
+Je retrouve Louis plus tard dans le bateau, il est avec Karo, une suédoise qui vient de Luleå (tout au Nord) et qui entreprend un tour d'Europe. Et Karo parle français ! Elle a passé un an à Grenoble dans une fac de droit (déso Karo je n'explique toujours pas ce choix). Elle a aussi passé une semaine à Landerneau en échange linguistique à Landerneau. Elle se souvient de la pluie. Elle rejoint une ami qui travaille sur l'île de Paxos pour 10 jours. 
+
+Louis est un pro de la ventilation (il brasse du vent pour de vrai) mais aussi un randonneur chevronné, il a fait quasiment tous les chemins de Suisse, il veut faire du trek en Grèce. 
+
+[selfie à trois](https://i.ibb.co/xH5NMhG/IMG-20230614-134133-s-KXRJc-Dv3-Q.jpg)
+_Selfie tous les trois_
+
+Pour aller se faire à manger avec la gazinière, Louis et Karo se cachent sous un escalier du pont et se font un plat chaud. Je me contente de mes sandwichs au pesto (très efficace le pesto dans les sandwichs).
+Louis sort une cartouche rare : le chocolat de l'armée suisse. Il en récupère auprès d'un ami qui fait un peu de la contrebande. Je pense qu'en cas de guerre, le chocolat sera la première denrée en perdition mais pourquoi pas la Suisse ! 
+
+On passe la soirée tous les trois, on discute beaucoup, on joue aux cartes. C'est vraiment sympa d'avoir de bons camarades de voyage.
+
+Je suis claqué donc je vais me coucher. Franchement le dortoir du bateau est excellent, j'ai dormi jusqu'à quasiment 10h. En sortant sur le pont, j'aperçois l'italie. Nous sommes allés beaucoup plus vite que prévu, nous sommes déjà très proches d'Igoumenitsa. 
+
+Je retrouve Karo et Louis et nous allons manger au self-service, c'est hors de prix et bien sûr dégeulasse. C'est un self-service de ferry qui se respecte en somme. 
+
+Il est déjà temps d'arriver, les côtes de l'Albanie et de Corfou se dessinent devant nous. Louis et moi accostons, et dans la précipitation, je n'ai même pas le temps de dire au revoir à Karo qui va jusqu'à Patras. 
+
+Bienvenue en Grèce ! Louis qui pensait faire du trek aux alentours d'Igoumenitsa se décide finalement à venir avec moi à Ioannina. Nous allons voir à la station de bus, parfait un bus part dans 30 minutes. Une chance que le ferry soit arrivé une heure en avance ! 
+
+[Photos Karo](https://i.ibb.co/WW898Hs/IMG-20230614-215130-j-Up-PVgtv1-L.jpg)
+_De_
+
+---
+
+# Récits dans les prochains jours
+
+Écrire les articles prend beaucoup de temps, je dois souvent choisir entre planifier la suite de mon voyage, me balader ou discuter avec des gens. Donc j'essaierai d'être concis et de relever peut-être que ce qui est un peu unique dans mon voyage (j'irai vite sur les sites touristiques donc).
