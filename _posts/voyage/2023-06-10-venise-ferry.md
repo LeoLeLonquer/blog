@@ -27,7 +27,8 @@ _Burano_
 
 Je commence en douceur avec Murano et Burano en premier avec Alex une autrichienne d'Autriche. 
 
-![Heron sur un canot](https://i.ibb.co/MPkMCPG/IMG-20230613-182311-Jq-R07c3-I7e.jpg)
+![Heron sur une gondole](https://i.ibb.co/MPkMCPG/IMG-20230613-182311-Jq-R07c3-I7e.jpg)
+_Héron sur gondole_
 
 Ensuite nous mettons le cap sur Venise la vraie et pouah je ne m'attendais pas à ça. C'est vraiment magnifique, on se balade dans une ville du 17-18ème dans son jus. On se perd facilement dans les petites rues, et si l'on va suffisament dans les quartiers excentrés, on découvre les endroits où vivent les derniers Vénitiens (quelques familles quand même).
 Et surtout pas de voitures !!! Le même silence apaisant que l'on ne trouve que dans les petites îles bretonnes. Bon quand on se rapproche du grand Canal, ça pétarade quand même pas mal. 
@@ -39,7 +40,7 @@ _Palais des Doges_
 ![Église Saint-Marc](https://i.ibb.co/MhKCMVt/IMG-20230613-160643-Zcfcq-LWM00.jpg)
 _Eglise Saint-Marc juste à côté_
 
-Je visite le Palais des Doges le lendemain, 30€ le ticket, j'ai longuement réfléchi, mais finalement ça vaut le coût : on y voit l'extraordinaire continuité d'une oligarchie de familles aristocratiques d'un millénaire. La salle d'élection est grandiose (plus grande salle d'europe) et couverte de peintures monulentales du Titien. Le pouvoir vénitien se légitime par le commandement divin ou papale reçu sur plusieurs tableaux et les vertus qu'il est sensé incarner, ils ne peuvent cependant pas s'empêcher de faire les coqs en peignant les victoires militaires sur Gènes, sur les Ottomans (Lépante), sur la Dolmatie et Corfou. Les galères vénitiennes y sont pour beaucoup. J'ai d'ailleurs visité l'arsenal (la porte est magnifique, les entrepôts sont une pâle copie des Capucins à Brest) et le musée maritime (moyennement intéressant mais de belles maquettes de galères), Venise possédait jusquà 1600 galères 
+Je visite le Palais des Doges le lendemain, 30€ le ticket, j'ai longuement réfléchi, mais finalement ça vaut le coût : on y voit l'extraordinaire continuité d'une oligarchie de familles aristocratiques d'un millénaire. La salle d'élection est grandiose (plus grande salle d'europe) et couverte de peintures monumentales du Titien. Le pouvoir vénitien se légitime par le commandement divin ou papale reçus sur plusieurs tableaux et les vertus qu'il est sensé incarner, ils ne peuvent cependant pas s'empêcher de faire les coqs en peignant les victoires militaires sur Gènes, sur les Ottomans (Lépante), sur la Dolmatie et Corfou. Les galères vénitiennes y sont pour beaucoup. J'ai d'ailleurs visité l'arsenal (la porte est magnifique, les entrepôts sont une pâle copie des Capucins à Brest) et le musée maritime (moyennement intéressant mais de belles maquettes de galères), Venise possédait jusquà 1600 galères 
 
 ![Bataille navale](https://i.ibb.co/84Mf632/IMG-20230613-151738-p486v14q46.jpg)
 _Les doges aussi jouent à à Age of Empires_
@@ -82,9 +83,9 @@ _Le Lounge avec vue sur la proue_
 ![Café extérieur](https://i.ibb.co/mChSMWk/IMG-20230615-125031-1ke-CTzcq1-R.jpg)
 _Café vue mer_
 
-Je retrouve Louis plus tard dans le bateau, il est avec Karo, une suédoise qui vient de Luleå (tout au Nord) et qui entreprend un tour d'Europe. Et Karo parle français ! Elle a passé un an à Grenoble dans une fac de droit (déso Karo je n'explique toujours pas ce choix). Elle a aussi passé une semaine à Landerneau en échange linguistique à Landerneau. Elle se souvient de la pluie. Elle rejoint une ami qui travaille sur l'île de Paxos pour 10 jours. 
+Je retrouve Louis plus tard dans le bateau, il est avec Karo, une suédoise qui vient de Luleå (tout au Nord) et qui entreprend un tour d'Europe. Et Karo parle français ! Elle a passé un an à Grenoble dans une fac de droit (déso Karo je ne m'explique toujours pas ce choix). Elle a aussi passé une semaine à Landerneau en échange linguistique à Landerneau. Elle se souvient de la pluie. Elle rejoint une ami qui travaille sur l'île de Paxos pour 10 jours. 
 
-Louis est un pro de la ventilation (il brasse du vent pour de vrai) mais aussi un randonneur chevronné, il a fait quasiment tous les chemins de Suisse, il veut faire du trek en Grèce. 
+Louis est un pro de la ventilation (il brasse du vent pour de l'argent) mais aussi un randonneur chevronné, il a fait quasiment tous les chemins de Suisse, il veut faire du trek en Grèce. 
 
 ![selfie à trois](https://i.ibb.co/xH5NMhG/IMG-20230614-134133-s-KXRJc-Dv3-Q.jpg)
 _Selfie avec l'équipage_
