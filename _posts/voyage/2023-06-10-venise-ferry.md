@@ -40,7 +40,12 @@ _Palais des Doges_
 ![Église Saint-Marc](https://i.ibb.co/MhKCMVt/IMG-20230613-160643-Zcfcq-LWM00.jpg)
 _Eglise Saint-Marc juste à côté_
 
-Je visite le Palais des Doges le lendemain, 30€ le ticket, j'ai longuement réfléchi, mais finalement ça vaut le coût : on y voit l'extraordinaire continuité d'une oligarchie de familles aristocratiques d'un millénaire. La salle d'élection est grandiose (plus grande salle d'europe) et couverte de peintures monumentales du Titien. Le pouvoir vénitien se légitime par le commandement divin ou papale reçus sur plusieurs tableaux et les vertus qu'il est sensé incarner, ils ne peuvent cependant pas s'empêcher de faire les coqs en peignant les victoires militaires sur Gènes, sur les Ottomans (Lépante), sur la Dolmatie et Corfou. Les galères vénitiennes y sont pour beaucoup. J'ai d'ailleurs visité l'arsenal (la porte est magnifique, les entrepôts sont une pâle copie des Capucins à Brest) et le musée maritime (moyennement intéressant mais de belles maquettes de galères), Venise possédait jusquà 1600 galères 
+Je visite le Palais des Doges le lendemain, 30€ le ticket, j'ai longuement réfléchi, mais finalement ça vaut le coût : on y voit l'extraordinaire continuité d'une oligarchie de familles aristocratiques d'un millénaire. La salle d'élection est grandiose (plus grande salle d'Europe) et couverte de peintures monumentales du Titien. Le pouvoir vénitien se légitime par le commandement divin ou papale reçus sur plusieurs tableaux et les vertus qu'il est sensé incarner, ils ne peuvent cependant pas s'empêcher de faire les coqs en peignant les victoires militaires sur Gènes, sur les Ottomans (Lépante), sur la Dolmatie et Corfou. Les galères vénitiennes y sont pour beaucoup.
+
+![porte arsenal](https://i.ibb.co/PW2MrSc/IMG-20230612-153955-E13-R2-FAS0a.jpg)
+_Porte de l'Arsenal de Venise_
+
+J'ai d'ailleurs visité l'arsenal (la porte est magnifique, les entrepôts sont une pâle copie des Capucins à Brest) et le musée maritime (moyennement intéressant mais de belles maquettes de galères), Venise possédait jusqu'à 1600 galères. 
 
 ![Bataille navale](https://i.ibb.co/84Mf632/IMG-20230613-151738-p486v14q46.jpg)
 _Les doges aussi jouent à à Age of Empires_
