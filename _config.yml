@@ -21,7 +21,7 @@ navigation:
   - {file: "pages/notes.html"}
   - {file: "pages/voyages.html"}
   - {file: "pages/tweets.html"}
-  - {file: "pages/ressources.md"}
+  #- {file: "pages/ressources.md"}
   # - {file: "pages/amis.md"}
   # - {file: "pages/cv.html"}
 
