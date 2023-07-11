@@ -23,6 +23,8 @@ Les deux sites sont majestueux. À chaque fois, je ne m'attends jamais à ça.
 
 Rien que pour le superbe théâtre complètement restauré j'y retournerai. Malheureusement, une personne du site empêche les gens de chanter !!! Comment c'est possible ??? On ne peut que taper des mains où lâcher une pièce sur une pierre au milieu du théâtre. Après bon courage pour empêcher les Italiens de chanter
 
+Si vous pensez avoir un métier inutile, pensez d'abord à cette employée qui empêche les gens de chanter, et réévaluer votre jugement ensuite. 
+
 # Napflio
 
 Superbe ville très coquette sur le bord de la Méditerranée. Je me dis que c'est ce à quoi toutes les villes grecques auraient ressemblé sans avoir été balotées entre empires, royaumes et républiques étrangères. 
