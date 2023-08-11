@@ -19,7 +19,9 @@ _Ma voiture !!! Elle a atterrie ici au lieu d'être envoyée à la casse_
 
 <!--more--> 
 
-Je vais aller vite. Petit conseil : pour faire ce tour, prenez comme camp de base Napflio et pas Athènes et faites Mycènes et Epidaure tranquillement ! 
+Je vais aller vite dans cet article et passer sur certains détails. 
+
+Petit conseil : pour faire ce tour, prenez comme camp de base Napflio et pas Athènes et faites Mycènes et Epidaure tranquillement ! 
 
 Les deux sites sont majestueux. À chaque fois, je ne m'attends jamais à ça. 
 
