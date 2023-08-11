@@ -37,7 +37,7 @@ Malheureusement, il ne participe pas avec nous à la visite sur site, il nous le
 
 # Epidaure 
 
-Epidaure est un centre de soin majeur du monde grec et est fameux pour son asclépion (dédié au dieu Asclépios de la médecine). Aujourd'hui c'est plutôt le théâtre qui attire. 
+Epidaure est un centre de soin majeur du monde grec et est fameux pour son asclépiéion (dédié au dieu Asclépios de la médecine). Aujourd'hui c'est plutôt le théâtre qui attire. 
 
 Rien que pour le superbe théâtre complètement restauré j'y retournerai. Malheureusement, une personne du site empêche les gens de chanter !!! Comment c'est possible ??? Dictature !!! On ne peut que taper des mains où lâcher une pièce sur une pierre au milieu du théâtre. Bon courage pour empêcher les Italiens de chanter
 
@@ -52,7 +52,7 @@ Si vous pensez avoir un métier inutile, pensez d'abord à cette employée qui e
 ![Vue panoramique](https://i.ibb.co/LPDFtr0/IMG-20230623-112646-QQSn8-P0-A9-U.jpg)
 _Ça marche pas de ouf la vue panoramique d'en bas_
 
-J'ai pas pris de photo de l'asclépion parce qu'on voit rien mais vous en verrez de celui de Pergame inspiré d'Epidaure. 
+J'ai pas pris de photo de l'asclépiéion parce qu'on voit rien mais vous en verrez de celui de Pergame inspiré d'Epidaure. 
 
 Aussi bon à savoir, il y a un tholos (bâtiment rond) à Epidaure. Avec les deux autres (à Delphes et Athènes), ils forment un triangle équilatéral parfait. Les illuminatis déjà... 
 
