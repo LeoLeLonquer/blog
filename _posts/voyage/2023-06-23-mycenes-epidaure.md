@@ -12,7 +12,7 @@ Je prends un tour d'une journée, au programme :
 - Napflio
 - Mycènes 
 
-Je vais voyager dans le temps et explorer un très large panel d'époques de la Grèce de l'âge du bronze à la revolution pétrochimique. 
+Je vais voyager dans le temps et explorer un très large panel d'époques de la Grèce de l'âge du bronze à la révolution pétrochimique. 
 
 ![Ford focus grise](https://i.ibb.co/rtRZzNS/IMG-20230623-093710-t-Ry0uy-Y16s.jpg)
 _Ma voiture !!! Elle a atterrie ici au lieu d'être envoyée à la casse_
@@ -75,7 +75,7 @@ Grandiose cité de l'âge du bronze dans la vallée brûlante d'Argos, retrouvé
 
 Il faut savoir que la ville de Mycènes a dominé une partie de la Méditerranée, on a trouvé des signes de civilisation mycénienne jusqu'en Syrie. 
 
-La chute est floue peut-être du à des conflits internes. 
+La chute est floue - la cité a brûlée de l'intérieur sans trace de bataille - peut être due à des conflits internes. 
 
 ![mycenes](https://i.ibb.co/HTk1fyL/IMG-20230623-164552-v-Bd-FBAMq6-I.jpg)
 _Mycènes vu de loin_
