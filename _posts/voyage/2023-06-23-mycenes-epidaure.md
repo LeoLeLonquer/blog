@@ -106,3 +106,11 @@ Les nouvelles de la télé ne me parviennent que très sporadiquement avec un d�
 Pour le coup, pour l'anecdote parce que c'est marrant, j'ai prêté l'oreille malicieusement à une conversation d'une famille américaine dans le bus. J'apprends donc qu'un sous-marin embarquant 4 milliardaires à disparu en tentant d'explorer l'épave du Titanic et qu'une armada a été déployée pour tenter de les secourir. J'avoue qu'en soit cette nouvelle ne me fait ni chaud ni froid, surtout quand 400 personnes sont mortes en Méditerranée la semaine passée. 
 
 Ce qui est amusant dans la conversation, c'est que la fille est rentrée dans une théorie du complot ds laquelle les 4 milliardaires ont manigancé toute l'opération pour disparaître de la circulation discrètement (comme Michael Jackson et Hitler, (ça c'est moi qui rajoute)). Les parents tentent de la convaincre que non. C'est assez drôle de les entendre se dépatouiller. 
+
+---
+
+En savoir plus sur Mycènes :
+
+{% include embed.html url="https://youtube.com/embed/UIPQKUAElrM" %}
+_Passé sauvage sur Mycènes_
+
