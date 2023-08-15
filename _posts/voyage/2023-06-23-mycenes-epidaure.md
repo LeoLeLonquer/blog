@@ -2,14 +2,14 @@
 layout: post 
 category: voyages
 tags: voyages
-title: "Combo Mycènes, Napflio et Epidaure - Grèce"
+title: "Combo Mycènes, Nafplio et Epidaure - Grèce"
 image: https://i.ibb.co/LkgV0Qt/IMG-20230623-112311-Zdpg7p-Or4-E.jpg
 ---
 
 Je prends un tour d'une journée, au programme :
 - canal de Corynthe
 - Epidaure
-- Napflio
+- Nafplio
 - Mycènes 
 
 Je vais voyager dans le temps et explorer un très large panel d'époques de la Grèce de l'âge du bronze à la révolution pétrochimique. 
@@ -21,7 +21,7 @@ _Ma voiture !!! Elle a atterrie ici au lieu d'être envoyée à la casse_
 
 Je vais aller vite dans cet article et passer sur certains détails. 
 
-Petit conseil : pour faire ce tour, prenez comme camp de base Napflio et pas Athènes et faites Mycènes et Epidaure tranquillement ! 
+Petit conseil : pour faire ce tour, prenez comme camp de base Nafplio et pas Athènes et faites Mycènes et Epidaure tranquillement ! 
 
 Les deux sites sont majestueux. À chaque fois, je ne m'attends jamais à ça. 
 
@@ -59,15 +59,15 @@ J'ai pas pris de photo de l'asclépiéion parce qu'on voit rien mais vous en ver
 Aussi bon à savoir, il y a un tholos (bâtiment rond) à Epidaure. Avec les deux autres (à Delphes et Athènes), ils forment un triangle équilatéral parfait. Les illuminatis déjà... 
 
 
-# Napflio
+# Nafplio
 
 Superbe ville très coquette sur le bord de la Méditerranée. Je me dis que c'est ce à quoi toutes les villes grecques auraient ressemblées si elles n'avaient pas été balotées entre empires, royaumes et républiques étrangères. 
 
-![Napflio](https://i.ibb.co/4RfGLtN/IMG-20230623-135236-u-Dly-Ixn56e.jpg)
-_Napflio vibes 1_
+![Nafplio](https://i.ibb.co/4RfGLtN/IMG-20230623-135236-u-Dly-Ixn56e.jpg)
+_Nafplio vibes 1_
 
-![Napflio chat](https://i.ibb.co/0YgJgf9/IMG-20230623-135016-fu-XCr-IZS5g.jpg)
-_Napflio vibes 2_
+![Nafplio chat](https://i.ibb.co/0YgJgf9/IMG-20230623-135016-fu-XCr-IZS5g.jpg)
+_Nafplio vibes 2_
 
 # Mycènes 
 
