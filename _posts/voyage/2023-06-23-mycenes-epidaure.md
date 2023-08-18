@@ -58,6 +58,9 @@ J'ai pas pris de photo de l'asclépiéion parce qu'on voit rien mais vous en ver
 
 Aussi bon à savoir, il y a un tholos (bâtiment rond) à Epidaure. Avec les deux autres (à Delphes et Athènes), ils forment un triangle équilatéral parfait. Les illuminatis déjà... 
 
+Peut-être que le mieux est d'aller voir directement la reconstitution de l'asclépiéion dans Assassin's Creed qui donne vit au sanctuaire :
+
+{% include embed.html url="https://www.youtube.com/embed/qRSs1A-p_IM" %}
 
 # Nafplio
 
@@ -114,3 +117,5 @@ En savoir plus sur Mycènes :
 {% include embed.html url="https://youtube.com/embed/UIPQKUAElrM" %}
 _Passé sauvage sur Mycènes_
 
+{% include embed.html url="https://www.youtube.com/embed/kZ0IVSheoAs" %}
+_Assassin's Creed Odyssey sur Mycènes, bon là ils ont pris quelques libertés mais au moins on voit le palais central, le mégaron_
