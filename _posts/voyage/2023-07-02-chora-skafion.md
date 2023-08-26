@@ -63,7 +63,7 @@ Deuxième péripétie, alors que je saute pour rejoindre le sol, une des attache
 Système D, je réajuste la longueur des cordes, je peux l'utiliser comme sac à dos même si ça tire un peu sur les épaules et le cou. Entre temps je vois quand même défiler un peu de monde. Je ne suis pas tout à tout seul, c'est rassurant. 
 
 ![échelle et sac](https://i.ibb.co/n6SM4nw/Design-sans-titre.jpg)
-_Longue Echelle et sac détraqué_
+_Longue échelle et sac détraqué_
 
 ![gorges profondes](https://i.ibb.co/pQH6hSQ/roches.jpg)
 _Plus l'on se rapproche de la mer, plus le lieu devient aride et les falaises abruptes_
@@ -97,7 +97,7 @@ _Vignettes des paysages que j'ai pu voir jusqu'à Lindos_
 
 Je repars, et après quelques temps j'arrive à la plage dite "sweet water" (eau sucrée) qui m'intrigue beaucoup. Je croise un premier touriste étranger qui m'explique qu'il y a une source qui coule depuis la montagne et que l'eau est sucrée. Intriguant cette histoire. Je trouve enfin la source qui se trouve en fait en plein milieu d'une plage nudiste, je goûte mais ça ne me paraît pas trop sucré. Alors je demande à un gars à walpé un peu plus de précision. En fait, "sweet water" est une mauvaise traduction du grec, car en grec justement tout ce qui n'est pas salé est dit sucré. Donc c'est juste une source classique. Il me déconseille d'ailleurs d'y boire. 
 
-![[sweetwater.jpg]]
+![sweetwater](https://i.ibb.co/kJ27DGv/sweetwater.jpg)
 _Regardez comment l'eau est bleue ! A droite la plage de Sweet Water_
 
 Je termine la rando par un chemin épique qui se fraie dans la roche en altitude au-dessus de la mer. Puis je rejoins la route goudronnée du début qui me fait enfin rejoindre Chora Skafion. 
