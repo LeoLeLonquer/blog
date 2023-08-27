@@ -97,8 +97,8 @@ _Vignettes des paysages que j'ai pu voir jusqu'à Lindos_
 
 Je repars, et après quelques temps j'arrive à la plage dite "sweet water" (eau sucrée) qui m'intrigue beaucoup. Je croise un premier touriste étranger qui m'explique qu'il y a une source qui coule depuis la montagne et que l'eau est sucrée. Intriguant cette histoire. Je trouve enfin la source qui se trouve en fait en plein milieu d'une plage nudiste, je goûte mais ça ne me paraît pas trop sucré. Alors je demande à un gars à walpé un peu plus de précision. En fait, "sweet water" est une mauvaise traduction du grec, car en grec justement tout ce qui n'est pas salé est dit sucré. Donc c'est juste une source classique. Il me déconseille d'ailleurs d'y boire. 
 
-![sweetwater](https://i.ibb.co/kJ27DGv/sweetwater.jpg)
-_Regardez comment l'eau est bleue ! A droite la plage de Sweet Water_
+![sweetwater](https://i.ibb.co/yBBF8TD/IMG-20230703-171831-Wgs3mf-ZH9j.jpg)
+_La magnifique plage de Sweet Water, inaccessible en voiture_
 
 Je termine la rando par un chemin épique qui se fraie dans la roche en altitude au-dessus de la mer. Puis je rejoins la route goudronnée du début qui me fait enfin rejoindre Chora Skafion. 
 
