@@ -66,6 +66,7 @@ Système D, je réajuste la longueur des cordes, je peux l'utiliser comme sac à
 _Longue échelle et sac détraqué_
 
 ![gorges profondes](https://i.ibb.co/pQH6hSQ/roches.jpg)
+
 _Plus l'on se rapproche de la mer, plus le lieu devient aride et les falaises abruptes_
 
 J'arrive au bout des gorges qui débouchent sur la mer sur une grève toute mignonne. Il y a même un restaurant pas trop cher qui surplombe la grève. Je regrette presque d'avoir pris un sandwich en partant. Je retrouve également sur la grève un américain du nom de John (je crois ?) qui vient me taper la causette. Je l'avais vu dévalé les gorges alors que j'essayais de réparer mon sac. C'est un soldat américain qui vient du Kansas et qui est en station dans une base américaine en Belgique. Il profite de sa permission pour voyager en Europe. Il est franchement sympa. 
@@ -88,6 +89,7 @@ _La photo est jolie mais c'est surtout danger de mort imminent, papa bélier sur
 _Les chèvres se calent dans des endroits incongrus_
 
 ![pont](https://i.ibb.co/5WcsMxx/pont2.jpg)
+
 _Pas si rassurant que ça ce passage_
 
 J'arrive à Lindos, un village plus éloignée encore que Chora Skafion, je fais une pause en allant me baigner, en buvant de l'eau bien fraîche et en me mangeant une glace. 
