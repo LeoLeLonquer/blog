@@ -112,7 +112,7 @@ Ce qui est amusant dans la conversation, c'est que la fille est rentrée dans un
 
 ---
 
-En savoir plus sur Mycènes :
+# Pour aller plus loin
 
 {% include embed.html url="https://youtube.com/embed/UIPQKUAElrM" %}
 _Passé sauvage sur Mycènes_

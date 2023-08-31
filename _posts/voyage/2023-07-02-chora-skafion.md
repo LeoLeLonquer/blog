@@ -41,7 +41,7 @@ Je vous explique un peu le projet de la journée :
 Je me rends donc à mon arrêt de bus, j'y rencontre un couple d'alsaciens grands voyageurs. Je serai amené à les recroiser plusieurs fois. 
 
 Le bus prend une route taillée dans une colline rocailleuse habitée par des chèvres. 
-Nous arrivons à Ardena, un petit café se tient là juste avant les gorges. C'est très calme il n'y a pas plus de monde que de gens dans le bus. 
+Nous arrivons à Aradena, un petit café se tient là juste avant les gorges. C'est très calme il n'y a pas plus de monde que de gens dans le bus. 
 Je suis un peu dans les vapes parce que je n'ai pas énormément dormi, je comptais sur le saut à l'élastique depuis le pont qui traverse les gorges pour me réveiller mais apparemment ils n'ouvrent que l'après-midi.
 
 ![Vue depuis en haut et en bas](https://i.ibb.co/SfgWqXL/vues.jpg)
@@ -51,7 +51,7 @@ Un mal pour un bien je décide de me prendre un café grec avant de partir à l'
 En pensant à une note du Routard qui précise que le village d'Aradena est abandonné car il aurait été victime d'une vendetta, je lui demande plus de précision. Elle ne me donne pas beaucoup plus de détails, soit elle n'a pas d'informations, soit elle n'a pas envie de remuer le passé. À sa décharge, des gens se sont réapproprié le lieu en y installant leur résidence principale. Drôle d'idée que de vivre au milieu des fantômes. 
 
 ![Village Aradena](https://i.ibb.co/JcsCQsZ/village-aradena.jpg)
-_Une maison abandonnée et l'épicerie ambulante qui se déplace au mégaphone entre tous les villages du coin. Ici elle vient ravitaillée le café._
+_Une maison abandonnée et l'épicerie ambulante qui se déplace au mégaphone entre tous les villages du coin. Ici elle vient ravitailler le café._
 
 Je descends dans les gorges enfin, le lit est à sec et il n'a pas plus depuis des jours donc je suis safe. Je suis encore tout seul c'est assez cool, on peut y pousser la chansonnette on entend bien la résonance. Les gorges sont vraiment profondes. 
 Je précise que le guide du Routard indique qu'il ne faut pas faire ces gorges tout seul car peu de passage. Mais je suis un fou dans ma tête donc je fonce. Il faut parfois descendre en escalade les roches. Donc évidemment, il fallait que ça arrive, je me tape bien comme il faut le tibias dans un roche pointu, directement sur l'os. J'ai le droit à un beau bleu en souvenir. Rien de plus heureusement. 
