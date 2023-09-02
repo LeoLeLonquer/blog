@@ -4,7 +4,7 @@ category: voyages
 tags:
   - voyages
 title: Lycienne est la voie - Turquie
-image:
+image: https://i.ibb.co/x6pHcBs/Whats-App-Image-2023-07-17-at-17-51-47.jpg
 ---
 
 A l'auberge après Kekova, je retrouve Zoe accoudée au bar de l'hôtel qui est à Kaş depuis un petit moment, je sais qu'elle reste un peu plus longtemps donc je lui propose une deuxième idée que j'avais en tête : faire une randonnée sur la voie lycienne. Scarlett, une volontaire au bar, a l'oreille tendue, la rando la motive vachement ! Donc ok on est trois, ça veut dire qu'il faut louer une voiture. 
