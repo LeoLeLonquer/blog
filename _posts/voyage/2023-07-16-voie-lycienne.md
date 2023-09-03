@@ -32,12 +32,12 @@ On arrive à mettre la voiture sous un arbre, et on est parti ! Le chemin est as
 ![be real et photo de moi](https://i.ibb.co/Dp19pz0/bereal.jpg)
 _Soyez réel(le)(s)_
 
-Zoe a vécu pendant plusieurs années aux Maldives dans un hôtel sur une île un peu paumée pour la préservation des coraux. Elle faisait de la plongée tous les jours ! Maintenant elle se cherche, je soupçonne aussi une crise existentielle quant à la préservation des coraux face au réchauffement climatique. 
+Zoe a vécu pendant plusieurs années aux Maldives dans un hôtel sur une île un peu paumée pour la préservation des coraux. Elle faisait de la plongée tous les jours ! Maintenant elle se cherche, je soupçonne aussi une crise existentielle quant à la restauration des récifs coraliens et leur préservation face au réchauffement climatique. 
 
 ![Zoe et Scarlett](https://i.ibb.co/4djbPn7/IMG-20230717-115522-r-R2-WYMh-U0-D.jpg)
 _Zoé et Scarlett en pleine marche_
 
-Scarlett a un parcours différent plus difficile à résumer, elle a fait des études dans les outils médiatiques (cinéma, musique, art), mais elle a pris une année sabbatique en voyageant un peu partout en Europe et surtout en Espagne où elle était une assistante en anglais si je dis pas de bêtises. Ensuite elle a découvert la rando en Géorgie, et là elle a trouvé son bonheur en se proposant comme volontaire dans l'auberge Sole n' blu dans laquelle je me trouve pour tout l'été. Quand elle rentrera en Australie, elle deviendra surement prof d'espagnol.
+Scarlett a un parcours différent plus difficile à résumer, elle a fait des études dans les outils médiatiques (cinéma, musique, art), mais elle a pris une année sabbatique en voyageant un peu partout en Europe et surtout en Espagne où elle était une assistante en anglais si je dis pas de bêtises. Ensuite elle a découvert la rando en Géorgie, et là elle a trouvé son bonheur en se proposant comme volontaire tout l'été dans l'auberge Sole n' blu dans laquelle je me trouve. Quand elle rentrera en Australie, elle deviendra surement prof d'espagnol.
 
 ![scarlett lacet chaussures](https://i.ibb.co/HHV3dZw/IMG-20230717-115939-ut-N9-NW1f9f.jpg)
 _Scarlett qui fait ses lacets_
@@ -52,7 +52,7 @@ Le restaurant est vraiment paumé au milieu de nulle part ! Aucune route en voit
 ![ponton poisson](https://i.ibb.co/hy9MkNZ/restauponton.jpg)
 _Au bout de nulle part, on fait simple et efficace_
 
-Quand arrive l'heure de repartir, il est 14h, soit l'heure la plus chaude de la journée. Et on doit tout remonter. C'est un aussi bon exercice que le sauna pour renouveler l'intégralité de l'eau de son corps. Pour passer le temps on joue à un Petit Bac simplifié : une personne choisit un thème puis le jeu commence à la lettre A, et chacun son tour on doit trouver un élément qui appartient au thème et qui commence par la lettre attribuée. Donc par exemple si le thème c'est pays et que la lettre c'est B, alors on peut dire Bretagne. Bon les australiennes sont clairement avantagées, je parle quand clairement moins bien leur langue, mais je me débrouille pas mal quand même. Scarlett est incollable sur la culture, tandis que Zoe connait toutes les espèces de poissons.
+Quand arrive l'heure de repartir, il est 14h, soit l'heure la plus chaude de la journée. Et on doit tout remonter. C'est un aussi bon exercice que le sauna pour renouveler l'intégralité de l'eau de son corps. Pour passer le temps on joue à un Petit Bac simplifié : une personne choisit un thème puis le jeu commence à la lettre A, et chacun son tour on doit trouver un élément qui appartient au thème et qui commence par la lettre attribuée. Donc par exemple si le thème c'est pays et que la lettre c'est B, alors on peut dire Bretagne. Bon les australiennes sont clairement avantagées, je parle quand même clairement moins bien leur langue, mais je me débrouille pas mal quand même. Scarlett est incollable sur la culture, tandis que Zoe connait toutes les espèces de poissons.
 
 
 
