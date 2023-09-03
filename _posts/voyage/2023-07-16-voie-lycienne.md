@@ -63,7 +63,7 @@ _Je les amène au point de vue de la veille_
 
 --- 
 
-# Références
+# Pour aller plus loin
 
 Voie lycienne : 
 - https://www.ambertravel.com/map-of-the-lycian-way
