@@ -45,15 +45,16 @@ Nous arrivons à Aradena, un petit café se tient là juste avant les gorges. C'
 Je suis un peu dans les vapes parce que je n'ai pas énormément dormi, je comptais sur le saut à l'élastique depuis le pont qui traverse les gorges pour me réveiller mais apparemment ils n'ouvrent que l'après-midi.
 
 ![Vue depuis en haut et en bas](https://i.ibb.co/SfgWqXL/vues.jpg)
+
 _Vues depuis le haut et le bas du pont_
 
 Un mal pour un bien je décide de me prendre un café grec avant de partir à l'aventure. J'en profite pour discuter un peu avec la serveuse (qui est assez mignonne j'avoue), elle m'explique que le café grec c'est juste un café turc. Elle utilise une toute petite bouilloire, elle met du café dans le fond, de l'eau, fait bouillir et sert le tout dans une tasse. 
-En pensant à une note du Routard qui précise que le village d'Aradena est abandonné car il aurait été victime d'une vendetta, je lui demande plus de précision. Elle ne me donne pas beaucoup plus de détails, soit elle n'a pas d'informations, soit elle n'a pas envie de remuer le passé. À sa décharge, des gens se sont réapproprié le lieu en y installant leur résidence principale. Drôle d'idée que de vivre au milieu des fantômes. 
+En pensant à une note du Routard qui précise que le village d'Aradena est abandonné car il aurait été victime d'une vendetta, je lui demande plus de précisions. Elle ne me donne pas beaucoup plus de détails, soit elle n'a pas d'informations, soit elle n'a pas envie de remuer le passé. À sa décharge, des gens se sont réapproprié le lieu en y installant leur résidence principale. Drôle d'idée que de vivre au milieu des fantômes. 
 
 ![Village Aradena](https://i.ibb.co/JcsCQsZ/village-aradena.jpg)
 _Une maison abandonnée et l'épicerie ambulante qui se déplace au mégaphone entre tous les villages du coin. Ici elle vient ravitailler le café._
 
-Je descends dans les gorges enfin, le lit est à sec et il n'a pas plus depuis des jours donc je suis safe. Je suis encore tout seul c'est assez cool, on peut y pousser la chansonnette on entend bien la résonance. Les gorges sont vraiment profondes. 
+Je descends dans les gorges enfin, le lit est à sec et il n'a pas plu depuis des jours donc je suis safe. Je suis encore tout seul c'est assez cool, on peut y pousser la chansonnette on entend bien la résonance. Les gorges sont vraiment profondes. 
 Je précise que le guide du Routard indique qu'il ne faut pas faire ces gorges tout seul car peu de passage. Mais je suis un fou dans ma tête donc je fonce. Il faut parfois descendre en escalade les roches. Donc évidemment, il fallait que ça arrive, je me tape bien comme il faut le tibias dans un roche pointu, directement sur l'os. J'ai le droit à un beau bleu en souvenir. Rien de plus heureusement. 
 
 ![gorges](https://i.ibb.co/TL6mGcK/IMG-20230703-114248-MA66k-RTj6i.jpg)
@@ -69,16 +70,16 @@ _Longue échelle et sac détraqué_
 
 _Plus l'on se rapproche de la mer, plus le lieu devient aride et les falaises abruptes_
 
-J'arrive au bout des gorges qui débouchent sur la mer sur une grève toute mignonne. Il y a même un restaurant pas trop cher qui surplombe la grève. Je regrette presque d'avoir pris un sandwich en partant. Je retrouve également sur la grève un américain du nom de John (je crois ?) qui vient me taper la causette. Je l'avais vu dévalé les gorges alors que j'essayais de réparer mon sac. C'est un soldat américain qui vient du Kansas et qui est en station dans une base américaine en Belgique. Il profite de sa permission pour voyager en Europe. Il est franchement sympa. 
+J'arrive au bout des gorges qui débouchent sur la mer sur une grève toute mignonne. Il y a même un restaurant pas trop cher qui surplombe la grève. Je regrette presque d'avoir pris un sandwich en partant. Je retrouve également sur la grève un américain du nom de John (je crois ?) qui vient me taper la causette. Je l'avais vu dévaler les gorges alors que j'essayais de réparer mon sac. C'est un soldat américain qui vient du Kansas et qui est en station dans une base américaine en Belgique. Il profite de sa permission pour voyager en Europe. Il est franchement sympa. 
 
 ![escalier, photo de moi et chats](https://i.ibb.co/vLMX5Gj/plage.jpg)
 _J'ai retrouvé le nom, c'est la plage de Marmara_
 
-Je vais faire un tour dans l'eau, il y a des jolies grottes taillées dans la roche par les vagues, on peut facilement y rentrer et s'installer dans un coin. C'est de drôle de formations géologiques, mais je n'ai pas de photos malheureusement. 
+Je vais faire un tour dans l'eau, il y a des jolies grottes taillées dans la roche par les vagues, on peut facilement y rentrer et s'installer dans un coin. Ce sont de drôles de formations géologiques, mais je n'ai pas de photos malheureusement. 
 
 # D'Aradena à Chora
 
-Après avoir essayé de me reposer, je repars à l'aventure. J'aurais pu prendre le bateau taxi qui m'aurait ramené à bon port en trois fois rien mais c'est mal me connaître. 
+Après avoir essayé de me reposer, je repars à l'aventure. J'aurais pu prendre le bateau-taxi qui m'aurait ramené à bon port en trois fois rien mais c'est mal me connaître. 
 
 J'emprunte la route sinueuse et escarpée exposée à la mer plein sud. C'est super joli mais c'est un vrai four. Sur le chemin on croise plein de chèvres qui se cachent parfois dans des formations géologiques risquées. 
 
@@ -97,7 +98,7 @@ J'arrive à Lindos, un village plus éloignée encore que Chora Skafion, je fais
 ![restaurant chateau chèvre sur arbre et Lindos](https://i.ibb.co/30FFZJ8/chemin.jpg)
 _Vignettes des paysages que j'ai pu voir jusqu'à Lindos_
 
-Je repars, et après quelques temps j'arrive à la plage dite "sweet water" (eau sucrée) qui m'intrigue beaucoup. Je croise un premier touriste étranger qui m'explique qu'il y a une source qui coule depuis la montagne et que l'eau est sucrée. Intriguant cette histoire. Je trouve enfin la source qui se trouve en fait en plein milieu d'une plage nudiste, je goûte mais ça ne me paraît pas trop sucré. Alors je demande à un gars à walpé un peu plus de précision. En fait, "sweet water" est une mauvaise traduction du grec, car en grec justement tout ce qui n'est pas salé est dit sucré. Donc c'est juste une source classique. Il me déconseille d'ailleurs d'y boire. 
+Je repars, et après quelques temps j'arrive à la plage dite "sweet water" (eau sucrée) qui m'intrigue beaucoup. Je croise un premier touriste étranger qui m'explique qu'il y a une source qui coule depuis la montagne et que l'eau est sucrée. Intrigant cette histoire. Je trouve enfin la source qui se trouve en fait en plein milieu d'une plage nudiste, je goûte mais ça ne me paraît pas trop sucré. Alors je demande à un gars à walpé un peu plus de précisions. En fait, "sweet water" est une mauvaise traduction du grec, car en grec justement tout ce qui n'est pas salé est dit sucré. Donc c'est juste une source classique. Il me déconseille d'ailleurs d'y boire. 
 
 ![sweetwater](https://i.ibb.co/yBBF8TD/IMG-20230703-171831-Wgs3mf-ZH9j.jpg)
 _La magnifique plage de Sweet Water, inaccessible en voiture_
@@ -112,7 +113,7 @@ Je me prends un petit jus d'orange bien mérité (5€ quand même). C'était vr
 Après m'être mis un coup de gant de toilettes en pirate sur le parking, je reprends la voiture pour la Canée. 
 
 ![chèvre](https://i.ibb.co/f4VpjfS/IMG-20230703-181145-Emuz-Q0jf5m.jpg)
-_Bonus : chèvre contemplant la mer_
+_Bonus : les chèvres aussi ont le droit à la contemplation_
 
 
 
