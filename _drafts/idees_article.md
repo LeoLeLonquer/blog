@@ -8,4 +8,5 @@
 - [ ] Trans identité 
 - [ ] Comment se débarrasser de cette merde, (le téléphone) 
 - [ ] Ma vision politique 
+- [ ] Comment j'ai écrit mon blog
 - [ ] Obsidian
