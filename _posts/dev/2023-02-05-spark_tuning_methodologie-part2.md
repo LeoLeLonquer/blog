@@ -53,10 +53,13 @@ Préparer un tableau pour contenir :
 - les valeurs de la configuration optimale
 - les métriques de traitement moyennes associées
 
+<div class="overflow-x-auto" markdown="1">
+
 | Volumétrie entrée | (num-executors,  executor-cores) | executor-memory | spark.shuffle.partitions | Total Uptime | Task Time | max Shuffle Spill Disk |
 | ----------------- | ------------------------------------ | ----------------- | -------------------------- | ------------ | --------- | ---------------------- |
 |                   |                                      |                   |                            |              |           |                        |
 
+</div>
 
 #### Sélection des volumétries
 
@@ -89,7 +92,9 @@ Pour chacune des volumétries ci-dessus :
 En reprenant notre tableau, pour chacun des paramètres Spark recueillis, analyser l'évolution du paramètre en fonction de la volumétrie en entrée (observer le lien de corrélation, les plafonds et les plateaux ...). Au mieux faire une régression.
 
 Exemple de tableau pour (`num-executors`,  `executor-cores`)
-      
+
+<div class="overflow-x-auto" markdown="1">
+
 | Volumétrie (Go) | (num-executors,  executor-cores) |
 | --------------- | ------------------------------------ |
 | 2               | (10, 5)                              |
@@ -97,6 +102,7 @@ Exemple de tableau pour (`num-executors`,  `executor-cores`)
 | 10              | (20, 5)                              |
 | 20              | (40, 5)                              |
 
+</div>
 
 #### Production des formules
 

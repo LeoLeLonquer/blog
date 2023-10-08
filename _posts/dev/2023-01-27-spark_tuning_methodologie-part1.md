@@ -132,6 +132,8 @@ Sur une journée (ici en sortie) :
 
 ##### Volumétrie table de jointure
 
+<div class="overflow-x-auto" markdown="1">
+
 | **Table** | **Path Hdfs vers partition Hive**         | **Taille données sur disque(sérialisées)** | **Estimation Taille données en mémoire (déserialisées)** |
 | --------- | ----------------------------------------- | ------------------------------------------ | -------------------------------------------------------- |
 | ref1      | /apps/hive/warehouse/ref.db/ref1/000000_0 | 20.7 K                                     | 62.0 K                                                   |
@@ -141,16 +143,21 @@ Sur une journée (ici en sortie) :
 | ref5      | /user/leo/ref/ref5/date=2022-07-28_1200   | 872.4 M                                    | 2.6 G                                                    |
 | ref6      | /user/leo/ref/ref6/date=2022-07-28        | 1.1 G                                      | 3.3G                                                     |
 
+</div>
 
 ##### Temps de traitement
 
 Pour le step 2100
+
+<div class="overflow-x-auto" markdown="1">
 
 | Date(2022-08) | Duration application | Duration job1 | Duration job2 | Task time |
 | ------------- | -------------------- | ------------- | ------------- | --------- |
 | 29            | 19min                | 14min         | 27s           | 8.3h      |
 | 30            | 30min                | 8.1min        | 20min         | 7.2h      |
 | 31            | 13min                | 9.2min        | 1.5min        | 8.4h      |
+
+</div>
 
 ### Optimisation code et configuration
 
@@ -241,11 +248,15 @@ A partir de la charge utile, on peut estimer le nombre de partitions nécessaire
 **Exemple :**  
 Si la charge utile est de 14,3Go et que l'on souhaite avoir des partitions de taille spécifique :
 
+<div class="overflow-x-auto" markdown="1">
+
 | partition_size | spark.shuffle.partitions |
 | -------------- | ------------------------ |
 | 100mo          | 143                      |
 | 150mo          | 95                       |
 | 200mo          | 71                         |
+
+</div>
 
 Trouver une première valeur de `spark.shuffle.partitions` intéressante
 
