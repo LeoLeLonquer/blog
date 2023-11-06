@@ -24,6 +24,10 @@ Pour lancer un serveur local, se placer dans le dossier et lancer :
 
 ```bash
 bundle # au premier lancement
+
+# Lancer le serveur
+bundle exec jekyll serve --livereload
+# Ou (moins de chance de fonctionner)
 jekyll serve --livereload
 ```
 
