@@ -33,6 +33,13 @@ Si bug au démarrage exécuter :
 bundle add webrick
 ```
 
+Pour mettre à jour le blog :
+
+```bash
+git add . && git commit -m "Blog Update" && git push
+```
+
+
 ## License
 
 [public domain](http://unlicense.org/)
