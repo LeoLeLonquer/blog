@@ -12,7 +12,7 @@ Quand on me demande mon travail à une soirée, j'explique que je bosse en temps
 En cette fin d'année, j'ai envie de vous expliquer mon nouveau travail. En plus, j'ai passé ma période d'essai donc plus rien ne me retient, les rênes sont lâchés, je suis en roue libre.
 
 ![bureau](https://i.ibb.co/VM6Zmg1/bureau.jpg)
-_Mon bureau avec la jolie plante, svp regardez pas les fils_
+_Mon bureau avec ma jolie plante, svp regardez pas les fils_
 
 <!--more-->
 
@@ -80,7 +80,7 @@ Enfin, on va arriver à mon travail ! Je suis au service ISI (Ingénierie des Sy
 L'équipe se divisent de deux manières :
 - par silo : il y a ceux qui gèrent spécifiquement un tâche métier comme l'halieutique, le satellite, l'insitu, les publications scientifiques
 - par tâches transversales : 
-    - opérationnelles : les activités qui répondent à des besoins critiques (engagements contractuels et légales)
+    - opérationnelles : les activités qui répondent à des besoins critiques (engagements contractuels et légaux)
     - analytiques : les activités qui répondent à un besoin d'analyse, d'expérimentation, de modélisation
 
 Pour l'instant, la division par silo est la principale. Les gens ont des outils qui leur sont spécifiques. C'est là où j'interviens : je m'occupe des tâches transversales analytiques.
@@ -91,11 +91,12 @@ Exemple : Jean-Truc³ développe un outil qui permet d'afficher les lieux des pr
 > Où sont passés les nuages dans tout ça ?
 
 Le Cloud c'est un mot-valise qui peut être utilisé de différentes manières. Pour la plupart des moldus, c'est simplement un espace de stockage en ligne qui centralisent tous les fichiers, images, vidéos et depuis lequel on peut accéder de toutes les machines possibles. Soit dit en passant, vos fichiers ne sont pas dématérialisés, ils sont toujours bien matériels, stockés sur des disques durs quelque part dans un datacenter en Finlande. L'apparente immatérialité du cloud n'est que virtuelle.
+
 Mon cloud à moi, c'est la même idée, mais on ajoute aussi des capacités de traitement et tout un tas de fonctionnalités supplémentaires. Nous avons notre propre datacenter Datarmor qui est notre infrastructure sur laquelle nous construisons notre Cloud. Les utilisateurs n'ont besoin que d'une très simple machine qu'ils utilisent pour se connecter à un site web sur lequel ils vont pouvoir retrouver :
 1. tout un catalogue de jeux de données directement accessible et interopérables  
 2. des outils de traitement qui accèdent directement aux supercalculateurs
 
-Exemple : Camille³ souhaite évaluer la corrélation entre taille des poissons, température de l'eau et intensivité de la pêche en mer d'Iroise. Camille se connecte donc à nuage.ifremer.fr, navigue dans le catalogue [Sextant](https://sextant.ifremer.fr/), sélectionne les jeux de données qui l'intéressent dans un panier. Une fois les courses terminées, Camille clique sur un bouton et cela ouvre une interface web de programmation (JuperLab pour les informés) dans laquelle des lignes de code préécritent permettent d'importer les données sur la zone géographique sélectionnée. Le code s'exécute sur une machine au sein de l'Ifremer, Camille ne récupère que le résultat.
+Exemple : Camille³ souhaite évaluer la corrélation entre taille des poissons, température de l'eau et intensivité de la pêche en mer d'Iroise. Camille se connecte donc à nuage.ifremer.fr, navigue dans le catalogue [Sextant](https://sextant.ifremer.fr/), sélectionne les jeux de données qui l'intéressent dans un panier. Une fois les courses terminées, Camille clique sur un bouton et cela ouvre une interface web de programmation (JupyterLab pour les informés) dans laquelle des lignes de code préécritent permettent d'importer les données sur la zone géographique sélectionnée. Le code s'exécute sur une machine au sein de l'Ifremer, Camille ne récupère que le résultat.
 
 # Conclusion 
 
