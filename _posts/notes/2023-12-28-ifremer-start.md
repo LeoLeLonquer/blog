@@ -29,7 +29,7 @@ Mon job en gros c'est :
 
 L'Ifremer ne fait pas que des surimis. C'est un institut qui a avant tout des missions scientifiques et d'appui de politiques publiques.
 
-C'est surtout un paradis pour les bioligistes et les physiciens qui peuvent étudier tout type de région et de climat puisque la France se trouve :
+C'est surtout un paradis pour les biologistes et les physiciens qui peuvent étudier tout type de région et de climat puisque la France se trouve :
 - dans les zones tempérés avec la France métropolitaine
 - dans les zones "froides" : avec les îles Kerguelen, la Terre Adélie, Saint-Pierre et Miquelon
 - dans les zones "chaudes" : avec la Guyane, les Antilles, la Nouvelle-Calédonie, la Polynésie Française, la Réunion, Mayotte
@@ -58,7 +58,7 @@ Pour faire rapide, l'institut s'intéresse à trois grands types d'activités et
 
 Vous voyez donc que le panel est très large ! Je me situe dans le troisième volet "Acquérir et partager les données et informations marines".
 
-Dans quasi tous ces cas de figures, l'Ifremer produit des connaissances. Un institut scientifique contrairement à une usine ne produit pas de marchandises comme des voitures, des brosses à dent ou des canards en plastique. Un institut scientifique produit des données scientifiques qualifiées et des connaissances scientifiques (sous la forme d'articles, de modèles) comme nous allons le voir ensuite.
+Dans quasi tous ces cas de figures, l'Ifremer produit des connaissances. Un institut scientifique contrairement à une usine ne produit pas de marchandises comme des voitures, des brosses à dent ou des canards en plastique. Un institut scientifique produit des données scientifiques qualifiées et des connaissances scientifiques (sous la forme d'articles, de modèles).
 
 # Ifremer le Poulpe
 
@@ -75,10 +75,10 @@ Je me situe plutôt dans la tête du poulpe ou en bout de chaîne, je suis celui
 
 # La mer dans le nuage
 
-Enfin, on va arriver à mon travail ! Je suis au service ISI (Ingénierie des Systèmes d'Informations) au sein du département IRSI (Infrastructures de Recherche et Systèmes d'Information). Nous sommes toute une équipe d'informaticiennes et d'informaticiens qui gèrent les données qui arrivent, font en sorte qu'ils n'y ait pas d'embouitellage, qu'elles soient correctement triées, qu'il n'y ait pas d'incohérence, qu'elles soient inventoriées. Nous mettons également en place des services comme des cartes, des statistiques qui viennent se greffer aux données pour obtenir plus d'informations ou y accéder plus rapidement.
+Enfin, on va arriver à mon travail ! Je suis au service ISI (Ingénierie des Systèmes d'Informations) au sein du département IRSI (Infrastructures de Recherche et Systèmes d'Information). Nous sommes toute une équipe d'informaticiennes et d'informaticiens qui gèrent les données qui arrivent, font en sorte qu'ils n'y ait pas d'embouteillage, qu'elles soient correctement triées, qu'il n'y ait pas d'incohérence, qu'elles soient inventoriées. Nous mettons également en place des services comme des cartes, des statistiques qui viennent se greffer aux données pour obtenir plus d'informations ou y accéder plus rapidement.
 
-L'équipe se divisent de deux manières :
-- par système d'information : il y a ceux qui gèrent spécifiquement un tâche métier comme l'halieutique, le satellite, l'insitu, les publications scientifiques
+L'équipe se divise de deux manières :
+- par système d'information : il y a ceux qui gèrent spécifiquement une tâche métier comme l'halieutique, le satellite, l'insitu, les publications scientifiques
 - par tâches transversales : 
     - opérationnelles : les activités qui répondent à des besoins critiques (engagements contractuels et légaux)
     - analytiques : les activités qui répondent à un besoin d'analyse, d'expérimentation, de modélisation
