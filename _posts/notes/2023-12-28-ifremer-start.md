@@ -1,9 +1,10 @@
 ---
-title: "Ifremer, a new beginning"
+title: Ifremer, a new beginning
 layout: post
-tags: notes
+tags:
+  - notes
 category: notes
-image: 
+image: https://i.ibb.co/VM6Zmg1/bureau.jpg
 ---
 
 Quand on me demande mon travail à une soirée, j'explique que je bosse en temps qu'ingénieur informaticien à l'Ifremer, l'institut qui a inventé les surimis. Généralement, ça met des étoiles dans les yeux des gens. ¹
