@@ -78,7 +78,7 @@ Je me situe plutôt dans la tête du poulpe ou en bout de chaîne, je suis celui
 Enfin, on va arriver à mon travail ! Je suis au service ISI (Ingénierie des Systèmes d'Informations) au sein du département IRSI (Infrastructures de Recherche et Systèmes d'Information). Nous sommes toute une équipe d'informaticiennes et d'informaticiens qui gèrent les données qui arrivent, font en sorte qu'ils n'y ait pas d'embouitellage, qu'elles soient correctement triées, qu'il n'y ait pas d'incohérence, qu'elles soient inventoriées. Nous mettons également en place des services comme des cartes, des statistiques qui viennent se greffer aux données pour obtenir plus d'informations ou y accéder plus rapidement.
 
 L'équipe se divisent de deux manières :
-- par silo : il y a ceux qui gèrent spécifiquement un tâche métier comme l'halieutique, le satellite, l'insitu, les publications scientifiques
+- par système d'information : il y a ceux qui gèrent spécifiquement un tâche métier comme l'halieutique, le satellite, l'insitu, les publications scientifiques
 - par tâches transversales : 
     - opérationnelles : les activités qui répondent à des besoins critiques (engagements contractuels et légaux)
     - analytiques : les activités qui répondent à un besoin d'analyse, d'expérimentation, de modélisation
