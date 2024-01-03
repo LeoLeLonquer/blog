@@ -12,3 +12,4 @@ _site
 *.backup
 
 .trash/
+.obsidian/
