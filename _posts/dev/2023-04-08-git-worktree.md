@@ -92,10 +92,9 @@ git status
 ### Créer un repo
 
 ```bash
-mkdir whattimeisit
-cd whattimeisit
+mkdir -p whattimeisit/.git
+cd whattimeisit/.git
 # Faire de whattimeisit un repo dépouillé (sans être rattaché à une branche/sans avoir de copie de travail)
-mkdir .git
 git init --bare
 
 cd ..
