@@ -75,17 +75,17 @@ git clone --bare https://github.com/monuser/whattimeisit.git .git
 
 # Vérfier que la copie est bien effectuée
 ls -a
-> .git
+#> .git
 git branch
-> * main
-> dev
-> feature-timeinnanoseconds
-> ...
+#> * main
+#> dev
+#> feature-timeinnanoseconds
+#> ...
 
 git worktree add main
 cd main
 git status
-> Sur la branche main
+#> Sur la branche main
 # idem pour chacune des branches (attention à bien séectionner whattimeisit comme répertoire parent)
 ```
 
@@ -107,12 +107,12 @@ Créer une nouvelle branche à partir de la branche `dev`
 ```bash
 cd whattimeisit/dev
 git worktree add ../hotfix-garemontparnasse -b hotfix-garemontparnasse
-> Préparation de l\'arbre de travail (nouvelle branche 'hotfix-garemontparnasse')
-> HEAD est maintenant à d81d55b Dernier commit de dev
+#> Préparation de l'arbre de travail (nouvelle branche 'hotfix-garemontparnasse')
+#> HEAD est maintenant à d81d55b Dernier commit de dev
 
 cd ../hotfix-garemontparnasse
 git status 
-> Sur la branche hotfix-garemontparnasse
+#> Sur la branche hotfix-garemontparnasse
 ```
 
 ## Désavantages
