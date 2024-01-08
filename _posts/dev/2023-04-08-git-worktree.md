@@ -56,9 +56,9 @@ _Mis à jour le 08/02/2024_
 ```txt
 ~/whattimeisit                  (contient le dossier .git)
 ├── dev                         (branche dev)
-├── feature-timeinnanoseconds   (branche feature-timeinnanoseconds)
-├── feature-timeofyesterday     (branche feature-timeofyesterday)
-├── hotfix-timeinindia          (branche hotfix-timeinindia)
+├── feature-timeinnanoseconds   (branche feature/timeinnanoseconds)
+├── feature-timeofyesterday     (branche feature/timeofyesterday)
+├── hotfix-timeinindia          (branche hotfix/timeinindia)
 └── main                        (branche main)
 ```
 
@@ -87,7 +87,7 @@ git worktree add main
 cd main
 git status
 #> Sur la branche main
-# idem pour chacune des branches (attention à bien séectionner whattimeisit comme répertoire parent)
+# idem pour chacune des branches (attention à bien sélectionner whattimeisit comme répertoire parent)
 ```
 
 ### Créer un repo
@@ -95,7 +95,7 @@ git status
 ```bash
 mkdir -p whattimeisit/.git
 cd whattimeisit/.git
-# Faire de whattimeisit un repo dépouillé (sans être rattaché à une branche/sans avoir de copie de travail)
+# Faire de whattimeisit un repo dépouillé (repo non rattaché à une branche/sans copie de travail)
 git init --bare
 
 cd ..
@@ -107,13 +107,13 @@ git worktree add main -b main
 Créer une nouvelle branche à partir de la branche `dev`
 ```bash
 cd whattimeisit/dev
-git worktree add ../hotfix-garemontparnasse -b hotfix-garemontparnasse
-#> Préparation de l'arbre de travail (nouvelle branche 'hotfix-garemontparnasse')
+git worktree add ../hotfix-garemontparnasse -b hotfix/garemontparnasse
+#> Préparation de l'arbre de travail (nouvelle branche 'hotfix/garemontparnasse')
 #> HEAD est maintenant à d81d55b Dernier commit de dev
 
 cd ../hotfix-garemontparnasse
 git status 
-#> Sur la branche hotfix-garemontparnasse
+#> Sur la branche hotfix/garemontparnasse
 ```
 
 ## Désavantages
