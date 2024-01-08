@@ -50,7 +50,8 @@ git switch -c hotfix/garemontparnasse
 
 Jean-Eustache fout souvent le sbeul dans ses commits et ses branches, il a du mal à s'y retrouver.
 
-## Organisation de moi 👍 (Mise à jour 08/02/2024)
+## Organisation de moi 👍 
+_Mis à jour le 08/02/2024_
 
 ```txt
 ~/whattimeisit                  (contient le dossier .git)
