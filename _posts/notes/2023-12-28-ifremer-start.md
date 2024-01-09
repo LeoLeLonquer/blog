@@ -4,15 +4,15 @@ layout: post
 tags:
   - notes
 category: notes
-image: https://i.ibb.co/VM6Zmg1/bureau.jpg
+image: https://i.ibb.co/RP0hb5C/leverdesoleil.jpg
 ---
 
 Quand on me demande mon travail à une soirée, j'explique que je bosse en temps qu'ingénieur informaticien à l'Ifremer, l'institut qui a inventé les surimis. Généralement, ça met des étoiles dans les yeux des gens. ¹
 
 En cette fin d'année, j'ai envie de vous expliquer mon nouveau travail. En plus, j'ai passé ma période d'essai donc plus rien ne me retient, les rênes sont lâchés, je suis en roue libre.
 
-![bureau](https://i.ibb.co/VM6Zmg1/bureau.jpg)
-_Mon bureau avec ma jolie plante, svp regardez pas les fils_
+![vue de mon bureau](https://i.ibb.co/RP0hb5C/leverdesoleil.jpg)
+_Lever de soleil depuis mon bureau (faut que je me lève)_
 
 <!--more-->
 
@@ -74,6 +74,9 @@ Après réflexions, Ifremer ça ressemble plutôt à un poulpe, avec des crampon
 Je me situe plutôt dans la tête du poulpe ou en bout de chaîne, je suis celui qui va aider les scientifiques à faire l'analyse. 
 
 # La mer dans le nuage
+
+![bureau](https://i.ibb.co/VM6Zmg1/bureau.jpg)
+_Mon bureau avec ma jolie plante, svp regardez pas les fils_
 
 Enfin, on va arriver à mon travail ! Je suis au service ISI (Ingénierie des Systèmes d'Informations) au sein du département IRSI (Infrastructures de Recherche et Systèmes d'Information). Nous sommes toute une équipe d'informaticiennes et d'informaticiens qui gèrent les données qui arrivent, font en sorte qu'ils n'y ait pas d'embouteillage, qu'elles soient correctement triées, qu'il n'y ait pas d'incohérence, qu'elles soient inventoriées. Nous mettons également en place des services comme des cartes, des statistiques qui viennent se greffer aux données pour obtenir plus d'informations ou y accéder plus rapidement.
 
