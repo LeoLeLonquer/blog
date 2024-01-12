@@ -17,7 +17,8 @@ Si vraiment vous souhaitez en savoir plus, allez donc jeter un coup d'œil à mo
 
 ## Charte graphique
 
-Pour tout commentaire sur les couleurs utilisés sur ce site web, merci de ne pas m'envoyer un mail.
+Pour tout commentaire sur les couleurs utilisés sur ce site web, merci de ne pas m'envoyer un mail.  
+Grandement inspiré thème [Leap Day](https://github.com/pages-themes/leap-day)
 
 ## License
 
