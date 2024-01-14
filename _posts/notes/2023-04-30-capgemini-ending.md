@@ -11,7 +11,7 @@ Après trois années passées au sein de l'agence Altran/CapGemini de Brest, je 
 
 
 ![Vue du Goulet](https://i.ibb.co/6v8kz7K/capgeminiend.jpg)
-_La vue sur le goulet va également me manquer._
+_Coucher de soleil sur le goulet_
 
 <!--more-->
 

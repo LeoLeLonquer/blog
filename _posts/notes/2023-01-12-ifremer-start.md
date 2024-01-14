@@ -7,7 +7,7 @@ category: notes
 image: https://i.ibb.co/RP0hb5C/leverdesoleil.jpg
 ---
 
-Quand on me demande mon travail à une soirée, j'explique que je bosse en temps qu'ingénieur informaticien à l'Ifremer, l'institut qui a inventé les surimis. Généralement, ça met des étoiles dans les yeux des gens. ¹
+Quand on me demande mon travail à une soirée, j'explique que je bosse en temps qu'ingénieur informaticien à l'Ifremer, l'institut qui a inventé les surimis. Généralement, ça met des étoiles dans les yeux. ¹
 
 En ce début de l'an de grâce 2024, j'ai envie de vous expliquer mon nouveau travail. En plus, j'ai passé ma période d'essai donc plus rien ne me retient, les rênes sont lâchés, je suis en roue libre.
 
