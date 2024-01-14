@@ -65,7 +65,7 @@ Produire un modèle de l'océan, c'est tout une affaire, c'est une collaboration
 
 Par exemple, la collecte de données arrivent de différents canaux : 
 - satellitaire : des satellites mesurent la couleur, la hauteur, la température de l'eau
-- in situ : des flotteurs coulent dans l'océan en récupérant des profils de pression, températures mais aussi de données biogéochimiques, des capteurs sont posés sur la tête des morses aux Kerguelen (ils aiment bien aller en antarctique) puis on les récupèrent l'été suivant ...
+- in situ : des flotteurs coulent dans l'océan en récupérant des profils de pression, températures mais aussi de données biogéochimiques, des capteurs sont posés sur la tête des morses aux Kerguelen (ils aiment bien aller en antarctique) puis on les récupère l'été suivant ...
 - halieutique : des prélèvements de poissons permettent de mesurer le stock et les caractéristiques des poissons.
 - bien d'autres encore que je n'ai pas fini d'explorer mais vous avez l'idée.
 
@@ -82,29 +82,29 @@ Enfin, on va arriver à mon travail ! Je suis au service ISI (Ingénierie des Sy
 ## Première casquette : animateur Cloud
 
 L'équipe se divise de deux manières :
-- par système d'information : il y a ceux qui gèrent spécifiquement une tâche métier comme l'halieutique, le satellite, l'insitu, les publications scientifiques
+- par système d'information : celleux qui gèrent spécifiquement une tâche métier comme l'halieutique, le satellite, l'insitu, les publications scientifiques
 - par tâche transverse : 
     - opérationnelles : les activités qui répondent à des besoins critiques (engagements contractuels et légaux)
     - analytiques : les activités qui répondent à un besoin d'analyse, d'expérimentation, de modélisation
 
-Pour l'instant, la division par silo est la principale. Les gens ont des outils qui leur sont spécifiques. C'est là où j'interviens : je m'occupe des tâches transversales analytiques.
+Pour l'instant, la division par système d'information est la principale. Les gens ont des outils qui leur sont spécifiques. C'est là où j'interviens : je m'occupe des tâches transversales analytiques.
 Mon rôle est de faire en sorte que les gens se parlent sur leurs besoins analytiques, échangent sur les pratiques et sur les outils pour potentiellement simplifier, faire converger, rationaliser, et imaginer de nouveaux usages en croisant les données. C'est un travail socio-technique qui s'apparente à de l'amélioration continue.
 
 Exemple : Jean-Truc³ développe un outil qui permet d'afficher les lieux des prélèvements de poissons sur une carte mondiale. Anne-Machine³ a le même besoin mais pour indiquer les positions des différentes bouées en mer. Peut-être cette dernière peut réutiliser l'outil du premier ? Dans ce cas à quel point peut-il être généralisé ? Sinon faut-il utiliser un outil externe ? 
 
 > Où sont passés les nuages dans tout ça ?
 
-Le Cloud c'est un mot-valise qui peut être utilisé de différentes manières. Pour la plupart des moldus, c'est simplement un espace de stockage en ligne qui centralisent tous les fichiers, images, vidéos et depuis lequel on peut accéder de toutes les machines possibles. Soit dit en passant, vos fichiers ne sont pas dématérialisés, ils sont toujours bien matériels, stockés sur des disques durs quelque part dans un datacenter en Finlande. L'apparente immatérialité du cloud n'est que virtuelle.
+Le Cloud c'est un mot-valise (qui peut être utilisé de différentes manières). Pour la plupart des moldus, c'est simplement un espace de stockage en ligne qui centralisent tous les fichiers, images, vidéos et depuis lequel on peut accéder de toutes les machines possibles. Soit dit en passant, vos fichiers ne sont pas dématérialisés, ils sont toujours bien matériels, stockés sur des disques durs quelque part dans un datacenter en Finlande. L'apparente immatérialité du cloud n'est que virtuelle.
 
 Mon cloud à moi, c'est la même idée, mais on ajoute aussi des capacités de traitement et tout un tas de fonctionnalités supplémentaires. Nous avons notre propre datacenter Datarmor qui est notre infrastructure sur laquelle nous construisons notre Cloud. Les utilisateurs n'ont besoin que d'une très simple machine qu'ils utilisent pour se connecter à un site web sur lequel ils vont pouvoir retrouver :
 1. tout un catalogue de jeux de données directement accessible et interopérables  
 2. des outils de traitement qui accèdent directement aux supercalculateurs
 
-Exemple : Camille³ souhaite évaluer la corrélation entre taille des poissons, température de l'eau et intensivité de la pêche en mer d'Iroise. Camille se connecte donc à nuage.ifremer.fr, navigue dans le catalogue [Sextant](https://sextant.ifremer.fr/), sélectionne les jeux de données qui l'intéressent dans un panier. Une fois les courses terminées, Camille clique sur un bouton et cela ouvre une interface web de programmation (JupyterLab pour les informés) dans laquelle des lignes de code préécritent permettent d'importer les données sur la zone géographique sélectionnée. Le code s'exécute sur une machine au sein de l'Ifremer, Camille ne récupère que le résultat.
+Exemple : Camille³ souhaite évaluer la corrélation entre taille des poissons, température de l'eau et intensivité de la pêche en mer d'Iroise. Camille se connecte donc à nuage.ifremer.fr, navigue dans le catalogue [Sextant](https://sextant.ifremer.fr/), sélectionne les jeux de données qui l'intéressent dans un panier. Une fois les courses terminées, Camille clique sur un bouton et cela ouvre une interface web de programmation (JupyterLab pour les initiés) dans laquelle des lignes de code préécritent permettent d'importer les données sur la zone géographique sélectionnée. Le code s'exécute sur une machine au sein de l'Ifremer, Camille ne récupère que le résultat.
 
 ## Deuxième casquette : responsable outils techniques
 
-Sur une autre fréquence, je m'occupe d'outils qui composent cet environnement technique et de deux en particulier : Thredds et Erddap. Ce sont deux serveurs de données dont les fonctionnalités se recoupent. Ils permettent de mettre à disposition des données sur le web et des services comme l’échantillonnage, l'affichage, l'exploration. Alors leur interface web est vraiment préhistorique, donc ce n'est clairement pas sexy au début, mais en fait les interfaces sont moins utilisées que des accès directs, automatiques. 
+Dans un autre temps, je m'occupe d'outils qui composent cet environnement technique et de deux en particulier : Thredds et Erddap. Ce sont deux serveurs de données dont les fonctionnalités se recoupent. Ils permettent de mettre à disposition des données sur le web et des services comme l’échantillonnage, l'affichage, l'exploration. Alors leur interface web est vraiment préhistorique, donc ce n'est clairement pas sexy au début, mais en fait elles sont moins utilisées que les accès directs, automatiques. 
 
 Erddap héberge notamment toutes les données du programme mondial de collecte de données insitu [Argo](https://www.ifremer.fr/fr/infrastructures-de-recherche/observer-l-ocean-mondial-en-temps-reel). Pour expliquer rapidement, on lâche ce qu'on appelle des profileurs en mer, qui peuvent flotter à la profondeur souhaitée, on les laisse dériver à -1000m ou -2000m suivant le besoin puis ils remontent à la surface et on récupère leurs données.
 
