@@ -1,5 +1,5 @@
 ---
-title: Ifremer, a new beginning
+title: Mes nouveaux débuts à Ifremer
 layout: post
 tags:
   - notes
