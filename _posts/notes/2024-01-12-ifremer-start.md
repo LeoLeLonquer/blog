@@ -24,7 +24,7 @@ J'ai commencé le 4 septembre 2023 à l'Ifremer dans un un nouveau poste intitul
 Mon job en gros c'est :
 1. Animateur plateforme Cloud : je fais en sorte que les personnes ayant des besoins analytiques se parlent entre elles et partagent leurs pratiques/outils. J'organise la rédaction d'une feuille de route d'évolution de l'urbanisation de la plateforme. 
 2. Responsable service technique : je maintiens des outils techniques ou j'apporte une expertise (mdr) sur leur utilisation. Je maintiens notamment Thredds et Erddap, deux serveurs de données, ce dernier mettant à disposition les jeux du réseau de collecte mondiale des données des profileurs [Argo](https://www.ifremer.fr/fr/infrastructures-de-recherche/observer-l-ocean-mondial-en-temps-reel). 
-# Ifremer Usine à papier
+# Ifremer Usine à papier 📝
 
 L'Ifremer ne fait pas que des surimis. C'est un institut qui a avant tout des missions scientifiques et d'appui de politiques publiques.
 
@@ -59,7 +59,7 @@ Vous voyez donc que le panel est très large ! Je me situe dans le troisième vo
 
 Dans quasi tous ces cas de figures, l'Ifremer produit des connaissances. Un institut scientifique contrairement à une usine ne produit pas de marchandises comme des voitures, des brosses à dent ou des canards en plastique. Un institut scientifique produit des données scientifiques qualifiées et des connaissances scientifiques (sous la forme d'articles, de modèles).
 
-# Ifremer le Poulpe
+# Ifremer le Poulpe 🐙
 
 Produire un modèle de l'océan, c'est tout une affaire, c'est une collaboration de centaines de personnes, ce sont des millions d'euros investis, des centaines de milliers d'heures de travail. Car pour qu'un physicien puisse se dire "Hum je remarque une tendance dans ces données et si je testais cette équation", il lui faut des données, beaucoup de données, d'une grande variété et donc une grande chaîne de production de données. Chaque maillon de cette chaîne est important et dépendant des uns et des autres. Il faut d'abord les gens qui inventent les capteurs, celleux (celles et ceux) qui les produisent, celleux qui les déploient, celleux qui récupèrent les données produites, celleux qui les traitent et les stockent, celleux qui les mettent en forme pour l'analyse et les partagent, celleux qui les analysent et écrivent des papiers.
 
@@ -72,7 +72,7 @@ Par exemple, la collecte de données arrivent de différents canaux :
 Après réflexions, Ifremer ça ressemble plutôt à un poulpe, avec des crampons qui captent les informations, des bras qui permettent de les convoyer et la tête qui les centralise, les trie et les organise.
 Je me situe plutôt dans la tête du poulpe ou en bout de chaîne, je suis celui qui va aider les scientifiques à faire l'analyse. 
 
-# La mer dans le nuage
+# La mer dans le nuage 🌊☁️
 
 ![bureau](https://i.ibb.co/VM6Zmg1/bureau.jpg)
 _Mon bureau avec ma jolie plante, svp regardez pas les fils_
