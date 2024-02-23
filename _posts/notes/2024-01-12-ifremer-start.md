@@ -115,6 +115,6 @@ Voilà !
 
 ---
 
-¹ En faisant quelques recherches sur Internet, il semblerait que ce soit les japonais qui aient inventé les surimis, donc quelqu'un dans l'Ifremer m'a dit un mensonge, mais un mensonge marrant à raconter en soirée.  
+¹ L'Ifremer (Nantes) aurait en réalité inventé la protéine qui permet la congélation des surimis
 ² IFREMER : Institut Français de Recherche pour l'Exploitation de la MER  
 ³ Les prénoms ont été modifiés

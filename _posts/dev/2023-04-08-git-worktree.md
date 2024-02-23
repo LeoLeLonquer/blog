@@ -90,7 +90,8 @@ git status
 # idem pour chacune des branches (attention à bien sélectionner whattimeisit comme répertoire parent)
 ```
 
-### Créer un repo
+### ~~Créer un repo~~ 
+**Marche pas pour l'instant**
 
 ```bash
 mkdir -p whattimeisit/.git
