@@ -119,7 +119,8 @@ git status
 
 ## Désavantages
 
-Le seul vrai désavantage est qu'il faut reconfigurer son IDE à chaque fois que l'on ouvre une nouvelle branche.  
+### Reconfiguration de l'IDE
+Il faut reconfigurer son IDE à chaque fois que l'on ouvre une nouvelle branche.  
 Mais si l'on est un peu malin, on peut trouver des astuces pour compenser :
 
 - avoir l'environnement de l'app dans un dossier mis en commun
@@ -127,7 +128,15 @@ Mais si l'on est un peu malin, on peut trouver des astuces pour compenser :
 - Ouvrir le dossier parent à tous les dossiers-branche (marche bien dans VSCode, peut-être moins dans Intellij ou PyCharm)
 - ...
 
-Sinon un autre désavantage, mais franchement ça va, si on utilise une convention de nommage de branche utilisant des `/` (ex: `feature/timeinnanoseconds`) alors on peut éventuellement confondre avec les dossiers. En vrai, il suffit de remplacer les slashs par des tirets ou autre à la création du dossier (ex: `git worktree add ../feature-timeinnanoseconds feature/timeinnanoseconds`) 
+### Convention de nommage
+Si on utilise une convention de nommage de branche utilisant des slashs `/` (ex: `feature/timeinnanoseconds`) alors on peut éventuellement confondre avec les dossiers. 
+Pour résoudre ce problème, il suffit de remplacer les slashs par des tirets ou autre à la création du dossier (ex: `git worktree add ../feature-timeinnanoseconds feature/timeinnanoseconds`) 
+
+### Déplacer un dossier avec des worktrees
+
+Pour l'instant je ne sais pas comment déplacer un dossier parent avec tous ses dossiers-branches, car les worktree on un path absolu. Je suis donc obligé de recréer mon arborescence.
+Peut-être en utilisant la commande `git worktree move` pour chacune des branches mais ça reste un peu lourd.
+
 ## Liste de commandes
 
 Source : [git worktree tldr InBrowser.App](https://tldr.inbrowser.app/pages.fr/common/git-worktree)
