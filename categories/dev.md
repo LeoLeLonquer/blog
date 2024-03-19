@@ -1,7 +1,7 @@
 ---
 layout: default-paginate
 title: "Ordinateur"
-permalink: dev
+permalink: /dev/
 pagination:
     enabled: true
     category: dev

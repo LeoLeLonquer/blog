@@ -31,8 +31,8 @@
                         <ul>
                             {% assign nav_pages = site.navigation %}
                             {%- for item in nav_pages -%}
-                            {%- assign item_page = site.pages | where: "path", item.file | first -%}
-                            <li><a href="{{ item_page.url | absolute_url }}">{{ item_page.title }}</a></li>
+                                {%- assign item_page = site.pages | where: "title", item.title | first -%}
+                                <li><a href="{{ item_page.url | absolute_url }}">{{ item_page.title }}</a></li>
                             {%- endfor -%}
                         </ul>
                     </nav>

@@ -1,7 +1,7 @@
 ---
 layout: default-paginate
 title: "Carte"
-permalink: voyages
+permalink: /voyages/
 pagination:
     enabled: true
     category: voyages

@@ -19,11 +19,12 @@ exclude:
 #   - {file: "pages/ressources.md"}
 #   - {file: "pages/cv.html"}
 
+
 navigation:
-  - {file: "pages/dev.html"}
-  - {file: "pages/notes.html"}
-  - {file: "categories/voyages.md"}
-  - {file: "pages/tweets.html"}
+  - {title: "Ordinateur"}
+  - {title: "Carnet"}
+  - {title: "Carte"}
+  - {title: "Post-it"}
   #- {file: "pages/ressources.md"}
   # - {file: "pages/amis.md"}
   # - {file: "pages/cv.html"}
@@ -64,8 +65,6 @@ pagination:
   title: ':title - :num / :max'
   sort_field: 'date'
   sort_reverse: true
-  debug: true
-
 
 #comments:
 #  disqus_shortname: ""    # see https://disqus.com/

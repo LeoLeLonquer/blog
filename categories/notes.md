@@ -1,7 +1,7 @@
 ---
 layout: default-paginate
 title: "Carnet"
-permalink: notes
+permalink: /notes/
 pagination:
     enabled: true
     category: notes
