@@ -42,13 +42,13 @@
                     <section>
                         {% include article_title.html post=page %}
                         {% for post in paginator.posts %}
-                            {% unless post.categories contains 'tweets' %}
                                 <article class="excerpt">
                                 {% include article_title.html post=post %}
                                 {{ post.excerpt }}
-                                <div class="more"><a href="{{ post.url | relative_url }}">Lire la suite</a></div>
+                                {% unless post.categories contains 'tweets' %}
+                                    <div class="more"><a href="{{ post.url | relative_url }}">Lire la suite</a></div>
+                                {% endunless %}
                                 </article>
-                            {% endunless %}
                         {% endfor %}
                         
                         {% if paginator.total_pages > 1 %}
