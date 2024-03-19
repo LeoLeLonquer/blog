@@ -1,8 +1,8 @@
 ---
 title: "Comment optimiser Spark 2 ? Chapitre 1 : tailler dans le gras" 
 layout: post
-tags: dev spark tuning 
-category: dev
+categories: dev spark tuning 
+tags: full_post
 mathjax: true
 ---
 Spark est une grosse machine avec plein de boutons. Comment s'y retrouver ?  

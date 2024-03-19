@@ -1,7 +1,7 @@
 ---
 layout: post 
 category: voyages
-tags: voyages
+tags: full_post
 title: "Flash : Venise envahit la Grèce"
 image: https://i.ibb.co/BgXZG1z/IMG-20230614-191305-A1x-Mm3-AX8-C.jpg
 ---

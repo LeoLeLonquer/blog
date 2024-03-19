@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-gist'
   gem 'webrick', '~> 1.7'
+  gem 'jekyll-paginate-v2'
 end

@@ -1,9 +1,8 @@
 ---
 title: Capgemini The End
 layout: post
-tags:
-  - notes
-category: notes
+categories: notes
+tags: full_post
 image: https://i.ibb.co/6v8kz7K/capgeminiend.jpg
 ---
 

@@ -1,10 +1,8 @@
 ---
 title: "Films à voir"
 layout: post
-tags: notes
-category: notes
-created: 2022-08-18T23:39:22+02:00
-modified: 2022-08-18T23:53:35+02:00
+categories: notes
+tags: full_post
 ---
 
 - Rushmore (Wes Anderson)

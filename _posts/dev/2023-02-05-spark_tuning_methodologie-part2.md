@@ -1,8 +1,8 @@
 ---
 title: "Comment optimiser Spark 2 ? Chapitre 2 : automatiser l'automatisation" 
 layout: post
-tags: dev spark tuning 
-category: dev
+categories: dev spark tuning 
+tags: full_post
 ---
 
 Dans ce deuxième article, nous allons construire un tuyau qui s'adapte automatiquement au flux de données en entrée.

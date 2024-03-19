@@ -1,8 +1,7 @@
 ---
 layout: post
 category: voyages
-tags:
-  - voyages
+tags: full_post
 title: Lycienne est la voie - Turquie
 image: https://i.ibb.co/x6pHcBs/Whats-App-Image-2023-07-17-at-17-51-47.jpg
 ---

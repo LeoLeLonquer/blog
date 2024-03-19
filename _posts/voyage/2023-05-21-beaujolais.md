@@ -1,9 +1,9 @@
 ---
-layout : post 
-tags : voyages 
-category : voyages 
-title : "Le Beaujolais, c'est pour les yeux"
-image : https://i.ibb.co/BLbN55n/received-895485011549241.jpg
+layout: post 
+category: voyages 
+tags: full_post
+title: "Le Beaujolais, c'est pour les yeux"
+image: https://i.ibb.co/BLbN55n/received-895485011549241.jpg
 ---
 
 Après avoir traversé la France avec Alex, je retrouve la fraté dans le Beaujolais dans une ancienne maison viticole réhabilitée en lieu de vie et maison de famille. Laure, Thierry, Anne-Lise, Gilles et Cécile nous accueillent comme des rois (et des reines).

@@ -1,8 +1,8 @@
 ---
 title: "Tmux Quickstart" 
 layout: post
-tags: dev tmux tuning 
-category: dev
+categories: dev tmux tuning 
+tags: full_post
 ---
 
 tmux est un multiplexeur de terminal. Il permet de garder une session de plusieurs terminaux en fonctionnement même si vous vous déconnectez ou que vous êtes déconnecté de l'interface.

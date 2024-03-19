@@ -1,9 +1,8 @@
 ---
 title: "Fresque du Climat : ça fait froid dans le dos"
 layout: post
-tags:
-  - notes
-category: notes
+categories: notes
+tags: full_post
 image: https://i.ibb.co/7zhZZZL/fresque01.jpg
 ---
 

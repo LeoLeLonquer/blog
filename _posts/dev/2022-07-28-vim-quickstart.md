@@ -1,8 +1,8 @@
 ---
 title: Vim Quickstart
 layout: post
-tags: vim ide dev
-category: dev
+categories: vim ide dev
+tags: full_post
 ---
 
 Voici une petite liste des éléments que j'ai pu collecter sur Vim au cours du temps.  

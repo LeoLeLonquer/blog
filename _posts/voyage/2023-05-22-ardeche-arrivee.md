@@ -1,9 +1,9 @@
 ---
-layout : post 
-tags : voyages 
-category : voyages 
-title : "Brest c'est Paris non ? - Ardèche jour 0"
-image : https://i.ibb.co/zGMwnmG/IMG-20230525-152838-01-j-Ardp-MYW7h.jpg
+layout: post 
+category: voyages 
+tags: full_post
+title: "Brest c'est Paris non ? - Ardèche jour 0"
+image: https://i.ibb.co/zGMwnmG/IMG-20230525-152838-01-j-Ardp-MYW7h.jpg
 ---
 
 Depuis Lyon je prends le train pour Valence, puis le bus pour Le Cheylard direction l'Ardèche. 

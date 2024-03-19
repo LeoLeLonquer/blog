@@ -1,7 +1,7 @@
 ---
 layout: post 
 category: voyages
-tags: voyages
+tags: full_post
 title: "Combo Mycènes, Nafplio et Epidaure - Grèce"
 image: https://i.ibb.co/LkgV0Qt/IMG-20230623-112311-Zdpg7p-Or4-E.jpg
 ---

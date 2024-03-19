@@ -1,9 +1,8 @@
 ---
 title: Mes nouveaux débuts à Ifremer
 layout: post
-tags:
-  - notes
-category: notes
+categories: notes
+tags: full_post
 image: https://i.ibb.co/RP0hb5C/leverdesoleil.jpg
 ---
 

@@ -1,13 +1,15 @@
 title: "L{3,4}"
 author: "Léo Le Lonquer"
-permalink: /:categories/:title
 lang: "fr"
 excerpt_separator: <!--more-->
 date_format: "%B %d, %Y"
 default_description: "L{3,4}: Le blog de Léo"
 default_thumbnail: "/assets/images/thumbnail-default.jpg"
 mathjax: true
-exclude: 
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
   - .obsidian/
 #url: https://leolelonquer.github.io/
 
@@ -20,7 +22,7 @@ exclude:
 navigation:
   - {file: "pages/dev.html"}
   - {file: "pages/notes.html"}
-  - {file: "pages/voyages.html"}
+  - {file: "categories/voyages.md"}
   - {file: "pages/tweets.html"}
   #- {file: "pages/ressources.md"}
   # - {file: "pages/amis.md"}
@@ -51,7 +53,21 @@ external:                  # shows a footer with social links - for available ic
   - {title: Github, icon: github, url: "https://github.com/LeoLeLonquer"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
-comments:
+
+#permalink: /:categories/:title
+permalink: /:year/:month/:day/:title.html
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: /:num/
+  title: ':title - :num / :max'
+  sort_field: 'date'
+  sort_reverse: true
+  debug: true
+
+
+#comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
@@ -59,3 +75,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate-v2

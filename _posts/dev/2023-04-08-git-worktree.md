@@ -1,8 +1,8 @@
 ---
 title: "Git worktree : se dénouer les branches" 
 layout: post
-tags: dev git 
-category: dev
+categories: dev git 
+tags: full_post
 ---
 
 Git worktree est une commande intégrée à git qui permet d'associer un dossier à chaque branche. L'utilisation des branches est fluidifiée sur un repo local.

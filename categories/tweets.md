@@ -1,13 +1,18 @@
-{% for post in paginator.posts %}
-  {% unless post.categories contains 'tweets' %}
+---
+layout: default-paginate
+title: "Post-it"
+permalink: tweets
+pagination:
+    enabled: true
+    category: tweets
+---
 
-  <article class="excerpt">
-    {% include article_title.html post=post %}
-    {{ post.excerpt }}
-    <div class="more"><a href="{{ post.url | relative_url }}">Lire la suite</a></div>
-  </article>
-  {% endunless %}
-  
+{%- assign posts = paginator.posts | default: site.tags.tweets -%}
+{% for post in posts %}
+    <article class="excerpt">
+      {% include article_title.html post=post %}
+      {{ post.excerpt }}
+    </article>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
