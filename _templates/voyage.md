@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: article 
 category: voyages
 tags: voyages
 title:

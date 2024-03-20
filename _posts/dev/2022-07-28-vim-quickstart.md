@@ -1,6 +1,6 @@
 ---
 title: Vim Quickstart
-layout: post
+layout: article
 categories: vim ide dev
 tags: full_post
 ---

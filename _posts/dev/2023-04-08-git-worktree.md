@@ -1,6 +1,6 @@
 ---
 title: "Git worktree : se dénouer les branches" 
-layout: post
+layout: article
 categories: dev git 
 tags: full_post
 ---

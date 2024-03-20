@@ -1,6 +1,6 @@
 ---
 title: Capgemini The End
-layout: post
+layout: article
 categories: notes
 tags: full_post
 image: https://i.ibb.co/6v8kz7K/capgeminiend.jpg

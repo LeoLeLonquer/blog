@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: article 
 category: voyages 
 tags: full_post
 title: "Brest c'est Paris non ? - Ardèche jour 0"

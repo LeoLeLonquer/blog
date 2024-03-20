@@ -1,6 +1,6 @@
 ---
 title: "Comment optimiser Spark 2 ? Chapitre 1 : tailler dans le gras" 
-layout: post
+layout: article
 categories: dev spark tuning 
 tags: full_post
 mathjax: true

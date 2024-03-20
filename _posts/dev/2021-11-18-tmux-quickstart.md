@@ -1,6 +1,6 @@
 ---
 title: "Tmux Quickstart" 
-layout: post
+layout: article
 categories: dev tmux tuning 
 tags: full_post
 ---

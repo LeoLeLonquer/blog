@@ -1,7 +1,7 @@
 ---
 title: "Qui suis-je ?"
 permalink: "/about/"
-layout: post
+layout: article
 ---
 
 ![Photo de moi](../assets/ressources/img/photos_de_oim/moialabeach.jpeg)

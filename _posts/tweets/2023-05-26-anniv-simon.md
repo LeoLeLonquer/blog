@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 category: tweets
 tags: tweets 
 title: "Joyeux anniversaire Simon ! "

@@ -1,6 +1,6 @@
 ---
 title: "Films à voir"
-layout: post
+layout: article
 categories: notes
 tags: full_post
 ---

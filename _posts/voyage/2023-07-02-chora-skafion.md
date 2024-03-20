@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: article 
 category: voyages
 tags: full_post
 title: "Mes amies les chèvres à Chora Skafion - Grèce"

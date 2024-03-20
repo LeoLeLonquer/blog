@@ -1,6 +1,6 @@
 ---
 title: "Comment optimiser Spark 2 ? Chapitre 2 : automatiser l'automatisation" 
-layout: post
+layout: article
 categories: dev spark tuning 
 tags: full_post
 ---
