@@ -31,14 +31,36 @@
                         <ul>
                             {% assign nav_pages = site.navigation %}
                             {%- for item in nav_pages -%}
-                            {%- assign item_page = site.pages | where: "path", item.file | first -%}
-                            <li><a href="{{ item_page.url | absolute_url }}">{{ item_page.title }}</a></li>
+                                {%- assign item_page = site.pages | where: "title", item.title | first -%}
+                                <li><a href="{{ item_page.url | absolute_url }}">{{ item_page.title }}</a></li>
                             {%- endfor -%}
                         </ul>
                     </nav>
                 </header>
                 <div id="block-page">
-                {{ content }}
+                    {{content}}
+                    {% if paginator.total_pages > 1 %}
+                        <section>
+                            {% include article_title.html post=page %}
+                            {% for post in paginator.posts %}
+                                    <article class="excerpt">
+                                    {% include article_title.html post=post %}
+                                    {{ post.excerpt }}
+                                    {% unless post.categories contains 'tweets' %}
+                                        <div class="more"><a href="{{ post.url | relative_url }}">Lire la suite</a></div>
+                                    {% endunless %}
+                                    </article>
+                            {% endfor %}
+                            
+                            {% if paginator.total_pages > 1 %}
+                                <aside>
+                                {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">« newer posts</a>{% else %}<span></span>{% endif %}
+                                    <span>page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                                {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">older posts »</a>{% else %}<span></span>{% endif %}
+                                </aside>
+                            {% endif %}
+                        </section>
+                    {% endif %}
                 </div>
             </div>
             <footer>

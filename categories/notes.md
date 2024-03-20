@@ -1,5 +1,5 @@
 ---
-layout: default-paginate
+layout: default
 title: "Carnet"
 permalink: /notes/
 pagination:
