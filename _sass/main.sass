@@ -344,19 +344,6 @@ dt
     color: #444
     font-weight: 700
 
-// ul.pager 
-//     text-align: center
-//     list-style: none
-
-// ul.pager li 
-//     display: inline
-//     border: 1px solid black
-//     padding: 10px
-//     margin: 5px
-
-// .selected
-//     background-color: magenta
-
 ul.pager
     list-style: none
     display: flex
@@ -378,7 +365,7 @@ ul.pager
         color: black
         font-size: 14px
         font-weight: bold
-        margin: 0 5px
+        margin: 0 3px
         padding: 0
         width: 30px
         height: 30px
@@ -389,11 +376,8 @@ ul.pager
         border-radius: 100%
         background-color: $readmore_button_color
 
-    a.active 
-        cursor: default
-
-    a:active 
-        outline: none
+    a.page-number
+        display: none
 
     a.prev
         -moz-border-radius: 50px 0 0 50px
@@ -401,19 +385,21 @@ ul.pager
         border-radius: 50px 0 0 50px
         width: 100px
 
-    a.next 
+    a.next
         -moz-border-radius: 0 50px 50px 0
         -webkit-border-radius: 0
         border-radius: 0 50px 50px 0
         width: 100px
 
     a.start
+        // display: none
         -moz-border-radius: 0 50px 50px 0
         -webkit-border-radius: 0
         border-radius: 0 50px 50px 0
         width: 50px
     
     a.end
+        // display: none
         -moz-border-radius: 50px 0 0 50px
         -webkit-border-radius: 50px
         border-radius: 50px 0 0 50px
@@ -427,8 +413,6 @@ ul.pager
 
     a.selected
         box-shadow: 0px 1px 3px 4px rgba(0, 0, 0, 0.25)
-    // a:selected 
-
 
 footer
     // background: url("../images/background.png") repeat
@@ -468,7 +452,6 @@ footer
 // - la taille du header augmente
 // - la taille de la font du header augmente
 // - la taille du bloc de page va être au minimum de 590px, 66% de la largeur et au max de 1000px
-
 @media all and (min-width: 600px)
     #block-page
         width: 66%
@@ -485,9 +468,12 @@ footer
         li
             font-size: medium
 
+    // ul.pager a.start,
+    // ul.pager a.end
+    //     display: block
+
 //  Fenêtre au-dessus de 800px : 
 // - le bandeau va se décrocher à droite
-
 @media all and (min-width: 800px)
     header nav
         position: relative
@@ -517,7 +503,7 @@ footer
 
 //  Fenêtre au-dessus de 1230px
 // - activation du bloc de navigation dans l'article javascript
-
+// - les boutons de numéro de page apparaissent
 @media all and (min-width: 1230px)
 
     .article-container
@@ -542,3 +528,6 @@ footer
         min-width: 230px
         margin-right: 10px
         text-align: right
+
+    ul.pager a.page-number
+        display: block

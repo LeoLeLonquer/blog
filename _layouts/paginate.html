@@ -33,7 +33,7 @@ layout: default
         {% if paginator.page_trail %}
             {% for trail in paginator.page_trail %}
                 <li>
-                    <a {% if page.url == trail.path %}class="selected"{% endif %} href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
+                    <a {% if page.url == trail.path %}class="page-number selected"{% else %}class="page-number"{% endif %} href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
                 </li>
             {% endfor %}
         {% endif %}
