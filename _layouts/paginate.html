@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<section>
+    {% include article_title.html post=page %}
+    {% for post in paginator.posts %}
+            <article class="excerpt">
+            {% include article_title.html post=post %}
+            {{ post.excerpt }}
+            {% unless post.categories contains 'tweets' %}
+                <div class="more"><a href="{{ post.url | relative_url }}">Lire la suite</a></div>
+            {% endunless %}
+            </article>
+    {% endfor %}
+</section>
+
+{% if paginator.total_pages > 1 %}
+    <ul class="pager">
+
+        {% if paginator.previous_page %}
+            <li>
+                <a class="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Précédent</a>
+            </li>
+        {% endif %}
+
+        {% if paginator.first_page %}
+            <li>
+                <a class="start" href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">Début</a>
+            </li>
+        {% endif %}
+
+        {% if paginator.page_trail %}
+            {% for trail in paginator.page_trail %}
+                <li>
+                    <a {% if page.url == trail.path %}class="selected"{% endif %} href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+
+        {% if paginator.last_page %}
+            <li>
+                <a class="end" href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">Fin</a>
+            </li>
+        {% endif %}
+      
+        {% if paginator.next_page %}
+            <li>
+                <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Suivant &rarr;</a>
+            </li>
+        {% endif %}
+    </ul>
+{% endif %}

@@ -65,6 +65,9 @@ pagination:
   title: ':title - :num / :max'
   sort_field: 'date'
   sort_reverse: true
+  trail: 
+    before: 1
+    after: 1
 
 #comments:
 #  disqus_shortname: ""    # see https://disqus.com/

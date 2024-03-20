@@ -344,6 +344,92 @@ dt
     color: #444
     font-weight: 700
 
+// ul.pager 
+//     text-align: center
+//     list-style: none
+
+// ul.pager li 
+//     display: inline
+//     border: 1px solid black
+//     padding: 10px
+//     margin: 5px
+
+// .selected
+//     background-color: magenta
+
+ul.pager
+    list-style: none
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 0
+    margin-top: 10px
+    box-sizing: border-box
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+
+ul.pager
+    li 
+        display: inline
+        text-align: center
+
+    a 
+        display: block
+        color: black
+        font-size: 14px
+        font-weight: bold
+        margin: 0 5px
+        padding: 0
+        width: 30px
+        height: 30px
+        line-height: 30px
+        border: 1px solid transparent
+        -moz-border-radius: 100%
+        -webkit-border-radius: 100%
+        border-radius: 100%
+        background-color: $readmore_button_color
+
+    a.active 
+        cursor: default
+
+    a:active 
+        outline: none
+
+    a.prev
+        -moz-border-radius: 50px 0 0 50px
+        -webkit-border-radius: 50px
+        border-radius: 50px 0 0 50px
+        width: 100px
+
+    a.next 
+        -moz-border-radius: 0 50px 50px 0
+        -webkit-border-radius: 0
+        border-radius: 0 50px 50px 0
+        width: 100px
+
+    a.start
+        -moz-border-radius: 0 50px 50px 0
+        -webkit-border-radius: 0
+        border-radius: 0 50px 50px 0
+        width: 50px
+    
+    a.end
+        -moz-border-radius: 50px 0 0 50px
+        -webkit-border-radius: 50px
+        border-radius: 50px 0 0 50px
+        width: 50px
+
+    a:hover 
+        box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25)
+        position: relative
+        bottom: 1px
+        // background-color: #FFA500
+
+    a.selected
+        box-shadow: 0px 1px 3px 4px rgba(0, 0, 0, 0.25)
+    // a:selected 
+
+
 footer
     // background: url("../images/background.png") repeat
     background-color: $header_color

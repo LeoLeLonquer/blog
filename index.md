@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: paginate
 title: "Maison"
 pagination:
     enabled: true

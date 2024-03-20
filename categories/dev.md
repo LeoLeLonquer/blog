@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: paginate
 title: "Ordinateur"
 permalink: /dev/
 pagination:

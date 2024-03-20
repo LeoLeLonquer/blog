@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: paginate
 title: "Post-it"
 permalink: /tweets/
 tags: test
