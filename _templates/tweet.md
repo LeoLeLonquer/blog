@@ -1,8 +1,8 @@
 ---
 layout: article
 category: tweets
-tags: tweets 
-title : 
-image :
+tags: []
+title: 
+image:
 ---
 
