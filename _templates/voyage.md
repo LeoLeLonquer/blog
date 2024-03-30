@@ -1,9 +1,10 @@
 ---
-layout: article 
+layout: article
 category: voyages
-tags: voyages
-title:
-image: 
+tags:
+  - full_post
+title: 
+image:
 ---
 
 <!--more-->
