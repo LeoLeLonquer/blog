@@ -55,8 +55,8 @@ external:                  # shows a footer with social links - for available ic
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 
-#permalink: /:categories/:title
-permalink: /:year/:month/:day/:title.html
+permalink: /:categories/:title
+# permalink: /:year/:month/:day/:title.html
 # Pagination Settings
 pagination:
   enabled: true
