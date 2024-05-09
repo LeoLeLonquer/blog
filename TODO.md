@@ -6,3 +6,4 @@
 - [ ] implémentation des fragments
 - [ ] recompression des images
 - [x] amélioration page 404
+- [ ] avoir un outil galerie
