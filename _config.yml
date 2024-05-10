@@ -6,7 +6,7 @@ date_format: "%B %d, %Y"
 default_description: "L{3,4}: Le blog de Léo"
 default_thumbnail: "/assets/images/thumbnail-default.jpg"
 mathjax: true
-url: https://leolelonquer.github.io/
+url: https://leolelonquer.github.io
 
 exclude:
   - Gemfile
