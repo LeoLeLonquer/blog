@@ -1,7 +1,8 @@
 ---
 layout: article
 category: tweets
-tags: 
+tags:
+  - tweets
 title: lisan-algaib
 image:
 ---
