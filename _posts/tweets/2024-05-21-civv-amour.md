@@ -7,4 +7,4 @@ title:
 image:
 ---
 
-L'amour c'est comme une partie Civilization.
+L'amour c'est comme une partie de Civilization.
