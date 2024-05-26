@@ -4,12 +4,12 @@ category: dev
 tags:
   - full_post
 title: Ecrire un blog pour 0€ dans
-image: https://i.ibb.co/BNgZgCv/technos.png
+image: https://i.ibb.co/SQ3TGRv/technos.png
 ---
 
 Voici comment j'ai écrit mon blog pendant mon voyage sans sortir un seul euro de ma poche !
 
-![Liste des technos](https://i.ibb.co/BNgZgCv/technos.png)
+![Liste des technos](https://i.ibb.co/SQ3TGRv/technos.png)
 
 <!--more-->
 
