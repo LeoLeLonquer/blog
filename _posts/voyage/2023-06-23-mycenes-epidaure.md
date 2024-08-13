@@ -15,7 +15,7 @@ Je prends un tour d'une journée, au programme :
 Je vais voyager dans le temps et explorer un très large panel d'époques de la Grèce de l'âge du bronze à la révolution pétrochimique. 
 
 ![Ford focus grise](https://i.ibb.co/rtRZzNS/IMG-20230623-093710-t-Ry0uy-Y16s.jpg)
-_Ma voiture !!! Elle a atterrie ici au lieu d'être envoyée à la casse_
+_Ma voiture !!! Elle a atterri ici au lieu d'être envoyée à la casse_
 
 <!--more--> 
 
