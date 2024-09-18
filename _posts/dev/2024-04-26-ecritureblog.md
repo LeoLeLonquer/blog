@@ -72,9 +72,9 @@ J'aurais bien aimé utiliser [Git for Obsidian](https://github.com/denolehov/obs
 
 Pour le **stockage**, j'ai utilisé [imgbb](https://leoluoleke.imgbb.com/), c'est un service d'hébergement d'images gratuit, on peut théoriquement en déposer à l'infini. Il me permet d'avoir un accès direct à l'image et pas à un un outil de visualisation. Je réfléchis à passer à un autre service, parce que je le trouve un peu lent, les images prennent pas mal de temps à charger.
 
-Pour **réduire la taille des images**, j'ai utilisé [litPhoto](https://litphoto-compress-resize.fr.softonic.com/android) sur Android, très pratique, il permet de remplacer toutes les images sur votre album par leur équivalente compressée. On peut facilement diviser par 10 la taille des images et sans que la qualité soit détectable à l'œil nu pour une visualisation sur ordinateur ou téléphone. (Ok si vous zoomer, ça baisse la qualité)
+Pour **réduire la taille des images**, j'ai utilisé [litPhoto](https://litphoto-compress-resize.fr.softonic.com/android) sur Android, très pratique, il permet de remplacer toutes les images sur votre album par leur équivalente compressée. On peut facilement diviser par 10 la taille des images sans que la qualité soit détectable à l'œil nu pour une visualisation sur ordinateur ou téléphone. (Ok si vous zoomer, ça baisse la qualité)
 
-Pour **l'édition**, j'ai utilisé [Canva](https://www.canva.com/) ou l'éditeur de photos de mon tel. Gros défaut de Markdown, c'est assez compliqué de mettre deux photos côte à côte proprement (et plus généralement de créer des colonnes dans un texte, il faut un peu tricher). Donc j'ai fait des vieux collages en redimensionnant les photos au besoin, c'est pas la partie dont je suis le plus fier. (bientôt je vais ajouter des carousels)
+Pour **l'édition**, j'ai utilisé [Canva](https://www.canva.com/) ou l'éditeur de photos de mon tel. Gros défaut de Markdown, c'est assez compliqué de mettre deux photos côte à côte proprement (et plus généralement de créer des colonnes dans un texte, il faut un peu tricher). Donc j'ai fait des vieux collages en redimensionnant les photos au besoin, c'est pas la partie dont je suis le plus fier. (j'aimerai ajouter des carousels)
 
 ## Les vidéos 
 
