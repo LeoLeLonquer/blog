@@ -14,27 +14,27 @@ _Porte-à-porte à Pen ar Créac'h_
 
 <!--more-->
 
-Seulement, j'ai choisi le mauvais parti, je n'ai rien de tout cela. J'aurais du aller à Horizons, Ensemble, Reconquête ou mieux encore au PS (celui de Hollande pour rester diplomate). J'ai choisi la FI... Il y a des erreurs dont on ne se relève pas... Quelle drogue j'ai ingéré pour prendre cette décision ? En tout cas, il semblerait que je sois resté planer. Car... je dois avouer... que... j'aime bien ça 👉👈🥺 
+Seulement, j'ai choisi le mauvais parti, je n'ai rien de tout cela. J'aurais du aller chez Horizons, les LR ou au PS (celui de Hollande pour rester diplomate). J'ai choisi la FI... Il y a des erreurs dont on ne se relève pas... De quelle drogue je me suis piqué pour prendre cette décision ? En tout cas, je suis resté bloqué dans ma défonce, je plane toujours. Et... je dois avouer... que... j'aime bien ça 👉👈🥺 
 
 Voici pourquoi. 
 
 (j'écoute [Brian Eno - Thursday Afternoon](https://www.youtube.com/watch?v=TTHF2Dfw1Dg) en écrivant ces lignes, l'influence est non négligeable) 
 
-La première fois que j'ai milité, je me suis rendu au marché de Saint-Louis à Brest, j'étais tremblant comme une feuille mais je me suis lancé. Les gens m'ont pris les tracts sans me remarquer alors que j'avais l'impression de faire un des actes les plus transgressifs de ma vie (oui ma vie n'est pas très palpitante). Je suais des aisselles c'était pas beau à voir. Puis une veille dame s'est arrêtée, nous avons longuement discuté, c'était une ancienne syndicaliste CGT qui s'était battue à l'arsenal à la fois contre les mauvaises conditions de travail et aussi contre le sexisme au sein du syndicat. Elle était fière et heureuse de transmettre le témoin, que des jeunes prennent la relève. Il y avait un lien qui nous unissait alors qu'on se connaissait pas quelques minutes avant 🧡 C'est un condensé de tout ce que j'aime dans le militantisme. 
+La première fois que j'ai milité, je me suis rendu au marché de Saint-Louis à Brest, j'étais tremblant comme une feuille mais je me suis lancé. Les gens m'ont pris les tracts sans me remarquer alors que j'avais l'impression de faire un des actes les plus transgressifs de ma vie (ma vie n'est pas très palpitante). Je suais des aisselles c'était pas beau à voir. Puis une veille dame s'est arrêtée, nous avons longuement discuté, c'était une ancienne syndicaliste CGT qui s'était battue à l'arsenal à la fois contre les mauvaises conditions de travail et aussi contre le sexisme au sein du syndicat. Elle était fière et heureuse de transmettre le témoin, que des jeunes prennent la relève. Il y avait un lien qui nous unissait alors qu'on se connaissait pas quelques minutes avant 🧡 C'est un condensé de tout ce que j'aime dans le militantisme. 
 
 
 ![chien qui sait pas il fait quoi](https://i.ibb.co/CHNShF6/photo-2024-10-20-19-03-34.jpg)
 
 _Chien il sait pas il fait quoi_
 
-Je me suis rendu à une réunion LFI, c'était très impressionnant, je me suis senti comme le toutou ci-dessus, je ne savais pas si j'avais ma place mais on m'a fait confiance et roule ma poule (ref au chef-d'œuvre de la résistance [Chicken Run](https://www.youtube.com/watch?v=qzADF4IVQ88)), c'était parti. Et je me suis vite pris au jeu.
+Je me suis rendu à une réunion LFI, c'était impressionnant, je me suis senti comme le toutou ci-dessus, je ne savais pas si j'avais ma place mais on m'a fait confiance et roule ma [poule](https://www.youtube.com/watch?v=qzADF4IVQ88) , c'était parti. Et je me suis vite pris au jeu.
 
 Quand on va en porte-à-porte, on est bien accueilli, on discute, on rigole, on apprend<sup>1</sup>. Je sais pour qui je me bats et pourquoi j'y passe mes soirées (au lieu de suivre le cours des cryptos).  
-Dans un immeuble, on rencontre tellement de sensibilités différentes ! On ne sait jamais sur qui on va tomber en toquant à une porte ou en tractant dans la rue. Mais quand on discute, il y a toujours un courant qui passe quelque soit les arrangements de pensée. Pour moi, c'est de l'or pur.<sup>2</sup>
+Dans un immeuble, on rencontre tellement de sensibilités différentes ! On ne sait jamais sur qui on va tomber en toquant à une porte ou en tractant dans la rue. Mais quand on discute, il y a toujours un courant qui passe quels que soient les arrangements de pensée. Pour moi, c'est de l'or pur.<sup>2</sup>
 
-Ce contre quoi on lutte le plus, c'est le nihilisme : certaines personnes sont désabusées, elles ne croient plus en rien et surtout pas au vote (comment leur donner tort quand on voit comment le résultat des dernières élections a été retourné !). On les écoute attentivement, on leur transmet de l'énergie, on les sort de leur solitude. Ya des gens qui se battent pour eux ! La porte suivante, on tombera sur des gens qui nous donnent la pêche. C'est un circuit solidaire.
+Ce contre quoi on lutte le plus, c'est le nihilisme : certaines personnes sont désabusées, elles ne croient plus en rien et surtout pas au vote (comment leur donner tort quand on voit comment le résultat des dernières élections a été retourné !). On les écoute attentivement, on leur transmet de l'énergie, on les sort de leur solitude. Ya des personnes qui se battent pour eux ! La porte suivante, on tombera sur des gens qui nous donnent la pêche. C'est un circuit solidaire.
 
-Evidemment on rencontre du clivage, mais c'est franchement surestimé par le prisme déformant de la TV. Heureusement la TV, ce n'est pas la société, et plus on rencontre de gens, plus l'on s'en rend compte. De temps en temps, quelqu'un vient nous aborder en pensant nous donner une leçon. C'est quasi systématiquement du prédigéré médiatique accompagné de ses mensonges, qui fond comme neige au soleil dès qu'on demande plus d'explications ou qu'on a quelques bons arguments. La confrontation, ça existe dans notre monde, pas d'autre choix que de l'accepter. Le conflit nous permet d'accéder au statut de sujet<sup>3</sup>.
+Evidemment on rencontre du clivage, mais c'est franchement surestimé par le prisme déformant de la TV. Heureusement la TV, ce n'est pas la société, et plus on rencontre de gens, plus l'on s'en rend compte. De temps en temps, quelqu'un vient nous aborder en pensant nous donner une leçon. C'est quasi systématiquement du prédigéré médiatique accompagné de ses mensonges qui fond comme neige au soleil dès qu'on demande plus d'explications ou qu'on a quelques bons arguments. La confrontation, ça existe, faut l'accepter, c'est sain. Le conflit nous permet d'accéder au statut de sujet<sup>3</sup>.
 
 La partie délicate, c'est souvent de révéler à des proches, des ami·es, des collègues qu'on est militant à la FI. Les préjugés sont parfois tellement grands ! On peut se sentir comme un ornithorynque. Il faut parfois rassurer et casser les caricatures (non je ne bois un verre de sang de bourgeois au réveil). C'est l'occasion de faire découvrir tout un pan de pensée, celui de la gauche radicale, à des personnes qui n'en ont souvent jamais entendu parler. Plus le temps passe moins j'ai de difficultés à assumer. On est là pour rester.<sup>4</sup>
 
@@ -59,7 +59,7 @@ Je me bats pour un objectif plus grand que moi, c'est jouissif !<sup>6</sup>
 
 <sup>3</sup> _A propos d'autonomie, d'amitié sexuelle et d'hétérosexualité_ - Corinne Monnet
 
-<sup>4</sup> Peut-être que le plus dur, c'est d'être dans une injonction paradoxale. On voit le monde partir en cacahouète mais il faut rester cool. C'est pour ça que c'est si important de ne pas rester seul·e ! Militantisme et pulsion de mort ou militantisme et pulsion de vie ? Je pose ça là.
+<sup>4</sup> Peut-être que le plus dur, c'est d'être dans une injonction paradoxale : on voit le monde partir en cacahouète mais il faut rester cool. C'est pour ça que c'est si important de ne pas rester seul·e ! Militantisme et pulsion de mort ou militantisme et pulsion de vie ? Je pose ça là.
 
 <sup>5</sup> Secret du militantisme : commencer à aimer son époque. On suit la veine du "matérialisme vitaliste" de Mélenchon.
 
