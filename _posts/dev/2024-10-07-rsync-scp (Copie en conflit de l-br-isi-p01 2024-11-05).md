@@ -1,0 +1,44 @@
+---
+layout: article
+category: dev
+tags:
+  - full_post
+title: rsync et scp
+image:
+---
+Tableau résumant l'utilisation de rsync et scp !
+
+<!--more-->
+
+Soit A un dossier source et B un dossier destination.
+
+| ID  | Action                                                  | scp/cp                          | rsync (A≠A/  mais B=B/)            |
+| --- | ------------------------------------------------------- | ------------------------------- | ---------------------------------- |
+| 1   | Dépose dans dossier destination                         | `scp -r A B` si ∄B/A sinon 3    | `rsync -a A B`                     |
+| 2   | Supprime et remplace dossier destination                | ❌                               | `rsync -a --delete A/ B`           |
+| 3   | Fusionne et si conflit fichier remplace par source      | `scp -r A B` si ∃B/A sinon 1    | `rsync -a A/ B` si ∃B sinon 6      |
+| 4   | Fusionne et si conflit fichier conserve la destination  | ❌                               | `rsync -a --ignore-exisiting A/ B` |
+| 5   | Fusionne et si conflit fichier remplace par plus récent | ❌                               | `rsync -a -u A/ B`                 |
+| 6   | Copie en renommant                                      | `scp -r A B` si ∄B sinon 3 ou 1 | `rsync -a A/ B` si ∄B sinon 3      |
+
+**Note sur `-r` et `-a` pour `rsync`**  
+
+`-r` ∈ `-a`  
+`-a` = `-rlptgoD`  
+`-a` est le mode archive, conserve les droits et les attributs.  
+Mieux vaut utiliser `-a` dans la plupart des cas.
+
+**Note sur le `/` sur la src pour `rsync`**  
+
+Le `/` sur la source (ex : `src/`) peut être interprété comme "Fusionne avec le dossier de destination ou crée le si besoin".  
+Sans le `/`, on peut l'interpréter comme "Dépose dans le dossier de destination".  
+
+Commandes équivalentes :
+
+```bash
+rsync -a /src/foo /dest
+rsync -a /src/foo/ /dest/foo
+```
+
+**Note sur scp :**  
+Il semblerait que scp soit en [phase d'obsolescence](https://itsfoss.com/deprecated-linux-commands/) ! Il est donc préférable d'utiliser `rsync` de manière générale. 
