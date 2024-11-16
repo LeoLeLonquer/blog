@@ -4,7 +4,7 @@ category: notes
 tags:
   - full_post
 title: Pourquoi j'aime militer
-image: https://i.ibb.co/CHNShF6/photo-2024-10-20-19-03-34.jpg
+image: https://i.ibb.co/YXnN2z7/o-NO-IDEA-DOG-MEME-facebook.jpg
 ---
 J'aime militer car j'aime l'argent, les jets privés, le caviar russe, les montres Omega, l'île de Mykonos, les berlines et les chauffeurs privés. 
 
@@ -65,4 +65,4 @@ Je me bats pour un objectif plus grand que moi, c'est jouissif !<sup>6</sup>
 
 <sup>5</sup> Perso, je milite à la FI, mais il y a plein de manières de s'engager, on peut aller dans une asso, un syndicat, un collectif. On peut aller et venir (en tout cas c'est facile à la FI). Et ce n'est toucher que la partie émergée de l'iceberg, combien de gens sont engagés tous les jours par un boulot ? Par exemple les infirmiers et infirmières qui font un travail du tonnerre, ou à l'inverse, les banquiers qui financent l'ouverture d'une nouvelle mine à charbon. Quand je me dis "mince Léo, t'es vraiment devenu une brute épaisse de militant", je me rappelle de Bernard Arnault ou de Bolloré qui rachètent les médias à tour de bras et tout de suite après ça va mieux, j'ai encore de la marge.
 
-<sup>6</sup> Note bonus : j'ai encore trop à dire ! J'essaierai d'écrire dans un prochain article comment je me suis politisé à gauche.
+<sup>6</sup> Note bonus : j'ai encore trop à dire ! J'essaierai d'écrire dans un prochain article comment je me suis politisé à gauche. 
