@@ -23,7 +23,8 @@ La première fois que j'ai milité, je me suis rendu au marché de Saint-Louis �
 
 Je me suis rendu à une réunion LFI, c'était impressionnant, je ne savais pas si j'avais ma place mais on m'a fait confiance et roule ma [poule](https://www.youtube.com/watch?v=qzADF4IVQ88) , c'était parti. Et je me suis vite pris au jeu.
 
-Quand on va en porte-à-porte, on est bien accueilli, on discute et on apprend beaucoup. Les sujets de discussion, les préoccupations sont bien éloignés des thèmes mis en avant par nos milliardaires préférés : on parle du boulot, des conditions de travail, de la qualité de vie et de tout sujet dont on veut bien nous parler. Je sais pour qui je me bats et pourquoi j'y passe mes soirées (au lieu de suivre le cours des cryptos).  
+Quand on va en porte-à-porte, on est bien accueilli, on discute et on apprend beaucoup. Les sujets de discussion, les préoccupations sont bien éloignés des thèmes mis en avant par nos milliardaires préférés : on parle du boulot, des conditions de travail, de la qualité de vie et de tout sujet dont on veut bien nous parler. Je sais pour qui je me bats et pourquoi j'y passe mes soirées (au lieu de suivre le cours des cryptos). Bref, ça a un sens.
+
 Dans un immeuble, on rencontre tellement de sensibilités différentes ! On ne sait jamais sur qui on va tomber en toquant à une porte ou en tractant dans la rue. Quels que soient les arrangements de pensée, il y a toujours un quelque chose qui passe. Pour moi, c'est de l'or pur.<sup>1</sup>
 
 
