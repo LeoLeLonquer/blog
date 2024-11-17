@@ -4,7 +4,7 @@ category: notes
 tags:
   - full_post
 title: Pourquoi j'aime militer
-image: https://i.ibb.co/YXnN2z7/o-NO-IDEA-DOG-MEME-facebook.jpg
+image: https://i.kym-cdn.com/photos/images/original/000/234/739/fa5.jpg
 ---
 J'aime militer car j'aime l'argent, les jets privés, le caviar russe, les montres Omega, l'île de Mykonos, les berlines et les chauffeurs privés. 
 
@@ -21,8 +21,7 @@ Voici pourquoi.
 
 La première fois que j'ai milité, je me suis rendu au marché de Saint-Louis à Brest, j'étais tremblant comme une feuille mais je me suis lancé comme on saute à l'élastique. Les gens m'ont pris les tracts sans me remarquer alors que j'avais l'impression de faire un des actes les plus transgressifs de ma vie (ma vie n'est pas très palpitante). Je suais des aisselles c'était pas beau à voir. Puis une veille dame s'est arrêtée, nous avons longuement discuté, c'était une ancienne syndicaliste CGT qui s'était battue à l'arsenal à la fois contre les mauvaises conditions de travail et aussi contre le sexisme au sein du syndicat. Elle était fière et heureuse de transmettre le témoin, que des jeunes prennent la relève. Il y avait un lien qui nous unissait alors qu'on se connaissait pas quelques minutes avant. C'est un condensé de tout ce que j'aime dans le militantisme. 
 
-![chien qui sait pas il fait quoi](https://i.ibb.co/CHNShF6/photo-2024-10-20-19-03-34.jpg)
-
+![](https://i.kym-cdn.com/photos/images/original/000/234/739/fa5.jpg)
 _Chien il sait pas il fait quoi_
 
 Je me suis rendu à une réunion LFI, c'était impressionnant, je ne savais pas si j'avais ma place mais on m'a fait confiance et roule ma [poule](https://www.youtube.com/watch?v=qzADF4IVQ88) , c'était parti. Et je me suis vite pris au jeu.
