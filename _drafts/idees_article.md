@@ -1,12 +1,12 @@
 
-- [ ] 1 an sans alcool pourquoi ? 
+- [x] 1 an sans alcool pourquoi ? 
 - [ ] La bataille de la sécu 
-- [ ] 4 mois entre 2 jobs que faire ? 
+- [x] 4 mois entre 2 jobs que faire ? 
 - [ ] Macron et la réforme des retraites 
 - [ ] Quattenens 
 - [ ] Ce que demandent les femmes
 - [ ] Trans identité 
 - [ ] Comment se débarrasser de cette merde, (le téléphone) 
 - [ ] Ma vision politique 
-- [ ] Comment j'ai écrit mon blog
+- [x] Comment j'ai écrit mon blog
 - [ ] Obsidian
