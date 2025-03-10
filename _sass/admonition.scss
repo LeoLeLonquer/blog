@@ -1,0 +1,65 @@
+$primary-color: #ffd500;
+$primary-bgcolor: #f9d10f50;
+$admonitions:
+    //class (type), icon filename, icon/border color, title bg color
+    ('note', 'pen-solid.svg', '#ffd500', '#f9d10f30')
+    ('abstract', 'align-left-solid.svg', '#f9d10f', '#f9d10f30')
+    ('info', 'info-circle-solid.svg', '#00b0ff', '#00b0ff30')
+    ('tip', 'fire-solid.svg', '#48c9b0', '#48c9b030')
+    ('success', 'check-circle-solid.svg', '#00c953', '#00c95330')
+    ('question', 'question-circle-solid.svg', '#00c953', '#00c95330')
+    ('warning', 'exclamation-triangle-solid.svg', '#ff9100', '#ff910030')
+    ('failure', 'times-circle-solid.svg', '#ff5252', '#ff525230')
+    ('danger', 'bolt-solid.svg', '#ff1744', '#ff174430')
+    ('bug', 'bug-solid.svg', '#f50057', '#f5005730')
+    ('example', 'list-ol-solid.svg', '#9e9e9e', '#9e9e9e30')
+    ('quote', 'quote-right-solid.svg', '#9e9e9e', '#9e9e9e30')
+;
+.admonition {
+	margin: 1.5625em 0;
+	overflow: hidden;
+	color: black;
+	page-break-inside: avoid;
+	background-color: whitesmoke;
+	border-left: .3rem solid $primary-color;
+	border-radius: .1rem;
+}
+.admonition p {
+    padding: 0 1rem;
+}
+.admonition .admonition-title {
+    color: black;
+    background-color: $primary-bgcolor;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.admonition-title::before {
+    margin-right: .5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+    content: '';
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-color: $primary-color;
+    vertical-align: text-bottom;
+}
+@each $name, $icon, $icon-color, $title-bg-color in $admonitions {
+    @if $icon-color {
+        .admonition.#{$name} {
+            border-left-color: #{$icon-color};
+        }
+    }
+    @if $title-bg-color {
+        .admonition.#{$name} .admonition-title {
+            background-color: #{$title-bg-color};
+        }
+    }
+    .admonition.#{$name} .admonition-title::before {
+        -webkit-mask: url("/assets/img/icons/#{$icon}") no-repeat 50% 50%;
+        mask: url("/assets/img/icons/#{$icon}") no-repeat 50% 50%;
+        @if $icon-color {
+            background-color: #{$icon-color};
+        }
+    }
+}
