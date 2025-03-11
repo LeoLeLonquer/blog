@@ -25,14 +25,17 @@ $admonitions:
 	border-radius: .1rem;
 }
 .admonition p {
-    padding: 0 1rem;
+    padding: 0rem 1rem;
 }
 .admonition .admonition-title {
     color: black;
     background-color: $primary-bgcolor;
     font-weight: 700;
     line-height: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 .admonition-title::before {
     margin-right: .5rem;
     width: 1.2rem;

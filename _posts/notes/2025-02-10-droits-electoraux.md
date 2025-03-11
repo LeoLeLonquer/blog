@@ -47,7 +47,7 @@ Si la nationalité est obtenue :
 
 Voir le site du ministère de l'intérieur [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788) .
 
-{% include admonition.md type="tip" title="En PaP : prendre le temps de vérifier que la personne est bien inscrite en ce rendant sur le site." body="" %}
+{% include admonition.md type="tip" title="En PaP : prendre le temps de vérifier que la personne est bien inscrite en se rendant sur le site." body="" %}
 
 
 ### Nouvelle inscription sur les listes
