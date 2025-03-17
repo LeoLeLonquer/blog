@@ -3,17 +3,19 @@ layout: article
 category: notes
 tags:
   - full_post
-title: "Vos Droits Electoraux"
-image:
+title: Le droit de vote en France
+image: https://i.ibb.co/8DW1s3L1/carte-electorale.png
 ---
 
-Un résumé pour mieux connaître le droit électoral ! Le but est d'aller chercher les personnes non inscrites, mal-inscrites ou abstentionnistes.  Attention, le droit évolue rapidement, ça va très vite. 
+Un résumé pour mieux connaître le droit de vote ! Le but est d'aller chercher les personnes non inscrites, mal-inscrites ou abstentionnistes.  Attention, le droit évolue rapidement, ça va très vite. 
 
-Dernière mise à jour : 11/02/25
+![Riches et racistent votent et vous ?](https://i.ibb.co/S4cfvPf6/richesracistes.jpg)
+
+Dernière mise à jour : 17/03/25
 
 <!--more-->
 
-# Citoyenneté française et droit de vote 
+# Citoyenneté française
 
 Pour toutes et tous les citoyens françaises, les conditions pour voter en France sont les suivantes :
 
@@ -84,7 +86,7 @@ Elle peut vérifier les procurations qui lui ont été données sur le site [Vé
 - Si une personne **ne connaît personne à qui donner sa procuration** dans sa commune de vote, elle peut passer par [actionpopulaire.fr - Donner sa procuration](https://actionpopulaire.fr/procuration/donner-ma-procuration/). La procuration sera donnée à un ou une insoumise. Elle peut aussi simplement laisser son contact à un ou une militante ou contacter le GA le plus proche.  
 - Si une personne est dans un **cas de handicap physique ou de maladie grave**, un personnel de police ou de gendarmerie peut se déplacer au domicile pour vérifier son identité après avoir adressée une demande manuscrite ainsi qu'une attestation sur l'honneur indiquant l'impossibilité manifeste de se déplacer au poste de police ou à la gendarmerie. Voir l'article service-public.fr [Vous êtes en situation de handicap, comment voter aux élections législatives ?](https://www.service-public.fr/particuliers/actualites/A14943)." %}
 
-# Droits étrangers
+# Citoyenneté étrangère
 ## Citoyenneté européenne 
 
 #### Droit de vote 
@@ -111,7 +113,7 @@ Voir : [Le droit de voter et de se présenter comme candidat aux élections muni
 
 ## Citoyennetés hors-UE
 
-Les nationalités étrangères hors-EU **ne peuvent pas** prétendre au droit de vote ou de se présenter aux élections. Il faut les **inciter à entamer un parcours de naturalisation** qui, malgré sa complexité et sa longueur, permet d'obtenir plus de droits et une sécurité en cas de changement de politique vis-à-vis des personnes étrangères.
+Les nationalités étrangères hors-EU **ne peuvent pas** prétendre au droit de vote ou de se présenter aux élections. Il faut les **inciter à entamer un parcours de naturalisation** qui, malgré sa complexité et sa longueur, permet d'obtenir plus de droits et une sécurité en cas de changement de politique vis-à-vis des personnes étrangères. Sinon ils peuvent utiliser ce [type de bulletin](https://i.ibb.co/2rD7kpd/Vote-Etrangers.png) qui n'est pas forcément facile à déposer dans l'urne.
 
 {% include admonition.md type="tip" title="Personnes en cours de naturalisation" body="  
 Un·e député·e peut appuyer accélérer, se renseigner sur une demande de naturalisation en cours auprès de la préfecture. Pour cela il faut contacter un·e député·e de préférence de sa circonscription, sinon de son département.  
@@ -139,17 +141,17 @@ _Peut-être informer via une association, un·e député·e, le corps enseignant
 
 Voir l'article service-public.fr [Une personne détenue en prison a-t-elle le droit de voter ?](https://www.service-public.fr/particuliers/vosdroits/F1227).
 
-### Personnes en situation de handicap mental
+### Personnes protégées (sous tutelle, curatelle)
 
-Depuis 2019, les personnes en situation de handicap ou de fragilité peuvent voter sans attendre une autorisation du juge. 300 000 majeur·es sous tutelle peuvent donc désormais voter. **Elles doivent pour cela s'inscrire sur les listes électorales**, leur inscription n'étant en effet pas automatique.
+Depuis 2019, les personnes en situation de handicap ou de fragilité peuvent voter sans attendre une autorisation du juge. 300 000 majeur·es sous tutelle ou curatelle peuvent donc désormais voter. **Elles doivent pour cela s'inscrire sur les listes électorales**, leur inscription n'étant en effet pas automatique.
 
-Pour ces personnes, le droit de procuration est encadré : ni les mandataires de tutelle ni les personnes qui suivent des personnes sous tutelle dans des établissements ne pourront recevoir procuration.
+Pour ces personnes, le droit de procuration est encadré : ni les mandataires de tutelle ou curatelle ni les personnes qui suivent des personnes sous tutelle dans des établissements ne pourront recevoir procuration.
 
 Normalement tous les acteurs (foyer de vie, maire, préfecture etc.) ont été mis au courant.  
 
 _Peut-être faire campagne d'inscription en ESAT, en foyer de vie ?_
 
-Voir [Droit de vote des personnes protégées](https://handicap.gouv.fr/droit-de-vote-des-personnes-protegees-la-reconnaissance-de-leur-pleine-citoyennete)
+Voir [justice.fr - Droit de vote des majeurs protégés](https://www.justice.fr/droit-vote-majeur-protege) et [handicap.gouv.fr - Droit de vote des personnes protégées](https://handicap.gouv.fr/droit-de-vote-des-personnes-protegees-la-reconnaissance-de-leur-pleine-citoyennete)
 
 # Radiation des listes
 

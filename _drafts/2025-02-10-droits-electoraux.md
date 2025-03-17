@@ -12,7 +12,7 @@ Dernière mise à jour : 11/02/25
 
 <!--more-->
 
-### Citoyenneté française et droit de vote 
+### Citoyenneté française
 
 Pour toutes et tous les citoyens françaises, les conditions pour voter en France sont les suivantes :
 
