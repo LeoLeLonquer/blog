@@ -78,7 +78,7 @@ Si une personne inscrite est indisponible pour aller voter dans la commune où e
 - **Provenant de la personne mandante** (qui donne la procuration): une pièce d’identité son numéro d’électeur, un formulaire pré-rempli en ligne ou au format papier (disponible également sur place)
 - **Provenant de la personne mandataire** (qui prend la procuration): soit son numéro d’électeur et sa date de naissance soit ses données d’état civil et sa commune de vote
 
-Suivre les étapes données par le site [www.maprocuration.gouv.fr](http://www.maprocuration.gouv.fr).  La personne mandante devra se rendre au poste de police ou de gendarmerie pour donner procuration à moins qu'elle ait utilisé [FranceIdentité](https://france-identite.gouv.fr/).
+Suivre les étapes données par le site [www.maprocuration.gouv.fr](http://www.maprocuration.gouv.fr).  La personne mandante devra se rendre au poste de police ou de gendarmerie pour donner procuration à moins qu'elle ait utilisée [FranceIdentité](https://france-identite.gouv.fr/).
 
 Une personne mandataire peut recevoir jusqu’à 3 procurations :
 - **1** procuration faite en **France**
@@ -160,7 +160,7 @@ Voir [justice.fr - Droit de vote des majeurs protégés](https://www.justice.fr/
 
 # Radiation des listes
 
-Les radiations de liste suivent l'article [L18](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032964817/2022-04-09) du code électoral. Les maires sont **dans l’obligation** de radier les électeurs **qui ne remplissent au moins une condition d’attache communale** (définies dans le code électoral).
+Les radiations de liste suivent l'article [L18](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032964817/2022-04-09) du code électoral. Les maires sont **dans l’obligation** de radier les électeurs **qui ne remplissent pas au moins une condition d’attache communale** (définies dans le code électoral).
 
 Ces conditions sont les suivantes :
 
@@ -218,7 +218,7 @@ Hors période électorale, le porte-à-porte doit remplir deux objectifs :
 
 #### Inscription 
 
-Avant de donner de noyer la personnes sous un flot d'informations, posez autant de questions que nécessaire pour connaître le statut de la personne. 
+Avant de noyer la personnes sous un flot d'informations, posez autant de questions que nécessaire pour connaître le statut de la personne. 
 
 Accroche : "Nous sommes des militants de la France Insoumise, nous faisons une campagne d’inscription sur les listes électorales dans le quartier."
 
