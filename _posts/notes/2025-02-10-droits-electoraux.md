@@ -7,7 +7,7 @@ title: Vos Droits Electoraux
 image: https://i.ibb.co/8DW1s3L1/carte-electorale.png
 ---
 
-Macron vous casse la tête et Marine vous envoie dans l'abîme ? Voici un tuto complet pour s'inscrire et inscrire vos proches sur les listes électorales et dégager ces oiseaux de malheur de leurs perchoirs.
+Vous rêvez d'envoyer Macron et Marine aux oubliettes de l'Histoire ? Voici un tuto complet pour inscrire votre entourage et vous sur les listes électorales et dégager ces oiseaux de malheur de leurs perchoirs.
 
 Attention, le droit évolue vite ! 
 
