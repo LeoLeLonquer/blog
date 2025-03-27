@@ -3,11 +3,11 @@ layout: article
 category: notes
 tags:
   - full_post
-title: Vos Droits Electoraux !
+title: Vos Droits Electoraux
 image: https://i.ibb.co/8DW1s3L1/carte-electorale.png
 ---
 
-Macron vous casse la tête et Marine vous envoie dans l'abîme ? Voici un tuto complet pour s'inscrire et inscrire vos proches sur les listes électorales et dégager ces oiseaux de malheur de leurs perchoirs (trouver une expression qui ne tombe pas sous le coup de la loi challenge).
+Macron vous casse la tête et Marine vous envoie dans l'abîme ? Voici un tuto complet pour s'inscrire et inscrire vos proches sur les listes électorales et dégager ces oiseaux de malheur de leurs perchoirs.
 
 Attention, le droit évolue vite ! 
 
@@ -70,7 +70,7 @@ Dans les deux cas, les documents suivants sont nécessaires :
 - voir les informations au dos du [Cerfa 12669](https://www.service-public.fr/particuliers/vosdroits/R16024).
 
 {% include admonition.md type="tip" title="Inscription en mairie à Brest" body="  
-Pour une personne qui n'est pas à l'aise avec l'inscription en ligne, elle peut se rendre directement dans une des mairies de Brest munie des documents requis précisés plus haut. Elle sera reçue sans rendez-vous par un·e agent·e qui l'aidera à remplir son dossier. La mairie n'imprime plus de Cerfa 12669 " %}
+Pour une personne qui n'est pas à l'aise avec l'inscription en ligne, elle peut se rendre directement dans une des mairies de Brest munie des documents requis précisés plus haut. Elle sera reçue sans rendez-vous par un·e agent·e qui l'aidera à remplir son dossier. La mairie n'imprime plus de Cerfa 12669." %}
 
 ### La procuration
 
