@@ -7,11 +7,13 @@ title: Vos Droits Electoraux !
 image: https://i.ibb.co/8DW1s3L1/carte-electorale.png
 ---
 
-Un résumé pour mieux connaître le droit de vote ! Le but est d'aller chercher les personnes non inscrites, mal-inscrites ou abstentionnistes.  Attention, le droit évolue rapidement, ça va très vite. 
+Macron vous casse la tête et Marine vous envoie dans l'abîme ? Voici un tuto complet pour s'inscrire et inscrire vos proches sur les listes électorales et dégager ces oiseaux de malheur de leurs perchoirs (trouver une expression qui ne tombe pas sous le coup de la loi challenge).
+
+Attention, le droit évolue vite ! 
 
 ![Riches et racistent votent et vous ?](https://i.ibb.co/S4cfvPf6/richesracistes.jpg)
 
-Dernière mise à jour : 17/03/25
+Dernière mise à jour : 27/03/25
 
 <!--more-->
 
@@ -73,7 +75,7 @@ Pour une personne qui n'est pas à l'aise avec l'inscription en ligne, elle peut
 ### La procuration
 
 Si une personne inscrite est indisponible pour aller voter dans la commune où elle est inscrite, elle peut donner son vote à une personne tierce via la procuration et ce jusqu'à la veille du vote (mais risque que la procuration ne soit pas transmise à temps). Pour cela, il faut préparer :
-- **Provenant de la personne mandante** (qui donne la procuration): une pièce d’identité son numéro d’électeur, un formulaire prérempli en ligne ou au format papier (disponible également sur place)
+- **Provenant de la personne mandante** (qui donne la procuration): une pièce d’identité son numéro d’électeur, un formulaire pré-rempli en ligne ou au format papier (disponible également sur place)
 - **Provenant de la personne mandataire** (qui prend la procuration): soit son numéro d’électeur et sa date de naissance soit ses données d’état civil et sa commune de vote
 
 Suivre les étapes données par le site [www.maprocuration.gouv.fr](http://www.maprocuration.gouv.fr).  La personne mandante devra se rendre au poste de police ou de gendarmerie pour donner procuration à moins qu'elle ait utilisé [FranceIdentité](https://france-identite.gouv.fr/).
