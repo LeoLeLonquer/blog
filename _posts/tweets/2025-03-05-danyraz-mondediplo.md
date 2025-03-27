@@ -6,5 +6,4 @@ tags:
 title: 
 image:
 ---
-
-Mes sources d'information politique, c'est le Monde Diplo et Dany et Raz.
+Le Monde Diplo et Dany&Raz et rien d'autres.

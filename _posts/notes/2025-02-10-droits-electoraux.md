@@ -3,7 +3,7 @@ layout: article
 category: notes
 tags:
   - full_post
-title: Le droit de vote en France
+title: Vos Droits Electoraux !
 image: https://i.ibb.co/8DW1s3L1/carte-electorale.png
 ---
 
@@ -54,7 +54,7 @@ Voir le site du ministère de l'intérieur [Vérifier son inscription sur les li
 
 ### Nouvelle inscription sur les listes
 
-Si on souhaite procéder à une nouvelle inscription quelle qu'en soit la raison, il existe la procédure via le [Cerfa 12669](https://www.service-public.fr/particuliers/vosdroits/R16024) en mairie et celle via internet. L'inscription doit être parvenue avant le 6ème vendredi précédent le scrutin (un scrutin pouvant contenir deux tours). Sinon elle sera valable pour le prochain scrutin.
+Si on souhaite procéder à une nouvelle inscription quelle qu'en soit la raison, il existe la procédure via le [Cerfa 12669](https://www.service-public.fr/particuliers/vosdroits/R16024) en mairie et celle en ligne via la page [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396).  L'inscription doit être parvenue avant le 6ème vendredi précédent le scrutin (un scrutin pouvant contenir deux tours). Sinon elle sera valable pour le prochain scrutin.
 
 **Documents requis :**
 Dans les deux cas, les documents suivants sont nécessaires :
@@ -66,6 +66,9 @@ Dans les deux cas, les documents suivants sont nécessaires :
 
 **Cas des personnes associée majoritaire d'une société figurant au rôle de la commune ou de celles résidant à l'étranger souhaitant voter en France :**
 - voir les informations au dos du [Cerfa 12669](https://www.service-public.fr/particuliers/vosdroits/R16024).
+
+{% include admonition.md type="tip" title="Inscription en mairie à Brest" body="  
+Pour une personne qui n'est pas à l'aise avec l'inscription en ligne, elle peut se rendre directement dans une des mairies de Brest munie des documents requis précisés plus haut. Elle sera reçue sans rendez-vous par un·e agent·e qui l'aidera à remplir son dossier. La mairie n'imprime plus de Cerfa 12669 " %}
 
 ### La procuration
 
@@ -174,7 +177,7 @@ La procédure générale de radiation est décrite dans la [Question écrite n°
 
 Voir également : [Guide de la radiation électorale de l'association des maires du Var](https://amf83.fr/wp-content/uploads/2024/02/Fiche-Fe%CC%81vrier-2024-La-radiation-de-la-liste-e%CC%81lectorale.pdf) (merci à eux la fraté)
 
-{% include admonition.md type="question" title="Que se passe-t-il en cas de déménagement" body=" 
+{% include admonition.md type="question" title="Que se passe-t-il en cas de déménagement ?" body=" 
 **Dans la même commune :** si une carte électorale est retournée, la mairie doit vérifier le paiement des impôts locaux. Elle ne peut pas vous radier des listes. Cependant, il arrive qu'elle ne vérifie pas et procède à la radiation. Vous pouvez contester.  
 Par ailleurs, vous devez tout de même l'informer de votre nouvelle adresse pour qu'elle puisse vous envoyer votre carte électorale et régulariser la situation.  
 **Dans une autre commune :** si une carte électorale est retournée, à moins qu'une des conditions ci-dessus soit remplie, la mairie doit radier la personne des listes. En pratique, l'INSEE nous dit qu'il y a peu de radiations à l'initiative des communes au regard du nombre d’inscrits. Cela constitue tout de même 226 962 personnes par an par exemple en 2021 sur 48,8 millions (hors décès, nouvelle inscription).  
