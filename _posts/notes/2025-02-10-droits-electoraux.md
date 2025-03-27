@@ -142,6 +142,8 @@ Si la personne n'a pas été condamnée à la perte de ses droits civique, la pe
 
 On peut également modifier son bureau de vote depuis la prison.
 
+D'après des informations que j'ai eu grâce à quelqu'un qui bosse en prison, seule la procuration serait effective.
+
 _Peut-être informer via une association, un·e député·e, le corps enseignant de la prison ?_
 
 Voir l'article service-public.fr [Une personne détenue en prison a-t-elle le droit de voter ?](https://www.service-public.fr/particuliers/vosdroits/F1227).
