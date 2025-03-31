@@ -184,7 +184,7 @@ Voir également : [Guide de la radiation électorale de l'association des maires
 {% include admonition.md type="question" title="Que se passe-t-il en cas de déménagement ?" body=" 
 **Dans la même commune :** si une carte électorale est retournée, la mairie doit vérifier le paiement des impôts locaux. Elle ne peut pas vous radier des listes. Cependant, il arrive qu'elle ne vérifie pas et procède à la radiation. Vous pouvez contester.  
 Par ailleurs, vous devez tout de même l'informer de votre nouvelle adresse pour qu'elle puisse vous envoyer votre carte électorale et régulariser la situation.  
-**Dans une autre commune :** si une carte électorale est retournée, à moins qu'une des conditions ci-dessus soit remplie, la mairie doit radier la personne des listes. En pratique, l'INSEE nous dit qu'il y a peu de radiations à l'initiative des communes au regard du nombre d’inscrits. Cela constitue tout de même 226 962 personnes par an par exemple en 2021 sur 48,8 millions (hors décès, nouvelle inscription).  
+**Dans une autre commune :** si une carte électorale est retournée, à moins qu'une des conditions ci-dessus soit remplie, la mairie doit radier la personne des listes. En pratique, l'INSEE nous dit qu'il y a peu de radiations à l'initiative des communes au regard du nombre d’inscrits. Cela constitue tout de même 226 962 personnes par an par exemple en 2021 sur 48,8 millions (hors décès et nouvelles inscriptions).  
 
 [INSEE - Processus de radiation des listes électorales](https://www.insee.fr/fr/information/6436602)" %}
 
