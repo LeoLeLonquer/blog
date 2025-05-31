@@ -17,7 +17,7 @@ Dernière mise à jour : 31/05/25
 
 <!--more-->
 
-{% include admonition.md type="success" title="La France Insoumise a créé un excellent site [jevoteilsdegagent.fr](jevoteilsdegagent.fr) regroupant toutes les fonctionnalités !" body="" %}
+{% include admonition.md type="success" title="La France Insoumise a créé un excellent site [jevoteilsdegagent.fr](https://jevoteilsdegagent.fr) regroupant toutes les fonctionnalités !" body="" %}
 
 
 # Citoyenneté française
