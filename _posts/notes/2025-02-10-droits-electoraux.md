@@ -11,11 +11,14 @@ Vous rêvez d'envoyer Macron et Marine aux oubliettes de l'Histoire ? Voici un t
 
 Attention, le droit évolue vite ! 
 
-![Riches et racistent votent et vous ?](https://i.ibb.co/S4cfvPf6/richesracistes.jpg)
+![Riches et racistent votent et vous ?](https://i.ibb.co/M5Bj9Kk8/AFFICHES.webp)
 
-Dernière mise à jour : 27/03/25
+Dernière mise à jour : 31/05/25
 
 <!--more-->
+
+{% include admonition.md type="success" title="La France Insoumise a crée un excellent site [jevoteildegage.fr](jevoteildegage.fr). A consulter !" body="" %}
+
 
 # Citoyenneté française
 
