@@ -227,14 +227,13 @@ Avant de noyer la personnes sous un flot d'informations, posez autant de questio
 
 Accroche : "Nous sommes des militants de la France Insoumise, nous faisons une campagne d’inscription sur les listes électorales dans le quartier."
 
-| Questions                                                        | Commentaires                                                                                                                             |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Est-ce que vous êtes inscrit·e ? Est-ce que vous votez ?         | Si non --> Ah bon ? pourquoi ça ?                                                                                                        |
-| Est-ce que vous avez déjà voté ?                                 |                                                                                                                                          |
-| Est-ce que vous vous rappelez où et quand vous aviez voté ?      |                                                                                                                                          |
-| Quel âge avez-vous ?                                             | Si plus de 18 ans, demander si JDC effectuée                                                                                             |
-| Où est-ce que vous avez grandi ?                                 | Demander la nationalité de la personne avec tact n'est pas facile                                                                        |
-| Est-ce que vous êtes de nationalité française ?                  |                                                                                                                                          |
-| Dans quelle commune vous étiez quand vous avez eu 18 ans ?       | Peut permettre de vérifier une inscription et de donner une procuration                                                                  |
-| Est-ce que vous souhaitez qu'on vérifie si vous êtes inscrit.e ? | Suivre la procédure en ligne [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788). |
+| Questions                                                                                                         | Commentaires                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Est-ce que vous êtes inscrit·e ? Est-ce que vous votez ?                                                          | Si non --> Ah bon ? pourquoi ça ?                                                                                                        |
+| Est-ce que vous avez déjà voté ?                                                                                  |                                                                                                                                          |
+| Est-ce que vous vous rappelez où et quand vous aviez voté ?                                                       |                                                                                                                                          |
+| Quel âge avez-vous ?                                                                                              | Si plus de 18 ans, demander si JDC effectuée                                                                                             |
+| Pour connaître votre situation électorale, est-ce que vous pouvez me dire si vous êtes de nationalité française ? | Poser la question avec tact                                                                                                              |
+| Dans quelle commune vous étiez quand vous avez eu 18 ans ?                                                        | Peut permettre de vérifier une inscription et de donner une procuration                                                                  |
+| Est-ce que vous souhaitez qu'on vérifie si vous êtes inscrit.e ?                                                  | Suivre la procédure en ligne [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788). |
 
