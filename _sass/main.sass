@@ -251,11 +251,13 @@ blockquote
 code
     font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal
     font-size: 13px
-    color: #efefef
-    text-shadow: 0px 1px 0px #000
+    color: #000
     margin: 0 4px
     padding: 2px 6px
-    background: #333
+    background: #e6e6e6
+    //box-shadow: 1px 1px 1px grey // assez marrant vintage style
+    box-shadow: 1px 1px 0px grey // assez marrant vintage style aussi
+    //box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px
     border-radius: 2px
 
 // Configuration of code block 
@@ -266,16 +268,22 @@ figure.highlight
 pre
     padding: 8px 15px
     background: #333333
-    border-radius: 3px
-    border: 1px solid #c7c7c7
+    border-radius: 5px
+    //border: 1px solid #c7c7c7
     overflow: auto
     overflow-y: hidden
     color: #ffff
-    
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px
+
+
     code
         margin: 0
         padding: 0
         font-family: monospace
+        text-shadow: 0px 1px 0px #000
+        background: #333
+        color: #efefef
 
         table
             border-collapse: collapse
