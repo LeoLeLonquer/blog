@@ -115,7 +115,7 @@ Voir l'article service-public.fr [Élections : droit de vote d'un citoyen europ�
 
 #### Droit de se présenter 
 
-Depuis 1994, ces mêmes personnes se présenter **aux élections européennes** et **municipales**.
+Depuis 1994, ces mêmes personnes peuvent se présenter **aux élections européennes** et **municipales**.
 
 Voir : [Le droit de voter et de se présenter comme candidat aux élections municipales](https://eur-lex.europa.eu/FR/legal-content/summary/the-right-to-vote-and-to-stand-as-a-candidate-in-municipal-elections.html?fromSummary=13) et [Européennes : je suis candidat](https://www.elections.interieur.gouv.fr/scrutins/elections-europeennes/europeennes-je-suis-candidat)
 
