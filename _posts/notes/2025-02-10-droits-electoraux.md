@@ -11,7 +11,7 @@ Vous rêvez d'envoyer Macron et Marine aux oubliettes de l'Histoire ? Voici un t
 
 Attention, le droit évolue vite ! 
 
-[![Riches et racistent votent et vous ?](https://i.ibb.co/M5Bj9Kk8/AFFICHES.webp)](https://jevoteilsdegagent.fr/)
+[![A voté JLM](https://i.ibb.co/gMq1Ym14/Happy-cat.png)](https://jevoteilsdegagent.fr/)
 
 Dernière mise à jour : 31/05/25
 
@@ -93,6 +93,8 @@ Elle peut vérifier les procurations qui lui ont été données sur le site [Vé
 {% include admonition.md type="tip" title="Bons à savoir" body="  
 - Si une personne **ne connaît personne à qui donner sa procuration** dans sa commune de vote, elle peut passer par [actionpopulaire.fr - Donner sa procuration](https://actionpopulaire.fr/procuration/donner-ma-procuration/). La procuration sera donnée à un ou une insoumise. Elle peut aussi simplement laisser son contact à un ou une militante ou contacter le GA le plus proche.  
 - Si une personne est dans un **cas de handicap physique ou de maladie grave**, un personnel de police ou de gendarmerie peut se déplacer au domicile pour vérifier son identité après avoir adressée une demande manuscrite ainsi qu'une attestation sur l'honneur indiquant l'impossibilité manifeste de se déplacer au poste de police ou à la gendarmerie. Voir l'article service-public.fr [Vous êtes en situation de handicap, comment voter aux élections législatives ?](https://www.service-public.fr/particuliers/actualites/A14943)." %}
+
+
 
 # Citoyennetés étrangères
 ## Citoyenneté européenne 
