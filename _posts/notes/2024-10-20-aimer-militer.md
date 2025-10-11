@@ -42,6 +42,8 @@ Les actions, c'est pour la street cred. Mais je ne ferais rien sans le sang de l
 
 S'engager, ça veut dire littéralement dire "se mettre soi-même en gage". Pourtant, je n'ai rien perdu en m'engageant, j'ai même beaucoup gagné : j'ai gardé tous mes potes, j'ai changé de travail sans problème, je me forme intellectuellement et humainement, je me fais de nouveaux et nouvelles amies, je rencontre un tas de gens que je n'aurais jamais rencontré autrement, je prends part à une émulation générale<sup>5</sup> , je me bats pour un objectif plus grand que moi, c'est jouissif !<sup>6</sup>
 
+{% include admonition.md type="quote" title="Politiser, c'est ouvrir l'esprit, c'est éveiller l'esprit, mettre au monde l'esprit. C'est, comme le disait Césaire, \"inventer des âmes\"." body="Les damnés de la terre - Franz Fanon" %}
+
 
 --- 
 

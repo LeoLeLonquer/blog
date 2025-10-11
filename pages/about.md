@@ -17,8 +17,12 @@ Si vraiment vous souhaitez en savoir plus, allez donc jeter un coup d'œil à mo
 
 ## Design graphique
 
-Le design utilisé pour mon site ne fait pas consensus, c'est pourtant du [Skeuomorphisme](https://fr.wikipedia.org/wiki/Skeuomorphisme). Merci à tous les rageux de se cultiver.  
-Grandement inspiré du thème [Leap Day](https://github.com/pages-themes/leap-day)
+Le design utilisé pour mon site ne fait pas consensus, c'est pourtant du [Skeuomorphisme](https://fr.wikipedia.org/wiki/Skeuomorphisme).  
+Grandement inspiré du thème [Leap Day](https://github.com/pages-themes/leap-day).
+
+## L{3,4}
+
+L{3,4} n'est pas une référence des versets de l'évangile selon Saint-Luc ou à des articles du code du travail, c'est un regexp, c'est à dire une [Expression Régulière](https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re), un outil d'une élégance folle en informatique pour décrire des patrons de textes. Ici en l'occurence, ce sont mes initiales qui sont décrites, c'est à dire que L{3,4} est équivalent à LLL ou LLLL, en fonction du rajout de mon deuxième prénom.
 
 ## License
 

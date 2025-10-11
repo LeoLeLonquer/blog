@@ -4,14 +4,14 @@ category: notes
 tags:
   - full_post
 title: Vos Droits Electoraux
-image: https://i.ibb.co/8DW1s3L1/carte-electorale.png
+image: https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg
 ---
 
 Vous rêvez d'envoyer Macron et Marine aux oubliettes de l'Histoire ? Voici un tuto complet pour inscrire votre entourage et vous sur les listes électorales et dégager ces oiseaux de malheur de leurs perchoirs.
 
 Attention, le droit évolue vite ! 
 
-[![A voté JLM](https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg)](https://www.a-vote.ong/les_suffragettes)
+[![suffragettes](https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg)](https://www.a-vote.ong/les_suffragettes)
 _Mouvement des suffragettes_
 
 Dernière mise à jour : 31/05/25
@@ -142,17 +142,15 @@ Voir l'article service-public.fr [Militaire, forain, gens du voyage, SDF, marini
 
 Si la personne n'a pas été condamnée à la perte de ses droits civique, la personne peut choisir de voter 
 
-- par correspondance
 - par procuration
+- par correspondance (droit pas appliqué et en voie de suppression pour mars 2026)
 - en se rendant au bureau de vote (difficilement applicable)
 
 On peut également modifier son bureau de vote depuis la prison.
 
-D'après des informations que j'ai eu grâce à quelqu'un qui bosse en prison, seule la procuration serait effective.
-
 _Peut-être informer via une association, un·e député·e, le corps enseignant de la prison ?_
 
-Voir l'article service-public.fr [Une personne détenue en prison a-t-elle le droit de voter ?](https://www.service-public.fr/particuliers/vosdroits/F1227).
+Voir l'article service-public.fr : [Une personne détenue en prison a-t-elle le droit de voter ?](https://www.service-public.fr/particuliers/vosdroits/F1227).
 
 ### Personnes protégées (sous tutelle, curatelle)
 
@@ -242,4 +240,4 @@ Accroche : "Nous sommes des militants de la France Insoumise, nous faisons une c
 
 Bravo fin de l'article !
 
-![chat heureux a voté Mélenchon](https://i.ibb.co/gMq1Ym14/Happy-cat.png) Bientôt la plénitude pour vous et votre famille
+![chat heureux a voté Mélenchon](https://i.ibb.co/gMq1Ym14/Happy-cat.png) _Bientôt la plénitude pour vous et votre famille_
