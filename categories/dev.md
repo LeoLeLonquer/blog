@@ -1,6 +1,6 @@
 ---
 layout: paginate
-title: "Ordinateur"
+title: "Informatique"
 permalink: /dev/
 pagination:
     enabled: true

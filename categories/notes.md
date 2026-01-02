@@ -1,6 +1,6 @@
 ---
 layout: paginate
-title: "Carnet"
+title: "Société"
 permalink: /notes/
 pagination:
     enabled: true
