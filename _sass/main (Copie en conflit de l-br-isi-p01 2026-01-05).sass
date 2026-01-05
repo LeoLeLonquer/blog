@@ -1,0 +1,574 @@
+@import 'fonts.scss', 'rouge-base16-dark.scss', "admonition.scss"
+
+// initial colors
+// $header_color : rgb(49, 109, 171)
+// $nav_color : #ffcc00
+// $nav_border_color : #f0b500
+// $nav_button_color : #f7d46a
+// $readmore_button_color : #ffcc00
+
+// Bleu cyan un peu foncé
+$header_color: #257b97
+$nav_color: #f9d10f
+$nav_border_color: #ffcc00
+$nav_button_color: #f7d46a
+$readmore_button_color: #ffcc00
+$nav_more_font_color: black
+
+// #2792b5
+// #257b97
+
+// blue man et jaune
+// $header_color : #4b6a8f
+// $nav_color : #f9d10f
+// $nav_border_color : #ffcc00
+// $nav_button_color : #f7d46a
+// $readmore_button_color : #ffcc00
+// $nav_more_font_color : black
+
+// $header_color : darkcyan
+// $nav_color : #ffc400
+// $nav_border_color :  #f0b500
+// $nav_button_color : #ffd54e
+
+// intéressant : 
+//lightseagreen + #ffcc00
+//teal + #ffcc00
+//darkcyan + #ffcc00
+
+// teal
+// midnightblue
+// mediumseagreen
+// limegreen
+// lime
+// lightseagreen
+// green
+// forestgreen
+// darkcyan
+// cadetblue
+
+body
+    font-family: 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif
+    opacity: 1
+    background-size: 4px 4px
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%)
+    //background: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%)
+    //background: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%)
+    // background: radial-gradient(circle,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)
+    //background-color: rgba(234, 230, 210, 1)
+    //background-image: repeating-linear-gradient(45deg, rgba(225, 221, 202, 1) 0, rgba(225, 221, 202, 1) 0.4px, rgba(234, 230, 210, 1) 0, rgba(234, 230, 210, 1) 50%)
+    margin: 0
+
+#page-container
+    /* pour pousser le footer en bas de la page dans tous les cas */
+    position: relative
+    min-height: 100vh
+
+#content-wrap
+    /* pour pousser le footer en bas de la page dans tous les cas */
+    padding-bottom: 5rem
+
+header
+    // background: url("../images/background.png") repeat
+    // background-color: $header_color
+    //background-image: url("http://127.0.0.1:4000/assets/images/mer3.png")
+    //background: linear-gradient(90deg, #f12711 0%, #f5af19 100%)
+    //background: linear-gradient(0deg, rgba(253, 74, 27, 1) 0%, rgba(252, 105, 0, 1) 100%)
+    //color: whitesmoke
+    color: black
+    text-decoration: none
+    padding-top: 0px
+    background: rgba(222, 234, 224, 0.15)
+    border-radius: 16px
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.308)
+    backdrop-filter: blur(9.9px)
+    -webkit-backdrop-filter: blur(9.9px)
+    position: sticky
+    top: 0
+
+#top-header
+    display: flex
+    justify-content: space-around
+    margin-right: 2%
+    font-size: x-small
+    padding: 0
+
+#top-header h1,
+#top-header a
+    font-family: Copse, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    text-decoration: none
+    color: black
+
+header nav
+    //background: $nav_color
+    text-decoration: none
+    height: 3.2em
+
+    //border: 1px solid $nav_border_color
+    //box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25)
+
+    
+    ul
+        list-style-type: none
+        display: flex
+        justify-content: space-around
+        align-items: center
+        padding: 0
+        margin: 0
+
+    li
+        //background-color: $nav_button_color
+        //box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25)
+        //border-radius: 20px
+        padding: 10px 10px
+        font-size: medium
+        /* From https://css.glass */
+        background: rgba(222, 234, 224, 0.15)
+        border-radius: 16px
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+        backdrop-filter: blur(9.9px)
+        -webkit-backdrop-filter: blur(9.9px)
+        //border: 1px solid rgba(222, 234, 224, 0.98)
+
+    li:hover,
+    .more:hover
+        box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25)
+        position: relative
+        bottom: 1px
+
+header nav a,
+.more a,
+article h1 a
+    text-decoration: none
+    color: $nav_more_font_color
+    font-weight: bold
+
+.more
+    background-color: $readmore_button_color
+    width: fit-content
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25)
+    border-radius: 20px
+    padding: 3px 10px
+
+.margin-auto
+    margin: auto
+
+.text-center
+    text-align: center
+
+// aside
+//     display: none
+// 
+
+nav.article
+    display: none
+
+    ul
+        list-style: none
+        list-style-image: none
+        font-size: 14px
+        line-height: 24px
+        padding-left: 5%
+
+        li
+            padding: 5px 0px
+            line-height: 16px
+
+            &.tag-h1
+                font-size: 1.2em
+
+                a
+                    font-weight: bold
+                    color: #333
+
+            // &.tag-h2
+            //     +.tag-h1
+            //         margin-top: 10px
+
+        a
+            color: #666
+            &:hover
+                color: #999
+
+        .active a
+            color: black
+            // border-right: solid 4px $nav_color
+            // padding-right: 13px
+
+article,
+section
+    background: whitesmoke
+    width: 90%
+
+    margin: 1em auto
+    padding: 0 0.5em
+    padding: 0 0.5em 1em 0.5em
+    background-color: #fbfbfb
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4)
+    border: 1px solid #cbcbcb
+    border-radius: 3px
+
+.article-title
+    h1
+        margin-bottom: 0
+        padding-bottom: 0
+        font-size: 1.6em
+
+    time
+        display: block
+        text-decoration: none
+        color: grey
+        margin-top: 1em //if title disabled (with tweets for example)
+
+    h1+time
+        margin-top: 0
+
+a
+    color: #4276b6
+    font-weight: 400
+    text-decoration: none
+
+article
+
+    ul,
+    ol
+        padding-left: 2em
+
+    ul
+        list-style-image: url('../images/bullet.png')
+
+    img
+        max-width: 100%
+
+    h1
+        font-size: 1.5em
+
+    h2
+        font-size: 1.4em
+
+    h3
+        font-size: 1.3em
+
+    h4
+        font-size: 1.2em
+
+    h5
+        font-size: 1.1em
+        margin: 0
+
+    h6
+        font-size: 1em
+        margin: 0
+
+.sous-rubrique
+    margin-left: 2em
+
+blockquote
+    border-left: 1px solid #ffcc00
+    margin: 0
+    padding: 0 0 0 20px
+    font-style: italic
+
+.figure_image
+    text-align: center
+
+code
+    font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal
+    font-size: 13px
+    color: #000
+    margin: 0 4px
+    padding: 2px 6px
+    background: #e6e6e6
+    //box-shadow: 1px 1px 1px grey // assez marrant vintage style
+    //box-shadow: 1px 1px 0px grey // assez marrant vintage style aussi
+    //box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px
+    box-shadow: 0px 0px 1px grey // moderne, effet retrait
+
+    border-radius: 2px
+
+// Configuration of code block 
+figure.highlight
+    margin: 0
+
+// Configuration of code block 
+pre
+    padding: 8px 15px
+    background: #333333
+    border-radius: 5px
+    //border: 1px solid #c7c7c7
+    overflow: auto
+    overflow-y: hidden
+    color: #ffff
+
+    //box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px
+    //box-shadow: 0px 0px 1px grey // moderne, effet retrait
+
+
+    code
+        margin: 0
+        padding: 0
+        font-family: monospace
+        text-shadow: 0px 1px 0px #000
+        background: #333
+        color: #efefef
+        box-shadow: 0px 0px // disabling shadow
+
+        table
+            border-collapse: collapse
+            width: 100%
+
+            pre
+                border: none
+                border-radius: none
+                padding: 0
+                margin: 0
+
+            .lineno
+                opacity: 0.5
+                margin-right: 0.5em
+
+// Workaround for gist code tag printed in white instead of black
+.gist-file code
+    color: black
+    text-shadow: none
+
+// kbd
+//     background-color: #fafbfc
+//     border: 1px solid #c6cbd1
+//     border-bottom-color: #959da5
+//     border-radius: 3px
+//     box-shadow: inset 0 -1px 0 #959da5
+//     color: #444d56
+//     display: inline-block
+//     font-size: 11px
+//     line-height: 10px
+//     padding: 3px 5px
+//     vertical-align: middle
+
+// for real tables (and not table in pre>code tags) 
+article>table,
+article>.overflow-x-auto>table
+    width: 100%
+    border-collapse: collapse
+    // table-layout:fixed
+    // width: 100%
+
+    td,
+    th
+        text-align: left
+        padding: 5px 10px
+        border-bottom: 1px solid #e5e5e5
+        border-right: 1px solid #ffcc00
+
+        &:first-child
+            border-left: 1px solid #ffcc00
+
+    th
+        color: #444
+        border-top: 1px solid #e5e5e5
+
+.overflow-x-auto
+    overflow-x: auto
+
+hr
+    border: 0
+    outline: none
+    height: 11px
+    background: transparent url('../images/hr.gif') center center repeat-x
+    margin: 0 0 20px
+
+dt
+    color: #444
+    font-weight: 700
+
+ul.pager
+    list-style: none
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 0
+    margin-top: 10px
+    box-sizing: border-box
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+
+ul.pager
+    li 
+        display: inline
+        text-align: center
+
+    a 
+        display: block
+        color: black
+        font-size: 14px
+        font-weight: bold
+        margin: 0 3px
+        padding: 0
+        width: 30px
+        height: 30px
+        line-height: 30px
+        border: 1px solid transparent
+        -moz-border-radius: 100%
+        -webkit-border-radius: 100%
+        border-radius: 100%
+        background-color: $readmore_button_color
+
+    a.page-number
+        display: none
+
+    a.prev
+        -moz-border-radius: 50px 0 0 50px
+        -webkit-border-radius: 50px
+        border-radius: 50px 0 0 50px
+        width: 100px
+
+    a.next
+        -moz-border-radius: 0 50px 50px 0
+        -webkit-border-radius: 0
+        border-radius: 0 50px 50px 0
+        width: 100px
+
+    a.start
+        // display: none
+        -moz-border-radius: 0 50px 50px 0
+        -webkit-border-radius: 0
+        border-radius: 0 50px 50px 0
+        width: 50px
+    
+    a.end
+        // display: none
+        -moz-border-radius: 50px 0 0 50px
+        -webkit-border-radius: 50px
+        border-radius: 50px 0 0 50px
+        width: 50px
+
+    a:hover 
+        box-shadow: 0px 1px 3px 5px rgba(0, 0, 0, 0.25)
+        position: relative
+        bottom: 1px
+        // background-color: #FFA500
+
+    a.selected
+        box-shadow: 0px 1px 3px 4px rgba(0, 0, 0, 0.25)
+
+footer
+    // background: url("../images/background.png") repeat
+    color: black
+    display: flex
+    justify-content: space-around
+    align-items: center
+    flex-wrap: wrap
+
+    background: rgba(222, 234, 224, 0.15)
+    border-radius: 16px
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)
+    backdrop-filter: blur(9.9px)
+    -webkit-backdrop-filter: blur(9.9px)
+
+    position: sticky
+    bottom: 0
+    width: 100%
+
+    p
+        margin: 0.5em 5%
+        text-align: center
+
+    nav
+        display: flex
+        justify-content: space-around
+        align-items: center
+        width: 6em
+        // Je trouvais que le truc partait trop à droite
+        position: relative
+        left: -5%
+
+    .icon
+        display: block
+        margin: auto
+        height: 1em
+        width: 1em
+        fill: black
+        // transition: .2s color
+
+//  au-dessus de 600px 
+// - la taille du header augmente
+// - la taille de la font du header augmente
+// - la taille du bloc de page va être au minimum de 590px, 66% de la largeur et au max de 1000px
+@media all and (min-width: 600px)
+    #block-page
+        width: 66%
+        min-width: 590px
+        max-width: 1000px
+        margin: auto
+
+    header nav
+        height: 3.5em
+
+    // ul.pager a.start,
+    // ul.pager a.end
+    //     display: block
+
+//  Fenêtre au-dessus de 800px : 
+// - le bandeau va se décrocher à droite
+@media all and (min-width: 800px)
+    header nav
+        //position: relative
+        top: 1.7em
+        //width: 90%
+        height: 3.7em
+        //border-radius: 0px 20px 20px 0px
+
+        ul
+            position: absolute
+            right: 0
+            width: 66%
+            margin-right: 12%
+
+        li
+            font-size: large
+
+    #block-page
+        margin: 3em auto
+
+    article
+        padding: 0 1em 1em 1em
+
+    #content-wrap
+        /* pour pousser le footer en bas de la page dans tous les cas */
+        padding-bottom: 1rem
+
+//  Fenêtre au-dessus de 1230px
+// - activation du bloc de navigation dans l'article javascript
+// - les boutons de numéro de page apparaissent
+@media all and (min-width: 1230px)
+
+    header
+        // ¨pour mettre le header sur l'article (sinon c'est l'inverse qui se passe)
+        z-index: 1000
+
+    .article-container
+        // pour obtenir la sidebar à gauche avec l'article
+        display: flex
+
+        // pour compenser l'effet du flex à cause de la sidebar
+        position: relative
+        left: -230px
+
+    article.full
+        max-width: 1000px
+        min-width: 100%
+
+    nav.article
+        display: block
+        position: sticky
+        position: -webkit-sticky
+        top: 115px
+        align-self: flex-start
+        //left: calc((100vw - 1000px)/2 - 230px)
+        min-width: 230px
+        margin-right: 10px
+        text-align: right
+
+    ul.pager a.page-number
+        display: block
