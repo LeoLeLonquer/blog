@@ -1,6 +1,6 @@
 ---
 layout: paginate
-title: "Carte"
+title: "Voyages"
 permalink: /voyages/
 pagination:
     enabled: true

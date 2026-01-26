@@ -15,16 +15,11 @@ exclude:
 #url: https://leolelonquer.github.io/
 
 # Menu
-# navigation:
-#   - {file: "pages/dev.html"}
-#   - {file: "pages/ressources.md"}
-#   - {file: "pages/cv.html"}
-
 
 navigation:
-  - {title: "Ordinateur"}
-  - {title: "Carnet"}
-  - {title: "Carte"}
+  - {title: "Société"}
+  - {title: "Voyages"}
+  - {title: "Informatique"}
   - {title: "Post-it"}
   #- {file: "pages/ressources.md"}
   # - {file: "pages/amis.md"}
