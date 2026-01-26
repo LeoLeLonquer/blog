@@ -10,3 +10,7 @@ group :jekyll_plugins do
   gem 'webrick', '~> 1.7'
   gem 'jekyll-paginate-v2'
 end
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"
