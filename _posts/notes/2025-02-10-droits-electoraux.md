@@ -65,7 +65,7 @@ Si on souhaite procéder à une nouvelle inscription quelle qu'en soit la raison
 **Documents requis :**
 Dans les deux cas, les documents suivants sont nécessaires :
 - **une pièce d’identité** (carte nationale d’identité en recto-verso ou passeport page 2 et 3)
-- **un justificatif de domicile de moins de 3 mois** (facture de téléphone fixe, de gaz, d'électricité, bulletin de salaire)
+- **un justificatif de domicile de moins de 3 mois** (facture de téléphone fixe, de gaz, d'électricité, bulletin de salaire, [attestation de contrat EDF](https://particulier.edf.fr/fr/accueil/espace-client/mes-documents.html#/attestation-contrat))
 
 **Cas des personnes hébergées chez un tiers :** 
 - le tiers doit fournir une pièce d'identité, un justificatif du domicile du tiers et une attestation d'hébergement. Vérifier avec la mairie si besoin.  
