@@ -2,13 +2,14 @@
 layout: default
 ---
 
+{%- capture body -%}{{ content }}{%- endcapture -%}
 <div class="article-container">
-  <nav class="article">
-      <ul></ul>
+  <nav class="article" aria-label="Sommaire">
+      <ul>{% include toc.html html=body %}</ul>
   </nav>
-  
+
   <article class="full">
     {% include article_title.html post=page %}
-    {{ content }}
+    {% include anchor_headings.html html=body %}
   </article>
 </div>

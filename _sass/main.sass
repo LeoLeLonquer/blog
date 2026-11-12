@@ -193,10 +193,38 @@ nav.article
             &:hover
                 color: #999
 
-        .active a
+        a:focus-visible
             color: black
-            // border-right: solid 4px $nav_color
-            // padding-right: 13px
+
+// Ancres des titres (fragments d'URL), générées par _includes/anchor_headings.html
+@media (prefers-reduced-motion: no-preference)
+    html
+        scroll-behavior: smooth
+
+article [id]
+    // pour que le titre ciblé ne soit pas masqué par le bandeau sticky
+    scroll-margin-top: 5em
+
+.heading-anchor
+    color: #999
+    text-decoration: none
+    font-weight: normal
+    padding-left: 0.3em
+    opacity: 0.6
+
+    &:hover,
+    &:focus-visible
+        color: $header_color
+        opacity: 1
+
+// sur écran large (souris), le # n'apparaît qu'au survol du titre
+@media (hover: hover)
+    .heading-anchor
+        opacity: 0
+
+    h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover
+        .heading-anchor
+            opacity: 0.6
 
 article,
 section
@@ -521,7 +549,7 @@ footer
         // padding-bottom: 1rem
 
 //  Fenêtre au-dessus de 1230px
-// - activation du bloc de navigation dans l'article javascript
+// - activation du bloc de navigation (sommaire) dans l'article
 // - les boutons de numéro de page apparaissent
 @media all and (min-width: 1230px)
 

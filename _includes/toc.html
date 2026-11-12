@@ -1,0 +1,20 @@
+{%- comment -%}
+  Table des matières générée au build (sans JavaScript).
+  Usage : {% include toc.html html=content %}
+  Liste les titres h1–h3 ayant un id (générés par kramdown) sous forme de
+  <li class="tag-hN"><a href="#id">texte</a></li>.
+{%- endcomment -%}
+{%- assign chunks = include.html | split: '<h' -%}
+{%- for chunk in chunks offset: 1 -%}
+  {%- assign lvl = chunk | slice: 0 -%}
+  {%- assign sep = chunk | slice: 1 -%}
+  {%- unless lvl == "1" or lvl == "2" or lvl == "3" -%}{%- continue -%}{%- endunless -%}
+  {%- unless sep == " " -%}{%- continue -%}{%- endunless -%}
+  {%- assign closing = '</h' | append: lvl | append: '>' -%}
+  {%- assign head = chunk | split: closing | first -%}
+  {%- assign attrs = head | split: '>' | first -%}
+  {%- unless attrs contains 'id="' -%}{%- continue -%}{%- endunless -%}
+  {%- assign id = attrs | split: 'id="' | last | split: '"' | first -%}
+  {%- assign text = head | remove_first: attrs | remove_first: '>' | strip_html | strip -%}
+  <li class="tag-h{{ lvl }}"><a href="#{{ id }}">{{ text }}</a></li>
+{%- endfor -%}

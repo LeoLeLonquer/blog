@@ -1,0 +1,20 @@
+{%- comment -%}
+  Ajoute un lien « # » cliquable dans chaque titre h1–h6 ayant un id,
+  pour pouvoir partager l'URL d'une section (fragment).
+  Usage : {% include anchor_headings.html html=content %}
+{%- endcomment -%}
+{%- assign chunks = include.html | split: '<h' -%}
+{%- for chunk in chunks -%}
+  {%- if forloop.first -%}{{ chunk }}{%- continue -%}{%- endif -%}
+  {%- assign lvl = chunk | slice: 0 -%}
+  {%- assign sep = chunk | slice: 1 -%}
+  {%- assign attrs = chunk | split: '>' | first -%}
+  {%- assign closing = '</h' | append: lvl | append: '>' -%}
+  {%- if "123456" contains lvl and sep == " " and attrs contains 'id="' and chunk contains closing -%}
+    {%- assign id = attrs | split: 'id="' | last | split: '"' | first -%}
+    {%- capture anchor -%} <a class="heading-anchor" href="#{{ id }}" aria-label="Lien vers cette section">#</a>{{ closing }}{%- endcapture -%}
+<h{{ chunk | replace_first: closing, anchor }}
+  {%- else -%}
+<h{{ chunk }}
+  {%- endif -%}
+{%- endfor -%}

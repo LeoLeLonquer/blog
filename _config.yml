@@ -12,6 +12,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .obsidian/
+  - CLAUDE.md
+  - TODO.md
+  - README.md
+  - serve.sh
 #url: https://leolelonquer.github.io/
 
 # Menu
@@ -74,3 +78,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate-v2
+
+# Ancres des titres : ids générés par kramdown (style GitHub, accents conservés :
+# « Cas spécifiques » → #cas-spécifiques), utilisés par _includes/toc.html et anchor_headings.html
+kramdown:
+  auto_ids: true

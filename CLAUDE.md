@@ -47,6 +47,8 @@ image: https://...     # optional thumbnail; defaults to /assets/images/thumbnai
 
 ## Notes
 
-- Keep the site light (TODO.md: reduce site size, recompress images, replace jQuery, no external resources in the theme).
+- Keep the site light (TODO.md: reduce site size, recompress images, no external resources in the theme). There is no JavaScript besides KaTeX: the article ToC and heading anchors are built at build time by `_includes/toc.html` and `_includes/anchor_headings.html` from kramdown GFM ids (GitHub-style, accents kept: `## Cas spécifiques` → `#cas-spécifiques`; write in-post links that way).
 - `Gemfile.lock` is gitignored in `.gitignore` yet present locally; don't rely on it.
 - Don't edit `UNLICENSE.txt`, `assets/katex`, or `_data/font-awesome` (vendored).
+- Ask questions if something is unclear
+- Do not add or commit anything
