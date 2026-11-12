@@ -7,7 +7,8 @@ excerpt_separator: <!--more-->
 date_format: "%B %d, %Y"
 description: "L{3,4} : le blog de Léo Le Lonquer. Société, voyages, informatique et post-it."
 default_thumbnail: "/assets/images/thumbnail-default.jpg"
-mathjax: true
+# KaTeX : chargé seulement par les pages avec `mathjax: true` (front matter)
+mathjax: false
 url: https://leolelonquer.github.io
 baseurl: "/blog"           # le workflow GitHub passe aussi --baseurl /blog
 
@@ -99,3 +100,8 @@ plugins:
 # « Cas spécifiques » → #cas-spécifiques), utilisés par _includes/toc.html et anchor_headings.html
 kramdown:
   auto_ids: true
+
+# CSS minifiée, sans source map
+sass:
+  style: compressed
+  sourcemap: never
