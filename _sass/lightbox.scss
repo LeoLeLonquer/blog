@@ -1,0 +1,128 @@
+// Visionneuse d'images des articles (voir _includes/lightbox.html)
+
+$lightbox-speed: .3s;
+
+.lightbox-thumb img {
+  cursor: zoom-in;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .9);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity $lightbox-speed ease, visibility $lightbox-speed ease;
+
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  // clic en dehors de l'image = fermeture
+  .lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    cursor: zoom-out;
+  }
+
+  figure {
+    position: relative; // au-dessus du fond cliquable
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none; // les clics sur la marge passent au fond
+  }
+
+  img {
+    max-width: 90vw;
+    max-height: 80vh;
+    border-radius: 4px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .6);
+    transform: scale(.92);
+    transition: transform $lightbox-speed ease;
+    pointer-events: auto;
+  }
+
+  &:target img {
+    transform: scale(1);
+  }
+
+  figcaption {
+    max-width: 90vw;
+    margin-top: .8em;
+    color: #eee;
+    font-style: italic;
+    text-align: center;
+    pointer-events: auto;
+
+    a {
+      color: #9cc3f5;
+    }
+  }
+
+  .lightbox-prev,
+  .lightbox-next,
+  .lightbox-close {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .45);
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    line-height: 1;
+    user-select: none;
+    transition: color .2s, background .2s;
+
+    &:hover,
+    &:focus-visible {
+      color: #fff;
+      background: rgba(0, 0, 0, .7);
+    }
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    top: 50%;
+    transform: translateY(-50%);
+    padding-bottom: .15em; // centrage optique de ‹ ›
+    font-size: 2.4rem;
+  }
+
+  .lightbox-prev {
+    left: .5rem;
+  }
+
+  .lightbox-next {
+    right: .5rem;
+  }
+
+  .lightbox-close {
+    top: calc(.5rem + env(safe-area-inset-top, 0px));
+    right: .5rem;
+    font-size: 1.8rem;
+  }
+
+  .lightbox-count {
+    position: absolute;
+    bottom: calc(.8em + env(safe-area-inset-bottom, 0px));
+    color: rgba(255, 255, 255, .6);
+    font-size: .85em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lightbox,
+  .lightbox img {
+    transition: none;
+  }
+}

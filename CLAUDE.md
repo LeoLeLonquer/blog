@@ -47,7 +47,8 @@ image: https://...     # optional thumbnail; defaults to /assets/images/thumbnai
 
 ## Notes
 
-- Keep the site light (TODO.md: reduce site size, recompress images, no external resources in the theme). There is no JavaScript besides KaTeX: the article ToC and heading anchors are built at build time by `_includes/toc.html` and `_includes/anchor_headings.html` from kramdown GFM ids (GitHub-style, accents kept: `## Cas spécifiques` → `#cas-spécifiques`; write in-post links that way).
+- Keep the site light (TODO.md: reduce site size, recompress images, no external resources in the theme). The only JavaScript is KaTeX plus the tiny lightbox script: the article ToC and heading anchors are built at build time by `_includes/toc.html` and `_includes/anchor_headings.html` from kramdown GFM ids (GitHub-style, accents kept: `## Cas spécifiques` → `#cas-spécifiques`; write in-post links that way).
+- Article images open in a lightbox (`_includes/lightbox.html`, styles in `_sass/lightbox.scss`), built at build time with CSS `:target`: each `<img>` not already inside a link gets wrapped in `#photo-N`, and its caption is the `_italic_` line right below it (otherwise its alt). A small inline script (articles with images only) adds the ← → Échap keys and keeps the Back history clean; everything still works without JS.
 - `Gemfile.lock` is gitignored in `.gitignore` yet present locally; don't rely on it.
 - Don't edit `UNLICENSE.txt`, `assets/katex`, or `_data/font-awesome` (vendored).
 - Ask questions if something is unclear

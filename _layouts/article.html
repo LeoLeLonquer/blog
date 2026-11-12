@@ -10,6 +10,7 @@ layout: default
 
   <article class="full">
     {% include article_title.html post=page %}
-    {% include anchor_headings.html html=body %}
+    {%- capture with_anchors -%}{% include anchor_headings.html html=body %}{%- endcapture -%}
+    {% include lightbox.html html=with_anchors %}
   </article>
 </div>

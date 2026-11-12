@@ -1,0 +1,89 @@
+{%- comment -%}
+  Visionneuse d'images (lightbox) générée au build, en CSS pur (:target).
+  - Chaque <img> de l'article (hors images déjà dans un lien) est enveloppée
+    dans un lien vers #photo-N ;
+  - pour chaque image, un calque plein écran est ajouté en fin d'article,
+    avec la légende (la ligne _en italique_ juste sous l'image, sinon l'alt),
+    les flèches précédent / suivant et un bouton de fermeture.
+  - Un petit script facultatif ajoute les touches ← → Échap et évite
+    d'empiler une entrée d'historique par photo.
+  Usage : {% include lightbox.html html=content %}
+{%- endcomment -%}
+{%- assign chunks = include.html | split: '<img ' -%}
+{%- assign lb_srcs = "" | split: "" -%}
+{%- assign lb_alts = "" | split: "" -%}
+{%- assign lb_caps = "" | split: "" -%}
+{%- assign n = 0 -%}
+{%- for chunk in chunks -%}
+  {%- if forloop.first -%}{{ chunk }}{%- continue -%}{%- endif -%}
+  {%- assign prev_i = forloop.index0 | minus: 1 -%}
+  {%- assign prev = chunks[prev_i] -%}
+  {%- assign in_link = false -%}
+  {%- if prev contains '<a ' -%}
+    {%- assign prev_tail = prev | split: '<a ' | last -%}
+    {%- unless prev_tail contains '</a>' -%}{%- assign in_link = true -%}{%- endunless -%}
+  {%- endif -%}
+  {%- assign attrs = chunk | split: '>' | first -%}
+  {%- unless chunk contains '>' and attrs contains 'src="' -%}{%- assign in_link = true -%}{%- endunless -%}
+  {%- if in_link -%}
+<img {{ chunk }}
+    {%- continue -%}
+  {%- endif -%}
+  {%- assign n = n | plus: 1 -%}
+  {%- assign src = attrs | split: 'src="' | last | split: '"' | first -%}
+  {%- assign alt = "" -%}
+  {%- if attrs contains 'alt="' -%}{%- assign alt = attrs | split: 'alt="' | last | split: '"' | first -%}{%- endif -%}
+  {%- assign rest_start = attrs.size | plus: 1 -%}
+  {%- assign rest = chunk | slice: rest_start, chunk.size -%}
+  {%- assign after = rest | lstrip -%}
+  {%- if after contains '<br' -%}
+    {%- assign br = after | slice: 0, 3 -%}
+    {%- if br == '<br' -%}{%- assign after = after | split: '>' | shift | join: '>' | lstrip -%}{%- endif -%}
+  {%- endif -%}
+  {%- assign caption = alt -%}
+  {%- assign em = after | slice: 0, 4 -%}
+  {%- if em == '<em>' and after contains '</em>' -%}
+    {%- assign caption = after | split: '</em>' | first | remove_first: '<em>' -%}
+  {%- endif -%}
+  {%- assign lb_srcs = lb_srcs | push: src -%}
+  {%- assign lb_alts = lb_alts | push: alt -%}
+  {%- assign lb_caps = lb_caps | push: caption -%}
+<a href="#photo-{{ n }}" class="lightbox-thumb"><img {{ attrs }}></a>{{ rest }}
+{%- endfor -%}
+{%- if n > 0 %}
+<div class="lightboxes">
+{%- for src in lb_srcs %}
+  {%- assign i = forloop.index %}
+  <div class="lightbox" id="photo-{{ i }}" role="dialog" aria-label="Image {{ i }} sur {{ n }}">
+    <a class="lightbox-backdrop" href="#_" aria-label="Fermer" tabindex="-1"></a>
+    <figure>
+      <img src="{{ src }}" alt="{{ lb_alts[forloop.index0] }}" loading="lazy">
+      {%- if lb_caps[forloop.index0] != "" %}
+      <figcaption>{{ lb_caps[forloop.index0] }}</figcaption>
+      {%- endif %}
+    </figure>
+    {%- unless forloop.first %}
+    <a class="lightbox-prev" href="#photo-{{ i | minus: 1 }}" aria-label="Image précédente">&#8249;</a>
+    {%- endunless %}
+    {%- unless forloop.last %}
+    <a class="lightbox-next" href="#photo-{{ i | plus: 1 }}" aria-label="Image suivante">&#8250;</a>
+    {%- endunless %}
+    <a class="lightbox-close" href="#_" aria-label="Fermer">&times;</a>
+    <span class="lightbox-count">{{ i }} / {{ n }}</span>
+  </div>
+{%- endfor %}
+</div>
+<script>
+(function () {
+  var keys = { ArrowLeft: '.lightbox-prev', ArrowRight: '.lightbox-next', Escape: '.lightbox-close' };
+  document.addEventListener('keydown', function (e) {
+    var box = document.querySelector('.lightbox:target'), a = box && keys[e.key] && box.querySelector(keys[e.key]);
+    if (a) { e.preventDefault(); a.click(); }
+  });
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('.lightbox a');
+    if (a) { e.preventDefault(); location.replace(a.getAttribute('href')); }
+  });
+})();
+</script>
+{%- endif -%}
