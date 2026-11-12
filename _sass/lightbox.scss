@@ -2,8 +2,25 @@
 
 $lightbox-speed: .3s;
 
-.lightbox-thumb img {
-  cursor: zoom-in;
+// Image d'article : centrée, légende en dessous
+.lightbox-thumb {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+
+  img {
+    display: block; // supprime l'espace sous l'image en ligne
+    cursor: zoom-in;
+  }
+}
+
+// Légende = ligne _en italique_ juste sous l'image (avec ou sans <br>)
+.lightbox-thumb + em,
+.lightbox-thumb + br + em {
+  display: block;
+  margin-top: .4em;
+  text-align: center;
 }
 
 .lightbox {
