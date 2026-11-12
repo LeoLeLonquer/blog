@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Bibliothèque"
+sitemap: false
 ---
 
 ### Outils

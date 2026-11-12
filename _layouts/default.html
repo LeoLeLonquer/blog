@@ -14,6 +14,7 @@
         <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
         <script defer src="{{ "/assets/katex/contrib/auto-render.min.js" | relative_url }}" onload="renderMathInElement(document.body)"></script>      
         {% endif %}
+        {% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
         {% seo %}
         <meta name="google-site-verification" content="MiNk0hyCI_5K7GpwYAjXwX_b-RmrsYaacK1IhGMrtR4" />
     </head>
@@ -22,9 +23,9 @@
             <div id="content-wrap">
                 <header>
                     <div id="top-header">
-                        <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
-                        <h1><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></h1>
-                        <h1><a href="{{ '/about/' | absolute_url }}">?</a></h1>
+                        <p class="site-title"><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></p>
+                        <p class="site-title"><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></p>
+                        <p class="site-title"><a href="{{ '/about/' | absolute_url }}">?</a></p>
                     </div>
                     <nav>
                         <ul>

@@ -48,7 +48,11 @@
   {%- assign lb_srcs = lb_srcs | push: src -%}
   {%- assign lb_alts = lb_alts | push: alt -%}
   {%- assign lb_caps = lb_caps | push: caption -%}
-<a href="#photo-{{ n }}" class="lightbox-thumb"><img {{ attrs }}></a>{{ rest }}
+  {%- assign img_attrs = attrs | strip -%}
+  {%- assign last_char = img_attrs | slice: -1, 1 -%}
+  {%- if last_char == '/' -%}{%- assign img_len = img_attrs.size | minus: 1 -%}{%- assign img_attrs = img_attrs | slice: 0, img_len | strip -%}{%- endif -%}
+  {%- unless img_attrs contains 'loading=' -%}{%- assign img_attrs = img_attrs | append: ' loading="lazy" decoding="async"' -%}{%- endunless -%}
+<a href="#photo-{{ n }}" class="lightbox-thumb"><img {{ img_attrs }}></a>{{ rest }}
 {%- endfor -%}
 {%- if n > 0 %}
 <div class="lightboxes">

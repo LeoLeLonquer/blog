@@ -1,12 +1,21 @@
 title: "L{3,4}"
-author: "Léo Le Lonquer"
+author:
+  name: "Léo Le Lonquer"
+  url: "https://leolelonquer.github.io/blog/about/"
 lang: "fr"
 excerpt_separator: <!--more-->
 date_format: "%B %d, %Y"
-default_description: "L{3,4}: Le blog de Léo"
+description: "L{3,4} : le blog de Léo Le Lonquer. Société, voyages, informatique et post-it."
 default_thumbnail: "/assets/images/thumbnail-default.jpg"
 mathjax: true
 url: https://leolelonquer.github.io
+baseurl: "/blog"           # le workflow GitHub passe aussi --baseurl /blog
+
+# Référencement (jekyll-seo-tag) : données structurées JSON-LD
+social:
+  name: "Léo Le Lonquer"
+  links:
+    - https://github.com/LeoLeLonquer
 
 exclude:
   - Gemfile
@@ -34,6 +43,13 @@ defaults:
       path: ""
     values:
       image: /assets/images/thumbnail-default.jpg
+  # Post-it : pages très courtes, gardées hors de l'index des moteurs de recherche
+  # (meta robots noindex dans _layouts/default.html, absentes du sitemap)
+  - scope:
+      path: "_posts/tweets"
+    values:
+      noindex: true
+      sitemap: false
 
 
 # defaults:

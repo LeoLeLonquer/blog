@@ -89,7 +89,12 @@ header
     font-size: x-small
     padding: 0
 
-#top-header h1,
+#top-header .site-title
+    font-size: 2em
+    font-weight: bold
+    margin: 0.67em 0
+
+#top-header .site-title,
 #top-header a
     font-family: Copse, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     text-decoration: none
@@ -133,7 +138,8 @@ header nav
         bottom: 1px
 
 header nav a,
-article h1 a
+article h1 a,
+.article-title h2 a
     text-decoration: none
     color: $nav_more_font_color
     font-weight: bold
@@ -240,7 +246,7 @@ section
     border-radius: 3px
 
 .article-title
-    h1
+    h1, h2
         margin-bottom: 0
         padding-bottom: 0
         font-size: 1.6em
@@ -251,7 +257,7 @@ section
         color: grey
         margin-top: 1em //if title disabled (with tweets for example)
 
-    h1+time
+    h1+time, h2+time
         margin-top: 0
 
 a

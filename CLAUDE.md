@@ -6,7 +6,7 @@ Personal French-language blog "L{3,4}" by Léo Le Lonquer. Jekyll 4.3 static sit
 
 ```bash
 bundle                      # first run only (if webrick error: bundle add webrick)
-./serve.sh                  # = bundle exec jekyll serve --livereload → http://127.0.0.1:4000/
+./serve.sh                  # = bundle exec jekyll serve --livereload → http://127.0.0.1:4000/blog/ (baseurl /blog, as on GitHub Pages)
 bundle exec jekyll build    # build into _site/ (gitignored)
 ```
 
@@ -36,6 +36,7 @@ tags:
   - full_post          # required for the post to appear on the home page; tweets use `tweets`
 title: ...
 image: https://...     # optional thumbnail; defaults to /assets/images/thumbnail-default.jpg
+description: ...       # optional SEO summary (~150 chars); defaults to the excerpt
 ---
 ```
 
@@ -52,4 +53,5 @@ image: https://...     # optional thumbnail; defaults to /assets/images/thumbnai
 - `Gemfile.lock` is gitignored in `.gitignore` yet present locally; don't rely on it.
 - Don't edit `UNLICENSE.txt`, `assets/katex`, or `_data/font-awesome` (vendored).
 - Ask questions if something is unclear
-- Do not add or commit anything
+- Do not add or commit anything but propose a commit message after a "Plan"
+- SEO: `jekyll-seo-tag` (meta, Open Graph, JSON-LD from `description`/`author`/`social` in `_config.yml`), `jekyll-sitemap`. Post-it posts are `noindex` and out of the sitemap via a `_config.yml` default (`noindex: true`, read in `default.html`). Only the page/article title is an `<h1>` (header uses `.site-title`, list excerpts use `<h2>`). `robots.txt` under `/blog/` is ignored by crawlers (not at host root): submit the sitemap in Search Console instead.

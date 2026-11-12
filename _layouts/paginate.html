@@ -6,7 +6,7 @@ layout: default
     {% include article_title.html post=page %}
     {% for post in paginator.posts %}
             <article class="excerpt">
-            {% include article_title.html post=post %}
+            {% include article_title.html post=post level="h2" %}
             {{ post.excerpt }}
             {% unless post.categories contains 'tweets' %}
                 <div class="more"><a href="{{ post.url | relative_url }}">Lire la suite</a></div>
