@@ -14,14 +14,26 @@ Attention, le droit évolue vite !
 [![suffragettes](https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg)](https://www.a-vote.ong/les_suffragettes)
 _Mouvement des suffragettes_
 
-Dernière mise à jour : 31/05/25
+Dernière mise à jour : 21/11/26
 
 <!--more-->
 
-{% include admonition.md type="success" title="La France Insoumise a créé un excellent site [jevoteilsdegagent.fr](https://jevoteilsdegagent.fr) regroupant toutes les fonctionnalités !" body="" %}
+---
+# En Bref
 
+{% include admonition.md type="success" title="L'essentiel à savoir" body="
+- **Pas besoin de refaire son inscription à chaque élection.**
+- **A 18 ans, on est inscrit automatiquement sur les listes électorales** dans la commune spécifiée à la Journée Défense et Citoyenneté.
+- Grâce à l'inscription automatique, **toutes les personnes nées après 1979 (47 ans) ont normalement déjà été inscrites quelque part**.
+- Les personnes étrangères ne peuvent pas voter aux élections présidentielles.
+-  [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788) 
+-  [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396) : nécessite pièce d'identité et justificatif de domicile.
+	- [Quetsche - Outil sécurisé de compression de photos](https://quetsche.ladigitale.dev/). (pour la limite des 2Mo d'upload)
+- La France Insoumise a créé un générateur de dossier papier sur le site [jevoteilsdegagent.fr](https://jevoteilsdegagent.fr)
+" %}
 
-# Citoyenneté française
+---
+# Pour les personnes de citoyenneté française
 
 Pour toutes et tous les citoyens françaises, les conditions pour voter en France sont les suivantes :
 
@@ -67,6 +79,8 @@ Dans les deux cas, les documents suivants sont nécessaires :
 - **une pièce d’identité** (carte nationale d’identité en recto-verso ou passeport page 2 et 3)
 - **un justificatif de domicile de moins de 3 mois** (facture de téléphone fixe, de gaz, d'électricité, bulletin de salaire, [attestation de contrat EDF](https://particulier.edf.fr/fr/accueil/espace-client/mes-documents.html#/attestation-contrat))
 
+Si les photos sont trop volumineuses (limite des 2Mo d'upload), utilisez [Quetsche - Outil sécurisé de compression de photos](https://quetsche.ladigitale.dev/).
+
 **Cas des personnes hébergées chez un tiers :** 
 - le tiers doit fournir une pièce d'identité, un justificatif du domicile du tiers et une attestation d'hébergement. Vérifier avec la mairie si besoin.  
 
@@ -97,7 +111,7 @@ Elle peut vérifier les procurations qui lui ont été données sur le site [Vé
 
 
 
-# Citoyennetés étrangères
+# # Pour les personnes de citoyennetés étrangères
 ## Citoyenneté européenne 
 
 #### Droit de vote 
