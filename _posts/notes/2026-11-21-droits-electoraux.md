@@ -59,7 +59,6 @@ Pour la plupart des métropolitains, le recensement citoyen est effectué lors d
 - J'ai remarqué qu'un certain nombre de personnes Mahoraises et Guyanaises ne semblent pas avoir été inscrites automatiquement. Il faut donc suivre le processus d'inscription sur les listes classique pour les réinscrire. Si la personne a moins de 25 ans, elle doit faire le recensement citoyen en mairie ou en ligne. Sinon, ce n'est pas nécessaire.  
  - Joshua a remarqué que beaucoup de jeunes ne font pas la JDC. Il faut qu'il fasse la démarche (nécessaire également pour des diplômes, le permis de conduire...)" %}
 
-
 #### A l'acquisition de la nationalité française
 
 Si la nationalité est obtenue : 
@@ -93,7 +92,6 @@ Si les photos sont trop volumineuses (limite des 2Mo d'upload), utilisez [Quetsc
 
 {% include admonition.md type="tip" title="Inscription en mairie à Brest" body="  
 Pour une personne qui n'est pas à l'aise avec l'inscription en ligne, elle peut se rendre directement dans une des mairies de Brest munie des documents requis précisés plus haut. Elle sera reçue sans rendez-vous par un·e agent·e qui l'aidera à remplir son dossier. La mairie n'imprime plus de Cerfa 12669." %}
-
 
 ## Militaires, forains, gens du voyage, SDF, mariniers
 
@@ -161,9 +159,6 @@ Voir :
 
 - [Service Public - Que faire en cas de refus d'inscription ou de radiation de la liste électorale par le maire ?](https://www.service-public.fr/particuliers/vosdroits/F36496/1)  
 - la section _Erreur matérielle de l'administration_ de la page [Élections : peut-on s'inscrire sur la liste électorale d'une mairie et voter la même année ?](https://www.service-public.fr/particuliers/vosdroits/F34240)" %}
-
-
-
 
 # Les procurations
 
@@ -234,10 +229,6 @@ Les nationalités étrangères hors-EU **ne peuvent pas** prétendre au droit de
 Un·e député·e peut appuyer accélérer, se renseigner sur une demande de naturalisation en cours auprès de la préfecture. Pour cela il faut contacter un·e député·e de préférence de sa circonscription, sinon de son département.  
   
 Sur Brest : pierre-yves.cadalen@assemblee-nationale.fr " %}
-
-
-
-
 
 # Trucs et Astuces
 ### Obtention des listes électorales
