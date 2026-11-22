@@ -3,7 +3,7 @@ layout: article
 category: notes
 tags:
   - full_post
-title: La mal-inscription et la non-inscription, le retour du suffrage censitaire ?
+title: Le retour du suffrage censitaire ?
 description:
 image: https://i.ibb.co/3mH1xzK4/Capture-d-e-cran-2026-11-22-a-15-17-35.png
 mathjax: false
