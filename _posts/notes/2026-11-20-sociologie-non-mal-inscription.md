@@ -32,20 +32,18 @@ Avant de rentrer dans le détail, définissons rapidement les concepts :
 - **Les non-inscrites**, ce sont les personnes qui ont le droit de voter mais qui ne sont inscrites nulle part.
 - **Les mal-inscrites**, sont les personnes enregistrées dans une autre ville que celle où elles résident. 
 
-En 2022, à l'élection présidentielle, la participation était de 73,69 % (soit 26,31% d'abstention) au premier tour en baisse de 4 points par rapport à 2017.
 
-Dans le même temps, 2,9 millions de personnes en France ne sont pas inscrites sur les listes électorales et 7,7 millions sont mal-inscrites.
-
-Il y a évidemment des liens entre tous ces phénomènes.
-
+{% include admonition.md type="success" title="Quelques chiffres" body="
+- En 2022, à l'élection présidentielle, la participation était de 73,69 % (soit 26,31% d'abstention) au premier tour en baisse de 4 points par rapport à 2017.
+- Dans le même temps, 2,9 millions de personnes en France ne sont pas inscrites sur les listes électorales et 7,7 millions sont mal-inscrites.
+" %}
 
 ## La crise du vote 
 
-La légitimité du vote est remise en cause en France, **en tout premier lieu par les classes dominantes** : 
+La légitimité du vote est remise en cause en France, **en tout premier lieu par les classes gouvernantes**. Quelques exemples :  
 - non-respect du Non au référendum sur le Traité Constitutionnel Européen (TCE) en 2005 puisque ratifié en 2007 par Sarkozy dans le Traité de Lisbonne, 
 - trahison de la promesse de gauche par le parti socialiste à la présidence de 2012 à 2017.
 - non-respect du résultat des élections législatives et de la victoire du NFP en 2024 
-- etc.
 
 Les conséquences de ces décisions sont évidemment une défiance vis-à-vis du vote, des élections et du système représentatif de manière générale.
 
@@ -132,3 +130,4 @@ Pour participer à rétablir l'universalité du suffrage, ses propositions, qui 
 
 Plus de précisions ici : [Nos propositions pour en finir avec le nouveau suffrage censitaire et organiser la mobilisation des citoyens aux élections.](https://www.assemblee-nationale.fr/dyn/docs/RAPPANR5L17B1479.raw#_Toc256000046)
 
+Et surtout, il faut faire soi-même [les campagnes d'inscription](droits-electoraux) !
