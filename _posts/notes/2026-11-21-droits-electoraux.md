@@ -7,7 +7,9 @@ title: Manuel d'inscription sur les listes électorales
 image: https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg
 ---
 
-Vous rêvez d'envoyer Macron et Marine aux oubliettes de l'Histoire ? Voici un tuto complet pour inscrire votre entourage et vous sur les listes électorales et dégager ces oiseaux de malheur de leurs perchoirs.
+Vous rêvez d'envoyer Macron et Marine aux oubliettes de l'Histoire ? Il se trouve que 3 millions de personnes ne sont pas inscrites sur les listes électorales ou que 8 millions sont mal-inscrites, c'est à dire qu'elle réside dans une commune différente de celle dans laquelle elles votent. 
+
+Voici un tuto complet pour inscrire ou réinscrire tout ce monde et dégager ces oiseaux de malheur de leurs perchoirs.
 
 Attention, le droit évolue vite ! 
 
