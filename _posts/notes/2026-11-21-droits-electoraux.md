@@ -92,24 +92,39 @@ Si les photos sont trop volumineuses (limite des 2Mo d'upload), utilisez [Quetsc
 {% include admonition.md type="tip" title="Inscription en mairie à Brest" body="  
 Pour une personne qui n'est pas à l'aise avec l'inscription en ligne, elle peut se rendre directement dans une des mairies de Brest munie des documents requis précisés plus haut. Elle sera reçue sans rendez-vous par un·e agent·e qui l'aidera à remplir son dossier. La mairie n'imprime plus de Cerfa 12669." %}
 
-### La procuration
 
-Si une personne inscrite est indisponible pour aller voter dans la commune où elle est inscrite, elle peut donner son vote à une personne tierce via la procuration et ce jusqu'à la veille du vote (mais risque que la procuration ne soit pas transmise à temps). Pour cela, il faut préparer :
-- **Provenant de la personne mandante** (qui donne la procuration): une pièce d’identité son numéro d’électeur, un formulaire pré-rempli en ligne ou au format papier (disponible également sur place)
-- **Provenant de la personne mandataire** (qui prend la procuration): soit son numéro d’électeur et sa date de naissance soit ses données d’état civil et sa commune de vote
+## Cas spécifiques
+### Militaires, forains, gens du voyage, SDF, mariniers
 
-Suivre les étapes données par le site [www.maprocuration.gouv.fr](http://www.maprocuration.gouv.fr).  La personne mandante devra se rendre au poste de police ou de gendarmerie pour donner procuration à moins qu'elle ait utilisée [FranceIdentité](https://france-identite.gouv.fr/).
+Le droit n'est pas très adapté pour ces personnes qui doivent malgré tout avoir une commune de référence. La commune peut être choisie en fonction de l'[attestation d'élection de domicile](https://www.service-public.fr/particuliers/vosdroits/F17317)(domiciliation faite avec l'aide du CCAS), de la commune où l'on paie des impôts locaux, où sa société est établie etc.
 
-Une personne mandataire peut recevoir jusqu’à 3 procurations :
-- **1** procuration faite en **France**
-- **2** procurations faites à **l’étranger**  
+Voir l'article service-public.fr [Militaire, forain, gens du voyage, SDF, marinier : où s'inscrire pour voter ?](https://www.service-public.fr/particuliers/vosdroits/F35790).
 
-Elle peut vérifier les procurations qui lui ont été données sur le site [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788).
+### Personnes détenues
 
+Si la personne n'a pas été condamnée à la perte de ses droits civique, la personne peut choisir de voter 
 
-{% include admonition.md type="tip" title="Bons à savoir" body="  
-- Si une personne **ne connaît personne à qui donner sa procuration** dans sa commune de vote, elle peut passer par [actionpopulaire.fr - Donner sa procuration](https://actionpopulaire.fr/procuration/donner-ma-procuration/). La procuration sera donnée à un ou une insoumise. Elle peut aussi simplement laisser son contact à un ou une militante ou contacter le GA le plus proche.  
-- Si une personne est dans un **cas de handicap physique ou de maladie grave**, un personnel de police ou de gendarmerie peut se déplacer au domicile pour vérifier son identité après avoir adressée une demande manuscrite ainsi qu'une attestation sur l'honneur indiquant l'impossibilité manifeste de se déplacer au poste de police ou à la gendarmerie. Voir l'article service-public.fr [Vous êtes en situation de handicap, comment voter aux élections législatives ?](https://www.service-public.fr/particuliers/actualites/A14943)." %}
+- par procuration
+- par correspondance (droit pas appliqué et en voie de suppression pour mars 2026)
+- en se rendant au bureau de vote (difficilement applicable)
+
+On peut également modifier son bureau de vote depuis la prison.
+
+_Peut-être informer via une association, un·e député·e, le corps enseignant de la prison ?_
+
+Voir l'article service-public.fr : [Une personne détenue en prison a-t-elle le droit de voter ?](https://www.service-public.fr/particuliers/vosdroits/F1227).
+
+### Personnes protégées (sous tutelle, curatelle)
+
+Depuis 2019, les personnes en situation de handicap ou de fragilité peuvent voter sans attendre une autorisation du juge. 300 000 majeur·es sous tutelle ou curatelle peuvent donc désormais voter. **Elles doivent pour cela s'inscrire sur les listes électorales**, leur inscription n'étant en effet pas automatique.
+
+Pour ces personnes, le droit de procuration est encadré : ni les mandataires de tutelle ou curatelle ni les personnes qui suivent des personnes sous tutelle dans des établissements ne pourront recevoir procuration.
+
+Normalement tous les acteurs (foyer de vie, maire, préfecture etc.) ont été mis au courant.  
+
+_Peut-être faire campagne d'inscription en ESAT, en foyer de vie ?_
+
+Voir [justice.fr - Droit de vote des majeurs protégés](https://www.justice.fr/droit-vote-majeur-protege) et [handicap.gouv.fr - Droit de vote des personnes protégées](https://handicap.gouv.fr/droit-de-vote-des-personnes-protegees-la-reconnaissance-de-leur-pleine-citoyennete)
 
 
 
@@ -147,38 +162,27 @@ Un·e député·e peut appuyer accélérer, se renseigner sur une demande de nat
   
 Sur Brest : pierre-yves.cadalen@assemblee-nationale.fr " %}
 
-# Cas spécifiques
-### Militaires, forains, gens du voyage, SDF, mariniers
 
-Le droit n'est pas très adapté pour ces personnes qui doivent malgré tout avoir une commune de référence. La commune peut être choisie en fonction de l'[attestation d'élection de domicile](https://www.service-public.fr/particuliers/vosdroits/F17317)(domiciliation faite avec l'aide du CCAS), de la commune où l'on paie des impôts locaux, où sa société est établie etc.
+# Les procurations
 
-Voir l'article service-public.fr [Militaire, forain, gens du voyage, SDF, marinier : où s'inscrire pour voter ?](https://www.service-public.fr/particuliers/vosdroits/F35790).
+Si une personne inscrite est indisponible pour aller voter dans la commune où elle est inscrite, elle peut donner son vote à une personne tierce via la procuration et ce jusqu'à la veille du vote (mais risque que la procuration ne soit pas transmise à temps). Pour cela, il faut préparer :
+- **Provenant de la personne mandante** (qui donne la procuration): une pièce d’identité son numéro d’électeur, un formulaire pré-rempli en ligne ou au format papier (disponible également sur place)
+- **Provenant de la personne mandataire** (qui prend la procuration): soit son numéro d’électeur et sa date de naissance soit ses données d’état civil et sa commune de vote
 
-### Personnes détenues
+Suivre les étapes données par le site [www.maprocuration.gouv.fr](http://www.maprocuration.gouv.fr).  La personne mandante devra se rendre au poste de police ou de gendarmerie pour donner procuration à moins qu'elle ait utilisée [FranceIdentité](https://france-identite.gouv.fr/).
 
-Si la personne n'a pas été condamnée à la perte de ses droits civique, la personne peut choisir de voter 
+Une personne mandataire peut recevoir jusqu’à 3 procurations :
+- **1** procuration faite en **France**
+- **2** procurations faites à **l’étranger**  
 
-- par procuration
-- par correspondance (droit pas appliqué et en voie de suppression pour mars 2026)
-- en se rendant au bureau de vote (difficilement applicable)
+Elle peut vérifier les procurations qui lui ont été données sur le site [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788).
 
-On peut également modifier son bureau de vote depuis la prison.
 
-_Peut-être informer via une association, un·e député·e, le corps enseignant de la prison ?_
+{% include admonition.md type="tip" title="Bons à savoir" body="  
+- Si une personne **ne connaît personne à qui donner sa procuration** dans sa commune de vote, elle peut passer par [actionpopulaire.fr - Donner sa procuration](https://actionpopulaire.fr/procuration/donner-ma-procuration/). La procuration sera donnée à un ou une insoumise. Elle peut aussi simplement laisser son contact à un ou une militante ou contacter le GA le plus proche.  
+- Si une personne est dans un **cas de handicap physique ou de maladie grave**, un personnel de police ou de gendarmerie peut se déplacer au domicile pour vérifier son identité après avoir adressée une demande manuscrite ainsi qu'une attestation sur l'honneur indiquant l'impossibilité manifeste de se déplacer au poste de police ou à la gendarmerie. Voir l'article service-public.fr [Vous êtes en situation de handicap, comment voter aux élections législatives ?](https://www.service-public.fr/particuliers/actualites/A14943)." %}
 
-Voir l'article service-public.fr : [Une personne détenue en prison a-t-elle le droit de voter ?](https://www.service-public.fr/particuliers/vosdroits/F1227).
 
-### Personnes protégées (sous tutelle, curatelle)
-
-Depuis 2019, les personnes en situation de handicap ou de fragilité peuvent voter sans attendre une autorisation du juge. 300 000 majeur·es sous tutelle ou curatelle peuvent donc désormais voter. **Elles doivent pour cela s'inscrire sur les listes électorales**, leur inscription n'étant en effet pas automatique.
-
-Pour ces personnes, le droit de procuration est encadré : ni les mandataires de tutelle ou curatelle ni les personnes qui suivent des personnes sous tutelle dans des établissements ne pourront recevoir procuration.
-
-Normalement tous les acteurs (foyer de vie, maire, préfecture etc.) ont été mis au courant.  
-
-_Peut-être faire campagne d'inscription en ESAT, en foyer de vie ?_
-
-Voir [justice.fr - Droit de vote des majeurs protégés](https://www.justice.fr/droit-vote-majeur-protege) et [handicap.gouv.fr - Droit de vote des personnes protégées](https://handicap.gouv.fr/droit-de-vote-des-personnes-protegees-la-reconnaissance-de-leur-pleine-citoyennete)
 
 # Radiation des listes
 
@@ -215,30 +219,8 @@ Voir :
 - [Service Public - Que faire en cas de refus d'inscription ou de radiation de la liste électorale par le maire ?](https://www.service-public.fr/particuliers/vosdroits/F36496/1)  
 - la section _Erreur matérielle de l'administration_ de la page [Élections : peut-on s'inscrire sur la liste électorale d'une mairie et voter la même année ?](https://www.service-public.fr/particuliers/vosdroits/F34240)" %}
 
-# Trucs et Astuces
-### Obtention des listes électorales
 
-Tout électeur·rice peut consulter les listes électorales en mairie ou préfecture sur demande. Il est également possible de les obtenir par email. Voir [Un électeur peut-il consulter les listes électorales ?](https://www.service-public.fr/particuliers/vosdroits/F1963)
-
-
-### Consultation des listes d'émargement 
-
-Entre deux tours d'un scrutin, et 10 jours après le scrutin il est possible de consulter les listes d'émargement des bureaux de vote. Cela permet de vérifier la bonne tenue d'un scrutin pour engager des recours si besoin ou de noter des éléments sur la participation.
-
-Les listes sont consultables sur rendez-vous en préfecture en fournissant une carte d'identité et une attestation d’inscription sur les listes électorales, il est possible de prendre des photos ("La prise de photos est admise." voir lien ci-dessous).
-
-{% include admonition.md type="danger" title="Danger" body="Aucune donnée nominative ne peut être conservée hors du cadre de vérification des dix jours après le scrutin sauf accord explicite de la personne concernée.  
-Voir [Résultats et consultation des listes d'émargement](https://www.nord.gouv.fr/Demarches/Elections/Elections-politiques/ELECTIONS-LEGISLATIVES/Elections-legislatives-2024/Resultats-et-consultation-des-listes-d-emargement)" %}
-
-
-### Pour le PaP
-
-Hors période électorale, le porte-à-porte doit remplir deux objectifs : 
-
-- inscrire des gens sur les listes électorales et faire de l'accès aux droits
-- récupérer des contacts intéressés pour rejoindre la FI ou être tenus informés
-
-#### Inscription 
+# Inscription en Porte-à-porte
 
 Avant de noyer la personnes sous un flot d'informations, posez autant de questions que nécessaire pour connaître le statut de la personne. 
 
@@ -254,6 +236,24 @@ Accroche : "Nous sommes des militants de la France Insoumise, nous faisons une c
 | Dans quelle commune vous étiez quand vous avez eu 18 ans ?                                                        | Peut permettre de vérifier une inscription et de donner une procuration                                                                  |
 | Est-ce que vous souhaitez qu'on vérifie si vous êtes inscrit.e ?                                                  | Suivre la procédure en ligne [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788). |
 
-Bravo fin de l'article !
+
+# Trucs et Astuces
+### Obtention des listes électorales
+
+Tout électeur·rice peut consulter les listes électorales en mairie ou préfecture sur demande. Il est également possible de les obtenir par email. Voir [Un électeur peut-il consulter les listes électorales ?](https://www.service-public.fr/particuliers/vosdroits/F1963)
+
+
+### Consultation des listes d'émargement 
+
+Entre deux tours d'un scrutin, et 10 jours après le scrutin il est possible de consulter les listes d'émargement des bureaux de vote. Cela permet de vérifier la bonne tenue d'un scrutin pour engager des recours si besoin ou de noter des éléments sur la participation.
+
+Les listes sont consultables sur rendez-vous en préfecture en fournissant une carte d'identité et une attestation d’inscription sur les listes électorales, il est possible de prendre des photos ("La prise de photos est admise." voir lien ci-dessous).
+
+{% include admonition.md type="danger" title="Danger" body="Aucune donnée nominative ne peut être conservée hors du cadre de vérification des dix jours après le scrutin sauf accord explicite de la personne concernée.  
+Voir [Résultats et consultation des listes d'émargement](https://www.nord.gouv.fr/Demarches/Elections/Elections-politiques/ELECTIONS-LEGISLATIVES/Elections-legislatives-2024/Resultats-et-consultation-des-listes-d-emargement)" %}
+
+--- 
+
+Bravo fin de l'article ! 
 
 ![chat heureux a voté Mélenchon](https://i.ibb.co/gMq1Ym14/Happy-cat.png) _Bientôt la plénitude pour vous et votre famille_
