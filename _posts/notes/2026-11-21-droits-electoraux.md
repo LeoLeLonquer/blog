@@ -23,7 +23,7 @@ Dernière mise à jour : 21/11/26
 
 {% include admonition.md type="success" title="A savoir" body="
 - **Pas besoin de refaire son inscription à chaque élection.**
-- **A 18 ans, on est inscrit automatiquement** dans la commune spécifiée à la Journée Défense et Citoyenneté.
+- **A 18 ans, l'inscription est automatique** dans la commune spécifiée à la Journée Défense et Citoyenneté.
 - Grâce à l'inscription automatique, **toutes les personnes nées après 1979 (47 ans) ont normalement déjà été inscrites au moins une fois quelque part**.
 - Les personnes étrangères ne peuvent pas voter aux élections présidentielles.
 - Pour toute nouvelle inscription, il faut une pièce d'identité et un justificatif de domicile de moins de 3 mois.
