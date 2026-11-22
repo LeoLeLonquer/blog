@@ -128,7 +128,7 @@ Voir [justice.fr - Droit de vote des majeurs protégés](https://www.justice.fr/
 
 
 
-# # Pour les citoyennetés étrangères
+# Pour les citoyennetés étrangères
 ## Citoyenneté européenne 
 
 #### Droit de vote 
