@@ -18,7 +18,7 @@ Comment se distribue donc la mal-inscription et la non-inscription et comment al
 
 <!--more-->
 
-_Cet article reprend en bonne partie le travail d'Antoine Léaument lors d'une commission d'enquête parlementaire sur l'organisation des élections en France à retrouver ici : [Rapport, n° 1479 - 17e législature - Assemblée nationale](https://www.assemblee-nationale.fr/dyn/17/rapports/ceelec/l17b1479_rapport-enquete) (lecture hautement conseillé et facile à lire)_
+_Cet article est tiré en grande partie du travail d'Antoine Léaument lors d'une commission d'enquête parlementaire sur l'organisation des élections en France à retrouver ici : [Rapport, n° 1479 - 17e législature - Assemblée nationale](https://www.assemblee-nationale.fr/dyn/17/rapports/ceelec/l17b1479_rapport-enquete) (lecture hautement conseillée)_
 
 _C'est également une introduction au [Manuel d'inscription sur les listes électorales](droits-electoraux)._
 
