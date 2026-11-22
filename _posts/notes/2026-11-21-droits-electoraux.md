@@ -21,7 +21,7 @@ Dernière mise à jour : 21/11/26
 ---
 # En Bref
 
-{% include admonition.md type="success" title="L'essentiel à savoir" body="
+{% include admonition.md type="success" title="A savoir" body="
 - **Pas besoin de refaire son inscription à chaque élection.**
 - **A 18 ans, on est inscrit automatiquement sur les listes électorales** dans la commune spécifiée à la Journée Défense et Citoyenneté.
 - Grâce à l'inscription automatique, **toutes les personnes nées après 1979 (47 ans) ont normalement déjà été inscrites quelque part**.
