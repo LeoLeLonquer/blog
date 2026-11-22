@@ -35,7 +35,9 @@ Dernière mise à jour : 21/11/26
 " %}
 
 ---
-# Pour la citoyenneté française
+# Le Droit de Vote 
+
+## Conditions 
 
 Pour toutes et tous les citoyens françaises, les conditions pour voter en France sont les suivantes :
 
@@ -45,7 +47,7 @@ Pour toutes et tous les citoyens françaises, les conditions pour voter en Franc
 
 L'INSEE maintient une répertoire électoral unique rassemblant tous les électeurs et électrices et chaque commune possède un répertoire spécifique à ses résident·es.
 
-### L'inscription automatique
+## L'inscription automatique
 
 #### A la majorité
 
@@ -65,14 +67,14 @@ Si la nationalité est obtenue :
 - après 2019 : l'inscription sur les listes électorales est automatique (dans la commune de la demande je suppose).  
 - avant 2019 : il faut faire la démarche de s'inscrire.
 
-### Vérifier son inscription
+## Vérifier son inscription
 
 Voir le site du ministère de l'intérieur [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788) .
 
 {% include admonition.md type="tip" title="En PaP : prendre le temps de vérifier que la personne est bien inscrite en se rendant sur le site." body="" %}
 
 
-### Nouvelle inscription sur les listes
+## Nouvelle inscription sur les listes
 
 Si on souhaite procéder à une nouvelle inscription quelle qu'en soit la raison, il existe la procédure via le [Cerfa 12669](https://www.service-public.fr/particuliers/vosdroits/R16024) en mairie et celle en ligne via la page [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396).  L'inscription doit être parvenue avant le 6ème vendredi précédent le scrutin (un scrutin pouvant contenir deux tours). Sinon elle sera valable pour le prochain scrutin.
 
@@ -93,14 +95,13 @@ Si les photos sont trop volumineuses (limite des 2Mo d'upload), utilisez [Quetsc
 Pour une personne qui n'est pas à l'aise avec l'inscription en ligne, elle peut se rendre directement dans une des mairies de Brest munie des documents requis précisés plus haut. Elle sera reçue sans rendez-vous par un·e agent·e qui l'aidera à remplir son dossier. La mairie n'imprime plus de Cerfa 12669." %}
 
 
-## Cas spécifiques
-### Militaires, forains, gens du voyage, SDF, mariniers
+## Militaires, forains, gens du voyage, SDF, mariniers
 
 Le droit n'est pas très adapté pour ces personnes qui doivent malgré tout avoir une commune de référence. La commune peut être choisie en fonction de l'[attestation d'élection de domicile](https://www.service-public.fr/particuliers/vosdroits/F17317)(domiciliation faite avec l'aide du CCAS), de la commune où l'on paie des impôts locaux, où sa société est établie etc.
 
 Voir l'article service-public.fr [Militaire, forain, gens du voyage, SDF, marinier : où s'inscrire pour voter ?](https://www.service-public.fr/particuliers/vosdroits/F35790).
 
-### Personnes détenues
+## Personnes détenues
 
 Si la personne n'a pas été condamnée à la perte de ses droits civique, la personne peut choisir de voter 
 
@@ -114,7 +115,7 @@ _Peut-être informer via une association, un·e député·e, le corps enseignant
 
 Voir l'article service-public.fr : [Une personne détenue en prison a-t-elle le droit de voter ?](https://www.service-public.fr/particuliers/vosdroits/F1227).
 
-### Personnes protégées (sous tutelle, curatelle)
+## Personnes protégées (sous tutelle, curatelle)
 
 Depuis 2019, les personnes en situation de handicap ou de fragilité peuvent voter sans attendre une autorisation du juge. 300 000 majeur·es sous tutelle ou curatelle peuvent donc désormais voter. **Elles doivent pour cela s'inscrire sur les listes électorales**, leur inscription n'étant en effet pas automatique.
 
@@ -126,65 +127,7 @@ _Peut-être faire campagne d'inscription en ESAT, en foyer de vie ?_
 
 Voir [justice.fr - Droit de vote des majeurs protégés](https://www.justice.fr/droit-vote-majeur-protege) et [handicap.gouv.fr - Droit de vote des personnes protégées](https://handicap.gouv.fr/droit-de-vote-des-personnes-protegees-la-reconnaissance-de-leur-pleine-citoyennete)
 
-
-
-# Pour les citoyennetés étrangères
-## Citoyenneté européenne 
-
-#### Droit de vote 
-
-Depuis 1992, les personnes citoyennes d'un pays membre de l'Union Européenne on la citoyenneté de l'Union Européenne et **peuvent voter aux élections européennes** (pour élire des représentants français) et **municipales**.
-
-L'inscription sur les listes électorales n'est pas automatique, **il faut faire la démarche de s'inscrire sur les listes**. La personne sera ensuite inscrite sur chacune des _listes électorales complémentaires aux élections européennes et municipales_ en France et recevra une carte électorale spéciale. 
-
-- Les conditions d'obtention  (avoir 18 ans, jouir des droits politiques) et les documents à fournir sont  les mêmes que les personnes de citoyenneté française. 
-- Tous les règlements liés au déroulement du vote (procuration, procédure de vote etc.) sont alors identiques aux règlements français mais restreints aux élections européennes et municipales. 
-- La démarche d'inscription en France n'engendre pas de radiation des listes dans le pays d'origine. Cependant on ne peut voter qu'une seule fois aux élections européennes.  
-
-Les procédures pour vérifier et s'inscrire sont les mêmes :
-- [Vérifier votre inscription électorale et votre bureau de vote](https://www.service-public.fr/particuliers/vosdroits/R51788)
-- [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396)
-
-Voir l'article service-public.fr [Élections : droit de vote d'un citoyen européen en France](https://www.service-public.fr/particuliers/vosdroits/F1937).
-
-#### Droit de se présenter 
-
-Depuis 1994, ces mêmes personnes peuvent se présenter **aux élections européennes** et **municipales**.
-
-Voir : [Le droit de voter et de se présenter comme candidat aux élections municipales](https://eur-lex.europa.eu/FR/legal-content/summary/the-right-to-vote-and-to-stand-as-a-candidate-in-municipal-elections.html?fromSummary=13) et [Européennes : je suis candidat](https://www.elections.interieur.gouv.fr/scrutins/elections-europeennes/europeennes-je-suis-candidat)
-
-## Citoyennetés hors-UE
-
-Les nationalités étrangères hors-EU **ne peuvent pas** prétendre au droit de vote ou de se présenter aux élections. Il faut les **inciter à entamer un parcours de naturalisation** qui, malgré sa complexité et sa longueur, permet d'obtenir plus de droits et une sécurité en cas de changement de politique vis-à-vis des personnes étrangères. Sinon ils peuvent utiliser ce [type de bulletin](https://i.ibb.co/2rD7kpd/Vote-Etrangers.png) qui n'est pas forcément facile à déposer dans l'urne.
-
-{% include admonition.md type="tip" title="Personnes en cours de naturalisation" body="  
-Un·e député·e peut appuyer accélérer, se renseigner sur une demande de naturalisation en cours auprès de la préfecture. Pour cela il faut contacter un·e député·e de préférence de sa circonscription, sinon de son département.  
-  
-Sur Brest : pierre-yves.cadalen@assemblee-nationale.fr " %}
-
-
-# Les procurations
-
-Si une personne inscrite est indisponible pour aller voter dans la commune où elle est inscrite, elle peut donner son vote à une personne tierce via la procuration et ce jusqu'à la veille du vote (mais risque que la procuration ne soit pas transmise à temps). Pour cela, il faut préparer :
-- **Provenant de la personne mandante** (qui donne la procuration): une pièce d’identité son numéro d’électeur, un formulaire pré-rempli en ligne ou au format papier (disponible également sur place)
-- **Provenant de la personne mandataire** (qui prend la procuration): soit son numéro d’électeur et sa date de naissance soit ses données d’état civil et sa commune de vote
-
-Suivre les étapes données par le site [www.maprocuration.gouv.fr](http://www.maprocuration.gouv.fr).  La personne mandante devra se rendre au poste de police ou de gendarmerie pour donner procuration à moins qu'elle ait utilisée [FranceIdentité](https://france-identite.gouv.fr/).
-
-Une personne mandataire peut recevoir jusqu’à 3 procurations :
-- **1** procuration faite en **France**
-- **2** procurations faites à **l’étranger**  
-
-Elle peut vérifier les procurations qui lui ont été données sur le site [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788).
-
-
-{% include admonition.md type="tip" title="Bons à savoir" body="  
-- Si une personne **ne connaît personne à qui donner sa procuration** dans sa commune de vote, elle peut passer par [actionpopulaire.fr - Donner sa procuration](https://actionpopulaire.fr/procuration/donner-ma-procuration/). La procuration sera donnée à un ou une insoumise. Elle peut aussi simplement laisser son contact à un ou une militante ou contacter le GA le plus proche.  
-- Si une personne est dans un **cas de handicap physique ou de maladie grave**, un personnel de police ou de gendarmerie peut se déplacer au domicile pour vérifier son identité après avoir adressée une demande manuscrite ainsi qu'une attestation sur l'honneur indiquant l'impossibilité manifeste de se déplacer au poste de police ou à la gendarmerie. Voir l'article service-public.fr [Vous êtes en situation de handicap, comment voter aux élections législatives ?](https://www.service-public.fr/particuliers/actualites/A14943)." %}
-
-
-
-# Radiation des listes
+## Les radiations des listes
 
 Les radiations de liste suivent l'article [L18](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032964817/2022-04-09) du code électoral. Les maires sont **dans l’obligation** de radier les électeurs **qui ne remplissent pas au moins une condition d’attache communale** (définies dans le code électoral).
 
@@ -220,7 +163,29 @@ Voir :
 - la section _Erreur matérielle de l'administration_ de la page [Élections : peut-on s'inscrire sur la liste électorale d'une mairie et voter la même année ?](https://www.service-public.fr/particuliers/vosdroits/F34240)" %}
 
 
-# Inscription en Porte-à-porte
+
+
+# Les procurations
+
+Si une personne inscrite est indisponible pour aller voter dans la commune où elle est inscrite, elle peut donner son vote à une personne tierce via la procuration et ce jusqu'à la veille du vote (mais risque que la procuration ne soit pas transmise à temps). Pour cela, il faut préparer :
+- **Provenant de la personne mandante** (qui donne la procuration): une pièce d’identité son numéro d’électeur, un formulaire pré-rempli en ligne ou au format papier (disponible également sur place)
+- **Provenant de la personne mandataire** (qui prend la procuration): soit son numéro d’électeur et sa date de naissance soit ses données d’état civil et sa commune de vote
+
+Suivre les étapes données par le site [www.maprocuration.gouv.fr](http://www.maprocuration.gouv.fr).  La personne mandante devra se rendre au poste de police ou de gendarmerie pour donner procuration à moins qu'elle ait utilisée [FranceIdentité](https://france-identite.gouv.fr/).
+
+Une personne mandataire peut recevoir jusqu’à 3 procurations :
+- **1** procuration faite en **France**
+- **2** procurations faites à **l’étranger**  
+
+Elle peut vérifier les procurations qui lui ont été données sur le site [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788).
+
+
+{% include admonition.md type="tip" title="Bons à savoir" body="  
+- Si une personne **ne connaît personne à qui donner sa procuration** dans sa commune de vote, elle peut passer par [actionpopulaire.fr - Donner sa procuration](https://actionpopulaire.fr/procuration/donner-ma-procuration/). La procuration sera donnée à un ou une insoumise. Elle peut aussi simplement laisser son contact à un ou une militante ou contacter le GA le plus proche.  
+- Si une personne est dans un **cas de handicap physique ou de maladie grave**, un personnel de police ou de gendarmerie peut se déplacer au domicile pour vérifier son identité après avoir adressée une demande manuscrite ainsi qu'une attestation sur l'honneur indiquant l'impossibilité manifeste de se déplacer au poste de police ou à la gendarmerie. Voir l'article service-public.fr [Vous êtes en situation de handicap, comment voter aux élections législatives ?](https://www.service-public.fr/particuliers/actualites/A14943)." %}
+
+
+# Le porte-à-porte
 
 Avant de noyer la personnes sous un flot d'informations, posez autant de questions que nécessaire pour connaître le statut de la personne. 
 
@@ -235,6 +200,43 @@ Accroche : "Nous sommes des militants de la France Insoumise, nous faisons une c
 | Pour connaître votre situation électorale, est-ce que vous pouvez me dire si vous êtes de nationalité française ? | Poser la question avec tact                                                                                                              |
 | Dans quelle commune vous étiez quand vous avez eu 18 ans ?                                                        | Peut permettre de vérifier une inscription et de donner une procuration                                                                  |
 | Est-ce que vous souhaitez qu'on vérifie si vous êtes inscrit.e ?                                                  | Suivre la procédure en ligne [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788). |
+
+# Pour les personnes étrangères
+## De l'UE 
+
+#### Droit de vote 
+
+Depuis 1992, les personnes citoyennes d'un pays membre de l'Union Européenne on la citoyenneté de l'Union Européenne et **peuvent voter aux élections européennes** (pour élire des représentants français) et **municipales**.
+
+L'inscription sur les listes électorales n'est pas automatique, **il faut faire la démarche de s'inscrire sur les listes**. La personne sera ensuite inscrite sur chacune des _listes électorales complémentaires aux élections européennes et municipales_ en France et recevra une carte électorale spéciale. 
+
+- Les conditions d'obtention  (avoir 18 ans, jouir des droits politiques) et les documents à fournir sont  les mêmes que les personnes de citoyenneté française. 
+- Tous les règlements liés au déroulement du vote (procuration, procédure de vote etc.) sont alors identiques aux règlements français mais restreints aux élections européennes et municipales. 
+- La démarche d'inscription en France n'engendre pas de radiation des listes dans le pays d'origine. Cependant on ne peut voter qu'une seule fois aux élections européennes.  
+
+Les procédures pour vérifier et s'inscrire sont les mêmes :
+- [Vérifier votre inscription électorale et votre bureau de vote](https://www.service-public.fr/particuliers/vosdroits/R51788)
+- [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396)
+
+Voir l'article service-public.fr [Élections : droit de vote d'un citoyen européen en France](https://www.service-public.fr/particuliers/vosdroits/F1937).
+
+#### Droit de se présenter 
+
+Depuis 1994, ces mêmes personnes peuvent se présenter **aux élections européennes** et **municipales**.
+
+Voir : [Le droit de voter et de se présenter comme candidat aux élections municipales](https://eur-lex.europa.eu/FR/legal-content/summary/the-right-to-vote-and-to-stand-as-a-candidate-in-municipal-elections.html?fromSummary=13) et [Européennes : je suis candidat](https://www.elections.interieur.gouv.fr/scrutins/elections-europeennes/europeennes-je-suis-candidat)
+
+## Hors UE
+
+Les nationalités étrangères hors-EU **ne peuvent pas** prétendre au droit de vote ou de se présenter aux élections. Il faut les **inciter à entamer un parcours de naturalisation** qui, malgré sa complexité et sa longueur, permet d'obtenir plus de droits et une sécurité en cas de changement de politique vis-à-vis des personnes étrangères. Sinon ils peuvent utiliser ce [type de bulletin](https://i.ibb.co/2rD7kpd/Vote-Etrangers.png) qui n'est pas forcément facile à déposer dans l'urne.
+
+{% include admonition.md type="tip" title="Personnes en cours de naturalisation" body="  
+Un·e député·e peut appuyer accélérer, se renseigner sur une demande de naturalisation en cours auprès de la préfecture. Pour cela il faut contacter un·e député·e de préférence de sa circonscription, sinon de son département.  
+  
+Sur Brest : pierre-yves.cadalen@assemblee-nationale.fr " %}
+
+
+
 
 
 # Trucs et Astuces
