@@ -87,6 +87,7 @@ Donc elle touche notamment les personnes qui :
 - sont des outremers où le système d'inscription automatique fonctionne moins bien
 - ont obtenu la nationalité française avant 2019 et qui ne bénéficiaient pas de l'inscription automatique
 - sont sous tutelle ou curatelle qui doivent faire la démarche d'inscription
+- sont radiées de manière abusive des listes électorales
 
 **A noter que la non-inscription n'apparaît pas dans l'abstention officielle** (c'est à dire dans les résultats officiels). C'est pourtant bien une forme d'abstention, avec la propriété d'être contrainte.
 En prenant en compte cette nouvelle forme d'abstention, l'abstention totale du tour 1 des présidentielles de 2022 passerait de 26,31% à 30,44%.
@@ -118,7 +119,14 @@ L'abstention touche principalement l'électorat jeune, populaire, précaire par 
 C'est pour cela qu'Antoine Léaument parle de "suffrage censitaire de facto" :
 >"La France persiste à tolérer, dans les faits, un système électoral qui reproduit mécaniquement les logiques d’exclusion politique jadis associées au suffrage censitaire, conduisant des pans entiers de la population à ne pas pouvoir matériellement participer au scrutin, et cela indépendamment des logiques purement politiques de l’abstention."
 
-Pour participer à rétablir l'universalité du suffrage, il propose, entre de nombreuses autres mesures, l'automaticité de l'inscription en cas de déménagement.
+Pour participer à rétablir l'universalité du suffrage, ses propositions, qui intègrent l'[Avenir En Commun](https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/) sont les entre autres : 
+- L'automaticité de l'inscription en cas de déménagement : "100 % d’inscrits, 0 % de mal-inscrits"
+- Renforcer l’information électorale et l’éducation aux enjeux du vote et de la citoyenneté.
+- Confier explicitement aux communes une mission de diffusion locale de l’information électorale
+- Rappeler par SMS aux citoyen-nes les échéances électorales importantes, telles que les dates limites d’inscription sur les listes électorales ou les jours de scrutin
+- Mettre en place le vote obligatoire à l’âge de 18 ans et reconnaître pleinement le vote blanc
+- Abaisser le droit de vote à 16 ans
+- Garantir le caractère férié et chômé de la journée électorale du dimanche
 
-Toutes ses autres propositions ici : [Nos propositions pour en finir avec le nouveau suffrage censitaire et organiser la mobilisation des citoyens aux élections.](https://www.assemblee-nationale.fr/dyn/docs/RAPPANR5L17B1479.raw#_Toc256000046)
+Plus de précisions ici : [Nos propositions pour en finir avec le nouveau suffrage censitaire et organiser la mobilisation des citoyens aux élections.](https://www.assemblee-nationale.fr/dyn/docs/RAPPANR5L17B1479.raw#_Toc256000046)
 
