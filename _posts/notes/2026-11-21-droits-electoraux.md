@@ -3,7 +3,7 @@ layout: article
 category: notes
 tags:
   - full_post
-title: Vos Droits Electoraux
+title: Manuel d'inscription sur les listes électorales
 image: https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg
 ---
 
@@ -23,17 +23,19 @@ Dernière mise à jour : 21/11/26
 
 {% include admonition.md type="success" title="A savoir" body="
 - **Pas besoin de refaire son inscription à chaque élection.**
-- **A 18 ans, on est inscrit automatiquement sur les listes électorales** dans la commune spécifiée à la Journée Défense et Citoyenneté.
-- Grâce à l'inscription automatique, **toutes les personnes nées après 1979 (47 ans) ont normalement déjà été inscrites quelque part**.
+- **A 18 ans, on est inscrit automatiquement** dans la commune spécifiée à la Journée Défense et Citoyenneté.
+- Grâce à l'inscription automatique, **toutes les personnes nées après 1979 (47 ans) ont normalement déjà été inscrites au moins une fois quelque part**.
 - Les personnes étrangères ne peuvent pas voter aux élections présidentielles.
--  [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788) 
--  [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396) : nécessite pièce d'identité et justificatif de domicile.
+- Pour toute nouvelle inscription, il faut une pièce d'identité et un justificatif de domicile de moins de 3 mois.
+- En mairie un·e agent·e accompagne dans la création de la demande d'inscription. Amener ses documents.
+- Site officiel pour [Vérifier son inscription sur les listes électorales](www.service-public.fr/particuliers/vosdroits/R51788) 
+- Site officiel pour faire une [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396) 
 	- [Quetsche - Outil sécurisé de compression de photos](https://quetsche.ladigitale.dev/). (pour la limite des 2Mo d'upload)
-- La France Insoumise a créé un générateur de dossier papier sur le site [jevoteilsdegagent.fr](https://jevoteilsdegagent.fr)
+- Générateur de dossier papier sur le site [jevoteilsdegagent.fr](https://jevoteilsdegagent.fr) (LFI)
 " %}
 
 ---
-# Pour les personnes de citoyenneté française
+# Pour la citoyenneté française
 
 Pour toutes et tous les citoyens françaises, les conditions pour voter en France sont les suivantes :
 
@@ -111,7 +113,7 @@ Elle peut vérifier les procurations qui lui ont été données sur le site [Vé
 
 
 
-# # Pour les personnes de citoyennetés étrangères
+# # Pour les citoyennetés étrangères
 ## Citoyenneté européenne 
 
 #### Droit de vote 
