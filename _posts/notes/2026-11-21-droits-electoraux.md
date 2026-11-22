@@ -16,14 +16,15 @@ Attention, le droit évolue vite !
 [![suffragettes](https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg)](https://www.a-vote.ong/les_suffragettes)
 _Mouvement des suffragettes_
 
-Dernière mise à jour : 21/11/26
+_Dernière mise à jour : 21/11/26_
+_Cet article est la suite de celui-ci : [La mal-inscription et la non-inscription, le retour du suffrage censitaire ?](sociologie-non-mal-inscription)_
 
 <!--more-->
 
 ---
 # En Bref
 
-{% include admonition.md type="success" title="A savoir" body="
+{% include admonition.md type="success" title="" body="
 - **Pas besoin de refaire son inscription à chaque élection.**
 - **A 18 ans, l'inscription est automatique** dans la commune spécifiée à la Journée Défense et Citoyenneté.
 - Grâce à l'inscription automatique, **toutes les personnes nées après 1979 (47 ans) ont normalement déjà été inscrites au moins une fois quelque part**.

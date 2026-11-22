@@ -3,7 +3,7 @@ layout: article
 category: notes
 tags:
   - full_post
-title: La mal-inscription et la non-inscription, où se trouve-t-elle ?
+title: La mal-inscription et la non-inscription, le retour du suffrage censitaire ?
 description:
 image: https://i.ibb.co/3mH1xzK4/Capture-d-e-cran-2026-11-22-a-15-17-35.png
 mathjax: false
@@ -12,15 +12,15 @@ Au total 11 millions de personnes sont mal ou non inscrites sur les listes élec
 
 L'inscription sur les listes électorales va donc être un enjeu central de la campagne présidentielle 2027. 
 
-Comment se distribue donc la mal-inscription et la non-inscription et comment aller chercher ces personnes ?
+Comment se distribuent donc la mal-inscription et la non-inscription et comment aller chercher ces personnes ?
 
-![carte-participation-brest](https://i.ibb.co/VcJJSGK4/Capture-d-e-cran-2026-11-22-a-15-17-35.png)_Carte de la participation brestoise. Le rouge indique que la participation est inférieure à 75%, le vert qu'elle est supérieure. Contactez-moi pour avoir accès à la carte interactive._
+![carte-participation-brest](https://i.ibb.co/VcJJSGK4/Capture-d-e-cran-2026-11-22-a-15-17-35.png)_Carte de la participation brestoise. En rouge la participation est inférieure à 75%, en vert elle est supérieure. En bleu c'est la mer :) Contactez-moi pour avoir accès à la carte interactive._
 
 <!--more-->
 
-_Cet article est tiré en grande partie du travail d'Antoine Léaument lors d'une commission d'enquête parlementaire sur l'organisation des élections en France à retrouver ici : [Rapport, n° 1479 - 17e législature - Assemblée nationale](https://www.assemblee-nationale.fr/dyn/17/rapports/ceelec/l17b1479_rapport-enquete) (lecture hautement conseillée)_
+_Cet article est tiré en grande partie du travail d'Antoine Léaument lors de la commission d'enquête parlementaire sur l'organisation des élections en France à retrouver ici : [Rapport, n° 1479 - 17e législature - Assemblée nationale](https://www.assemblee-nationale.fr/dyn/17/rapports/ceelec/l17b1479_rapport-enquete) (lecture hautement conseillée)_
 
-_C'est également une introduction au [Manuel d'inscription sur les listes électorales](droits-electoraux)._
+_C'est également une introduction à mon article suivant [Manuel d'inscription sur les listes électorales](droits-electoraux)._
 
 ### Définitions
 
