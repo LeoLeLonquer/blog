@@ -16,7 +16,8 @@ Attention, le droit évolue vite !
 [![suffragettes](https://i.ibb.co/rGkHn4x5/IMG-1133-1619980139.jpg)](https://www.a-vote.ong/les_suffragettes)
 _Mouvement des suffragettes_
 
-_Dernière mise à jour : 21/11/26.  
+_Dernière mise à jour : 21/11/26._  
+  
 _Cet article est la suite de celui-ci : [La mal-inscription et la non-inscription, le retour du suffrage censitaire ?](sociologie-non-mal-inscription)_
 
 <!--more-->
