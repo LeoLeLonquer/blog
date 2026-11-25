@@ -35,6 +35,7 @@ _Cet article est la suite de celui-ci : [La mal-inscription et la non-inscriptio
 - Site officiel pour faire une [Demande d'inscription en ligne sur les listes électorales](https://www.service-public.fr/particuliers/vosdroits/R16396) 
 	- [Quetsche - Outil sécurisé de compression de photos](https://quetsche.ladigitale.dev/). (pour la limite des 2Mo d'upload)
 - Générateur de dossier papier sur le site [jevoteilsdegagent.fr](https://jevoteilsdegagent.fr) (LFI)
+- Recevoir des informations sur les élections ou une aide sur l'inscription en [créant un contact sur ActionPopulaire](https://actionpopulaire.fr/contacts/creer/)
 " %}
 
 ---
